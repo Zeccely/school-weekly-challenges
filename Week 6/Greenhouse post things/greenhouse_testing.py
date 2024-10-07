@@ -29,9 +29,6 @@ def get_info():
     current_time = time_day()
     bytes_serial = ser.inWaiting()
 
-    # print(bytes_serial)
-
-    # Only read if data is available
     if bytes_serial > 0:
         # Read the byte array, decode it to a string, and remove newline characters
         data = ser.readline()
