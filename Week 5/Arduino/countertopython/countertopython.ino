@@ -7,5 +7,5 @@ void setup() {
 void loop() {
   delay(500);
   // Serial.println("Arduino Ready"); // Send this every loop for testing
-  Serial.println(5);
+  Serial.println(1);
 }
