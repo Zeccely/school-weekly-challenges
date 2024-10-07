@@ -1,11 +1,21 @@
-const int PIN_LED = 4;  // Define the I/O pin connected to the LED
+#include <ArduinoJson.h>
 
 void setup() {
   Serial.begin(9600);          // Start serial communication at 9600 baud
 }
 
 void loop() {
-  delay(500);
-  // Serial.println("Arduino Ready"); // Send this every loop for testing
-  Serial.println(1);
+  // Create a StaticJsonDocument object
+  StaticJsonDocument<200> doc;
+
+  // Add key-value pairs to the document
+  doc["lightLevel"] = 777;
+  doc["time"] = "9 dec 2024";
+
+  // Serialize the JSON document to a string
+  String jsonData;
+  serializeJson(doc, jsonData);
+
+  // Print the JSON string to the Serial Monitor
+  Serial.println(jsonData);
 }

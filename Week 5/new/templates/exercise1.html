@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Information</title>
+    <meta http-equiv="refresh" content="5">
+</head>
+
+<body>
+    <p>Current time and day: {{time_day}}</p>
+    
+
+    {% if infolist == {} %}
+    <p>No data at the moment.</p>
+{% else %}
+    <table>
+        <tr>
+            <th></th>
+            <th>Light value:  </th>
+            <th></th>
+            <th>Time: </th>
+        </tr>
+
+         {% for key,value in test.items() %}
+         <tr>
+         <td>-</td>
+            <td>{{ key }}w/m^2</td>
+            <td></td>
+            <td>{{ value }}</td>
+        </tr>
+    {% endfor %}
+        <table>
+        {% endif %}
+    </table>
+   
+
+
+
+    
+    
+</body>
+</html>
