@@ -1,7 +1,7 @@
-import serial
+import serial 
 
 # Note: replace "COM1" with the COM port of your Arduino
-ser = serial.Serial("COM8", baudrate=9600, timeout=1)
+ser = serial.Serial("COM5", baudrate=9600, timeout=1)
 
 counter = 0
 
