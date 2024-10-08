@@ -7,7 +7,8 @@ int state= 0;
 int statechanger = 0;
 int NTC_R25 = 10000;
 int NTC_MATERIAL_CONSTANT = 3950;
-  
+unsigned long previouspress= 0; //nillis gets really large numbers 
+
   float get_temperature(){
 
     float temperature,resistance;
@@ -47,35 +48,55 @@ void loop() {
   buttonpress = digitalRead(button);
   int temp;
   int light;
+  unsigned long newpress = millis();
+  int sensorInterval= 1000;
+  int buttonInterval = 200;
 
 
   if (buttonpress == LOW) {
+    if (newpress-previouspress  >= buttonInterval) {
     state = state + 1;
-    delay(300);
+    previouspress = newpress;
     Serial.println("I felt that");
+    }
+    
   }
 
-    if (state == 1){
+    if (state == 1 ){
+     if (newpress-previouspress  >= sensorInterval){
+      
       temp = get_temperature();
       Serial.println(temp);
-      delay(500);
+      previouspress = newpress; 
+     }
+   
     
   }
     if (state == 2){
+      if (newpress-previouspress  >= sensorInterval){
         valu= digitalRead(humidity);
         Serial.println(valu);
-        delay(500);
+        previouspress = newpress;
+      }    
+        
     
   }
-    if (state == 3) {
+    if (state == 3){
+      if (newpress-previouspress  >= sensorInterval){
       light = get_light();
       Serial.println(light);
-      delay(500);
+      previouspress = newpress;
+      }
+      
   }
 
     if (state == 4){
+      if (newpress-previouspress  >= sensorInterval){
       state = 1;
-
+      previouspress = newpress;
+      }
+      
+        
   } 
 
 }
