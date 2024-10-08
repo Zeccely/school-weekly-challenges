@@ -26,7 +26,7 @@ int NTC_MATERIAL_CONSTANT = 3950;
     resistance_sensor=(float)(1023-sensorValue)*10/sensorValue;
     float lux;
     lux = 325 * pow(resistance_sensor, -1.4);
-    return lux;
+    return lux;    //used the converter on the richshield example to get values of light
   }
 void setup() {
   // put your setup code here, to run once:
@@ -48,32 +48,32 @@ void loop() {
   int light;
 
 
-  if (buttonpress == LOW) {
-    state = state + 1;
-    delay(200);
-    Serial.println("I felt that");
+  if (buttonpress == LOW) { //if button pressed
+    state = state + 1;      //next phase
+    delay(200);             //do not spam the button
+    Serial.println("I felt that"); //give signs of life
   }
 
-    if (state == 1){
-      temp = get_temperature();
-      Serial.println(temp);
-      delay(100);
+    if (state == 1){    //if phase one
+      temp = get_temperature(); //get the temperature
+      Serial.println(temp);     //display the temperature
+      delay(100);               // do not display too quickly
     
   }
-    if (state == 2){
-        valu= digitalRead(humidity);
-        Serial.println(valu);
-        delay(100);
+    if (state == 2){          //if phase two
+        valu= digitalRead(humidity);  //read the humidity 
+        Serial.println(valu);     //display it
+        delay(100);           //do not display too quickly
     
   }
-    if (state == 3) {
-      light = get_light();
-      Serial.println(light);
-      delay(100);
+    if (state == 3) {       //if phase 3
+      light = get_light();  //get light from function
+      Serial.println(light); //print it
+      delay(100);           //anti spam
   }
 
-    if (state == 4){
-      state = 1;
+    if (state == 4){  //after 4th press
+      state = 1;      //go back to the temperature
 
   } 
 
