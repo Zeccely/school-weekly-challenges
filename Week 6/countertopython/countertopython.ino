@@ -1,13 +1,14 @@
 
 int button = 9;
 int temperatureA2 = 15;
-int humidity = 12;
 int brightnessA1 = 16;
 int state= 0;
 int statechanger = 0;
 int NTC_R25 = 10000;
 int NTC_MATERIAL_CONSTANT = 3950;
-unsigned long previouspress= 0; //nillis gets really large numbers 
+unsigned long previouspress= 0; //nillis gets really large numbers
+#include "Display.h"
+#include "DHT11.h"
 
   float get_temperature(){
 
@@ -34,7 +35,6 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(button, INPUT_PULLUP); //wake up button
   pinMode(temperatureA2, INPUT); // wake up temperature sensor
-  pinMode(humidity, INPUT); // wake up humidity sensor
   pinMode(brightnessA1, INPUT); // wake up light sensor
   
   state = 0;
@@ -74,8 +74,8 @@ void loop() {
   }
     if (state == 2){
       if (newpress-previouspress  >= sensorInterval){
-        valu= digitalRead(humidity);
-        Serial.println(valu);
+        float humidity = DHT11.getHumidity();
+        Serial.println(humidity);
         previouspress = newpress;
       }    
         
@@ -84,7 +84,7 @@ void loop() {
     if (state == 3){
       if (newpress-previouspress  >= sensorInterval){
       light = get_light();
-      Serial.println(light);
+      Serial.println(String(light)+" Lux ");
       previouspress = newpress;
       }
       
