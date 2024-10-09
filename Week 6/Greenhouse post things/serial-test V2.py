@@ -6,9 +6,8 @@ ser = serial.Serial("COM5", baudrate=9600, timeout=1)
 
 while True:
     # Check how many characters are in the serial buffer
-    bytes_serial = ser.inWaiting()
-
-    print(bytes_serial)
+    
+    bytes_serial = ser.write(b"Command\n")
 
     # Only read if data is available
     if bytes_serial > 0:

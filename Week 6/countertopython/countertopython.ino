@@ -7,7 +7,7 @@ int statechanger = 0;
 int NTC_R25 = 10000;
 int NTC_MATERIAL_CONSTANT = 3950;
 unsigned long previouspress= 0; //nillis gets really large numbers
-#include "Display.h"
+
 #include "DHT11.h"
 
   float get_temperature(){
@@ -52,7 +52,12 @@ void loop() {
   int sensorInterval= 1000;
   int buttonInterval = 200;
 
-
+String cmd;
+  if (Serial.available()) {                  // Check if data is available to read
+    cmd = Serial.readStringUntil('\n');
+    Serial.println("Hello from Arduino");  // Send data to the computer
+    delay(1000);  // Wait 1 second between sends
+  
   if (buttonpress == LOW) {
     if (newpress-previouspress  >= buttonInterval) {
     state = state + 1;
@@ -66,7 +71,7 @@ void loop() {
      if (newpress-previouspress  >= sensorInterval){
       
       temp = get_temperature();
-      Serial.println(temp);
+      Serial.println(String(temp)+"ºC");
       previouspress = newpress; 
      }
    
@@ -75,7 +80,7 @@ void loop() {
     if (state == 2){
       if (newpress-previouspress  >= sensorInterval){
         float humidity = DHT11.getHumidity();
-        Serial.println(humidity);
+        Serial.println(String(humidity)+"%");
         previouspress = newpress;
       }    
         
@@ -92,11 +97,12 @@ void loop() {
 
     if (state == 4){
       if (newpress-previouspress  >= sensorInterval){
-      state = 1;
+      state = 0;
       previouspress = newpress;
       }
       
-        
+          
+  
   } 
-
+}
 }
