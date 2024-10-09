@@ -1,4 +1,4 @@
-
+#include "Arduino.h"
 int button = 9;
 int temperatureA2 = 15;
 int brightnessA1 = 16;
@@ -50,59 +50,57 @@ void loop() {
   int light;
   unsigned long newpress = millis();
   int sensorInterval= 1000;
-  int buttonInterval = 200;
+  int buttonInterval = 100;
 
 String cmd;
   if (Serial.available()) {                  // Check if data is available to read
     cmd = Serial.readStringUntil('\n');
-    Serial.println("Hello from Arduino");  // Send data to the computer
-    delay(1000);  // Wait 1 second between sends
   
-  if (buttonpress == LOW) {
-    if (newpress-previouspress  >= buttonInterval) {
-    state = state + 1;
-    previouspress = newpress;
-    Serial.println("I felt that");
+    if (buttonpress == LOW) {
+      if (newpress-previouspress  >= buttonInterval) {
+      state = state + 1;
+      previouspress = newpress;
+      Serial.println("I felt that");
+      }
+      
     }
-    
-  }
 
-    if (state == 1 ){
-     if (newpress-previouspress  >= sensorInterval){
-      
-      temp = get_temperature();
-      Serial.println(String(temp)+"ºC");
-      previouspress = newpress; 
-     }
-   
-    
-  }
-    if (state == 2){
+      if (state == 1 ){
       if (newpress-previouspress  >= sensorInterval){
-        float humidity = DHT11.getHumidity();
-        Serial.println(String(humidity)+"%");
-        previouspress = newpress;
-      }    
         
+        temp = get_temperature();
+        Serial.println(String(temp)+"ºC");
+        previouspress = newpress; 
+      }
     
-  }
-    if (state == 3){
-      if (newpress-previouspress  >= sensorInterval){
-      light = get_light();
-      Serial.println(String(light)+" Lux ");
-      previouspress = newpress;
-      }
       
-  }
-
-    if (state == 4){
-      if (newpress-previouspress  >= sensorInterval){
-      state = 0;
-      previouspress = newpress;
-      }
-      
+    }
+      if (state == 2){
+        if (newpress-previouspress  >= sensorInterval){
+          float humidity = DHT11.getHumidity();
+          Serial.println(String(humidity)+"%");
+          previouspress = newpress;
+        }    
           
-  
-  } 
-}
+      
+    }
+      if (state == 3){
+        if (newpress-previouspress  >= sensorInterval){
+        light = get_light();
+        Serial.println(String(light)+" Lux ");
+        previouspress = newpress;
+        }
+        
+    }
+
+      if (state == 4){
+        if (newpress-previouspress  >= sensorInterval){
+        state = 0;
+        previouspress = newpress;
+        }
+        
+            
+    
+    } 
+  }
 }

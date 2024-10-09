@@ -1,18 +1,12 @@
-import serial 
+import serial
+import time
 
-# Note: replace "COM1" with the COM port of your Arduino
-ser = serial.Serial("COM5", baudrate=9600, timeout=1)
+ser = serial.Serial("COM5", baudrate=9600, timeout=0.5)
 
-
-while True:
-    # Check how many characters are in the serial buffer
-    
+response = True
+while response:
     bytes_serial = ser.write(b"Command\n")
+    data = ser.readline().decode().strip()
 
-    # Only read if data is available
-    if bytes_serial > 0:
-        # Read the byte array, decode it to a string, and remove newline characters
-        data = ser.readline().decode().strip()
-
-
-        print(data)
+    print(data)
+    @app.route("/arduinodata", methods=["POST"])
