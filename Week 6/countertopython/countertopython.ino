@@ -50,57 +50,55 @@ void loop() {
   int light;
   unsigned long newpress = millis();
   int sensorInterval= 1000;
-  int buttonInterval = 100;
-
-String cmd;
+  int buttonInterval = 500;
+ 
+  String cmd;
   if (Serial.available()) {                  // Check if data is available to read
     cmd = Serial.readStringUntil('\n');
-  
-    if (buttonpress == LOW) {
-      if (newpress-previouspress  >= buttonInterval) {
-      state = state + 1;
-      previouspress = newpress;
-      Serial.println("I felt that");
-      }
-      
-    }
-
-      if (state == 1 ){
-      if (newpress-previouspress  >= sensorInterval){
-        
-        temp = get_temperature();
-        Serial.println(String(temp)+"ºC");
-        previouspress = newpress; 
-      }
-    
-      
-    }
-      if (state == 2){
-        if (newpress-previouspress  >= sensorInterval){
-          float humidity = DHT11.getHumidity();
-          Serial.println(String(humidity)+"%");
-          previouspress = newpress;
-        }    
-          
-      
-    }
-      if (state == 3){
-        if (newpress-previouspress  >= sensorInterval){
-        light = get_light();
-        Serial.println(String(light)+" Lux ");
-        previouspress = newpress;
-        }
-        
-    }
-
-      if (state == 4){
-        if (newpress-previouspress  >= sensorInterval){
-        state = 0;
-        previouspress = newpress;
-        }
-        
-            
-    
-    } 
   }
+    
+  if (buttonpress == LOW) {
+    if (newpress-previouspress  >= buttonInterval) {
+    state = state + 1;
+    previouspress = newpress;
+    Serial.println("I felt that");
+    }
+  }
+  
+
+  if (state == 1 ){
+    if (newpress-previouspress  >= sensorInterval){
+      temp = get_temperature();
+      Serial.println(String(temp)+"ºC");
+      previouspress = newpress; 
+    }
+  }
+  
+
+  if (state == 2){
+    if (newpress-previouspress  >= sensorInterval){
+      float humidity = DHT11.getHumidity();
+      Serial.println(String(humidity)+"%");
+      previouspress = newpress;
+    }    
+  }     
+  
+
+  if (state == 3){
+    if (newpress-previouspress  >= sensorInterval){
+    light = get_light();
+    
+    Serial.println(String(light)+" Lux ");
+    previouspress = newpress;
+    }
+  }
+
+  if (state == 4){
+    if (newpress-previouspress  >= sensorInterval){
+    state = 0;
+    previouspress = newpress;
+    }
+  } 
 }
+
+
