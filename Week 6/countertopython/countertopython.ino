@@ -1,4 +1,5 @@
 #include "Arduino.h"
+#include <ArduinoJson.h>
 int button = 9;
 int temperatureA2 = 15;
 int brightnessA1 = 16;
@@ -48,56 +49,31 @@ void loop() {
   buttonpress = digitalRead(button);
   int temp;
   int light;
-  unsigned long newpress = millis();
-  int sensorInterval= 1000;
-  int buttonInterval = 500;
- 
-  String cmd;
-  if (Serial.available()) {                  // Check if data is available to read
-    cmd = Serial.readStringUntil('\n');
-  }
-    
+  
+  StaticJsonDocument<200> doc;
+
   if (buttonpress == LOW) {
-    if (newpress-previouspress  >= buttonInterval) {
-    state = state + 1;
-    previouspress = newpress;
-    Serial.println("I felt that");
-    }
+    state = 1;
   }
-  
 
-  if (state == 1 ){
-    if (newpress-previouspress  >= sensorInterval){
-      temp = get_temperature();
-      Serial.println(String(temp)+"ºC");
-      previouspress = newpress; 
-    }
-  }
   
+  if (state == 1){
+    temp = get_temperature();
 
-  if (state == 2){
-    if (newpress-previouspress  >= sensorInterval){
-      float humidity = DHT11.getHumidity();
-      Serial.println(String(humidity)+"%");
-      previouspress = newpress;
-    }    
-  }     
-  
+    float humidity = DHT11.getHumidity();
 
-  if (state == 3){
-    if (newpress-previouspress  >= sensorInterval){
     light = get_light();
     
-    Serial.println(String(light)+" Lux ");
-    previouspress = newpress;
-    }
-  }
+    doc["Temperature"] = temp;
+    doc["Humidity"] = humidity;
+    doc["Light"] = light;
+    
+    String jsonData;
+    serializeJson(doc, jsonData);
 
-  if (state == 4){
-    if (newpress-previouspress  >= sensorInterval){
-    state = 0;
-    previouspress = newpress;
-    }
+    Serial.println(jsonData);
+  
+  
   } 
 }
 

@@ -6,7 +6,7 @@ void setup() {
 
 void loop() {
   // Create a StaticJsonDocument object
-  StaticJsonDocument<200> doc;
+  
 
   // Add key-value pairs to the document
   doc["lightLevel"] = 777;
@@ -19,3 +19,4 @@ void loop() {
   // Print the JSON string to the Serial Monitor
   Serial.println(jsonData);
 }
+StaticJsonDocument<200> doc;
