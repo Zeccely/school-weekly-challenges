@@ -35,7 +35,7 @@ def post_info():
     print(thing)                #debugger
     infolist.append(thing)      #add thing into that empty list. I need it for the template
     print(infolist)             #debugger!
-    return "", 204              # I found a way for the website to respond because I had man issues with rendering the template. at some point the code wouldn't render at all
+    return "", 204              # I found a way for the website to respond because I had many issues with rendering the template. at some point the code wouldn't render at all
 
 
 app.run(port=5000, use_reloader=False)
