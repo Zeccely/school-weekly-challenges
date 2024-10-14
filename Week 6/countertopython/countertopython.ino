@@ -50,14 +50,13 @@ void loop() {
   int temp;
   int light;
   
+  String cmd;
+  if (Serial.available()) {                  // Check if data is available to read
+    cmd = Serial.readStringUntil('\n');
+  }
   StaticJsonDocument<200> doc;
 
-  if (buttonpress == LOW) {
-    state = 1;
-  }
 
-  
-  if (state == 1){
     temp = get_temperature();
 
     float humidity = DHT11.getHumidity();
@@ -72,9 +71,9 @@ void loop() {
     serializeJson(doc, jsonData);
 
     Serial.println(jsonData);
+  delay(500);
   
   
-  } 
 }
 
 

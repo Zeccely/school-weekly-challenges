@@ -3,32 +3,32 @@
     <title>Information</title>
     <meta http-equiv="refresh" content="5">
 </head>
-
 <body>
     <p>Current time and day: {{time_day}}</p>
-    
-
-    {% if infolist == {} %}
-    <p>No data at the moment.</p>
-{% else %}
+    <div>
+        
+    </div>
     <table>
         <tr>
+            <th>Time </th>
+            <th>Temperature </th>
+            <th>Light  </th>
+            <th>Humidity </th>
             <th></th>
-            <th>Light value:  </th>
-            <th></th>
-            <th>Time: </th>
         </tr>
-
-         {% for key,value in test.items() %}
+        
+         {% for item in test %}
          <tr>
-         <td>-</td>
-            <td>{{ key }}w/m^2</td>
-            <td></td>
-            <td>{{ value }}</td>
+            <td>{{time}}</td>
+            <td>{{ item.Temperature }}</td>
+            <td>{{ item.Light }}</td>
+            <td>{{ item.Humidity }}</td>
         </tr>
     {% endfor %}
-        <table>
-        {% endif %}
+            
+            
+            <table>
+        
     </table>
    
 

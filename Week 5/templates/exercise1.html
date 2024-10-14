@@ -6,23 +6,24 @@
 <body>
     <p>Current time and day: {{time_day}}</p>
     
-    {% if light_lev == [] %}
+    {% if test == [] %}
     <p>No data at the moment.</p>
 {% else %}
     <table>
         <tr>
-            <th></th>
-            <th>Light value:  </th>
-            <th></th>
             <th>Time: </th>
+            <th>Temperature: </th>
+            <th>Light:  </th>
+            <th>Humidity: </th>
+            <th></th>
         </tr>
         
-         {% for key,value in test.items() %}
+         {% for item in test.items() %}
          <tr>
-         <td>-</td>
-            <td>{{ key }}w/m^2</td>
-            <td></td>
-            <td>{{ value }}</td>
+         <td>{{time_day}}</td>
+            <td>{{ item.temperature }}</td>
+            <td>{{ item.light }}</td>
+            <td>{{ item.humidity }}</td>
         </tr>
     {% endfor %}
             

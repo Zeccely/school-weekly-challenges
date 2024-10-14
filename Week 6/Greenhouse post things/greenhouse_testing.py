@@ -5,49 +5,37 @@ import random
 from flask import request, redirect
 import serial 
 import requests
+import json
 
 app= Flask(__name__)
 
-infolist={}
+infolist=[]
 
 ser = serial.Serial("COM5", baudrate=9600, timeout=1)
 
-def light_level():
-    light_lv = round(random.uniform(1,1000))
-    light_str = str(light_lv)
-    return light_str
 
-
-def time_day():
+def get_time_day():
     return str(datetime.now().replace(microsecond=0))
 
-def time():
+def get_time():
     return str(datetime.now().hour) + ":" + str(datetime.now().minute)
 
 @app.route("/")
 def get_info():
-    current_time = time_day()
-    bytes_serial = ser.inWaiting()
-
-    if bytes_serial > 0:
-        # Read the byte array, decode it to a string, and remove newline characters
-        data = ser.readline()
-        
-        print(data)
-
-        requests.post("http://127.0.0.1:5000/addLevel", json = data )
+    current_time = get_time_day()
+    timeonly = get_time()
+    data = ser.readline().decode().strip()
+    requests.post("http://127.0.0.1:5000/addData", json = data )
     
-    
-    return render_template ("exercise1.html", time_day= current_time, test=infolist)
+    return render_template ("exercise1.html", time = timeonly, time_day= current_time, test=infolist )
 
-@app.route("/addLevel", methods=["POST"])
+@app.route("/addData", methods=["POST"])
 def post_info():
     thing=request.get_json()
-    light_lev = thing['lightLevel']
-    current_hour = thing['time']
-    infolist.update({light_lev : current_hour})
+    print(thing)
+    infolist.append(json.loads(thing))
+    print(infolist)
+    return "", 204
 
-    return redirect('/')
 
-
-app.run(port=5000)
+app.run(port=5000, use_reloader=False)
