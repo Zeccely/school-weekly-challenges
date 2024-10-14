@@ -2,25 +2,22 @@
 <head>
     <title>Information</title>
     <meta http-equiv="refresh" content="5">
-    <link rel="stylesheet" href="C:\Users\jepis\Desktop\school\school-weekly-challenges\Week 6\Greenhouse post things\static\style.css">
+    <link rel="stylesheet" href="static\style.css">
 </head>
 <body>
     <p class="datetime">Current time and day: {{time_day}}</p>
-    <div>
-        
-    </div>
+
     <table>
         <tr>
             <th>Time </th>
             <th>Temperature </th>
             <th>Light  </th>
             <th>Humidity </th>
-            <th></th>
         </tr>
         
          {% for item in test %}
          <tr>
-            <td>{{time}}</td>
+            <td>{{ item.Time}}</td>
             <td>{{ item.Temperature }}</td>
             <td>{{ item.Light }}</td>
             <td>{{ item.Humidity }}</td>
