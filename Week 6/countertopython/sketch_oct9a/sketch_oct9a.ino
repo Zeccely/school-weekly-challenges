@@ -7,4 +7,4 @@ void setup() {
 void loop() {
   String cmd;
   if (Serial.available()) {                  // Check if data is available to read
-    cmd = Serial.readStringUntil('\n');
+    cmd = Serial.readStringUntil('\n');            //needed this sketch to learn send the serial data

@@ -7,9 +7,9 @@ int state= 0;
 int statechanger = 0;
 int NTC_R25 = 10000;
 int NTC_MATERIAL_CONSTANT = 3950;
-unsigned long previouspress= 0; //nillis gets really large numbers
+unsigned long previouspress= 0; //millis gets really large numbers
 
-#include "DHT11.h"
+#include "DHT11.h"  //i need this library to be able to read humidity levels
 
   float get_temperature(){
 
@@ -52,26 +52,26 @@ void loop() {
   
   String cmd;
   if (Serial.available()) {                  // Check if data is available to read
-    cmd = Serial.readStringUntil('\n');
+    cmd = Serial.readStringUntil('\n');      //read it 
   }
-  StaticJsonDocument<200> doc;
+  StaticJsonDocument<200> doc;               // create json document
 
 
-    temp = get_temperature();
+    temp = get_temperature();               //get temperature value
 
-    float humidity = DHT11.getHumidity();
+    float humidity = DHT11.getHumidity();   //create and get humidity value
 
-    light = get_light();
+    light = get_light();                    //get light value
     
-    doc["Temperature"] = temp;
-    doc["Humidity"] = humidity;
-    doc["Light"] = light;
+    doc["Temperature"] = temp;              //put temperature value in the json doc with name temperature
+    doc["Humidity"] = humidity;             //put humidity value in the json doc with name humidity
+    doc["Light"] = light;                   //put light value in the json doc with name light
     
-    String jsonData;
-    serializeJson(doc, jsonData);
+    String jsonData;                        //this variable will hold jsondata
+    serializeJson(doc, jsonData);            //this will convert my jsondata to be able to be sent through the serial
 
-    Serial.println(jsonData);
-  delay(500);
+    Serial.println(jsonData);                //print my json documents 
+  delay(500);                                //don't spam them so much
   
   
 }
