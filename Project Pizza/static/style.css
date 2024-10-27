@@ -3,7 +3,7 @@ body{
 }
 
 .storeName {
-    background-color: lightblue;
+    background-color: #008C45; 
     border: solid black ;
     
    
@@ -11,14 +11,14 @@ body{
 }
 .storeContact {
     
-    background-color: #a8e6cf;
-    
+    background-color:#CD212A;
+    border: solid black ;
     
     
     
 }
 .menuButton {
-    background-color: brown;
+    background-color: #CD212A;
     
   
 }
@@ -26,13 +26,12 @@ body{
 .flex-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     height: 95vh;
     width: 98vw; 
-     
+    background-color: #F4F9FF; 
 }
 .storeName {
     display: flex;
@@ -40,11 +39,18 @@ body{
 }
 .storeContact{
     display: flex;
-    
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     
 }
-.menuButton {
+.ourMenu {
     display: flex;
-    
+  
 }
+.menuButton{
+    background-color: #CD212A;
+    border-radius: 8px;
+    cursor: pointer;  
+    font-size: 20px;
+    border:2px solid #CD212A
+}  
