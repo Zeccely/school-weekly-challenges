@@ -18,28 +18,30 @@
         #pizzaMenu {
             width: 40%;
         }
-        
+        #Pepperoni {
+            
+        }
+                
+        #Prociutto{
+            cursor: pointer;
+        }
+        #Funghi{
+            cursor: pointer;
+        }
+        #Quattro_fromaggi{
+            cursor: pointer;
+        }
+        #Margarita{
+            cursor: pointer;
+        }
+        #Cappricciosa{
+            cursor: pointer;
 
-        
-        #Slice_2:hover{
-            cursor: pointer;
         }
-        #Slice_3:hover{
-            cursor: pointer;
-        }
-        #Slice_4:hover{
-            cursor: pointer;
-        }
-        #Slice_5:hover{
-            cursor: pointer;
-        }
-        #Slice_6:hover{
-            cursor: pointer;
-
-        }
-        .hover-path:hover{
+        .hoverPizza:hover{
             stroke:red;
             cursor: pointer;
+            
         }
     </style> 
 </head>
@@ -57,46 +59,72 @@
             <div id="pizzaMenu align-items-center" >
                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 470">
                 <g>
+                    <defs>
+                        <pattern id="pepperoniPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image href="PizzaVeggie.jpg" x="0" y="0" width="100" height="100" />
+                          </pattern>
+
+                          <pattern id="prociuttoPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image href="Cheese.png" x="0" y="0" width="100" height="100" />
+                          </pattern>
+
+                          <pattern id="funghiPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image href="PizzaVeggie.jpg" x="0" y="0" width="100" height="100" />
+                          </pattern>
+                        
+                          <pattern id="quattroFromaggiPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image href="PizzaVeggie.jpg" x="0" y="0" width="100" height="100" />
+                          </pattern>
+
+                          <pattern id="margaritaPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image href="PizzaVeggie.jpg" x="0" y="0" width="100" height="100" />
+                          </pattern>
+
+                          <pattern id="cappricciosaPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+                            <image href="PizzaVeggie.jpg" x="0" y="0" width="100" height="100" />
+                          </pattern>
+                    </defs>
                     
-                    <path id="Slice_1" d="M146.378,62.473c0.078,0.16,0.154,0.321,0.244,0.477c0.094,0.162,0.198,0.314,0.301,0.467l81.582,141.318 
-                            c1.34,2.321,3.816,3.75,6.495,3.75c2.68,0,5.156-1.429,6.496-3.75L338.23,37.206c2.071-3.587,0.842-8.174-2.745-10.246 
-                            C304.94,9.323,270.255,0,235.181,0c-35.28,0-70.088,9.309-100.66,26.919c-1.725,0.994-2.984,2.632-3.5,4.554 
-                            s-0.247,3.971,0.748,5.694L146.378,62.473z" stroke="black" stroke-width="2" fill="black" class="hover-path" />
+                    <path id="Pepperoni" d="M146.378,62.473c0.078,0.16,0.154,0.321,0.244,0.477c0.094,0.162,0.198,0.314,0.301,0.467l81.582,141.318 
+                    c1.34,2.321,3.816,3.75,6.495,3.75c2.68,0,5.156-1.429,6.496-3.75L338.23,37.206c2.071-3.587,0.842-8.174-2.745-10.246 
+                    C304.94,9.323,270.255,0,235.181,0c-35.28,0-70.088,9.309-100.66,26.919c-1.725,0.994-2.984,2.632-3.5,4.554 
+                    s-0.247,3.971,0.748,5.694L146.378,62.473z" stroke="black" stroke-width="2" fill="url(#pepperoniPattern)" class="hoverPizza" />
+                    
+            
 
-
-                    <path id="Slice_2" d="M339.555,72.935l-81.593,141.308c-1.34,2.321-1.34,5.18,0,7.5c1.339,2.321,3.815,3.75,6.495,3.75
+                    <path id="Prociutto" d="M339.555,72.935l-81.593,141.308c-1.34,2.321-1.34,5.18,0,7.5c1.339,2.321,3.815,3.75,6.495,3.75
                         l193.454,0.009c1.989,0,3.897-0.79,5.304-2.196c1.406-1.407,2.197-3.314,2.197-5.303c0.001-35.9-9.58-71.135-27.709-101.897 
                         c-17.595-29.856-42.747-54.81-72.738-72.164c-1.724-0.997-3.773-1.267-5.694-0.754c-1.923,0.514-3.563,1.771-4.558,3.495
                         l-14.61,25.302z" 
-                        stroke="black" stroke-width="2" fill="black" class="hover-path" />
+                        stroke="black" stroke-width="2" fill="url(#prociuttoPattern)" class="hoverPizza" />
 
 
-                    <path id="Slice_3" d="M463.249,246.715c-1.407-1.408-3.315-2.199-5.306-2.199l-29.213-0.001c-0.18-0.013-0.359-0.028-0.542-0.028 
+                    <path id="Funghi" d="M463.249,246.715c-1.407-1.408-3.315-2.199-5.306-2.199l-29.213-0.001c-0.18-0.013-0.359-0.028-0.542-0.028 
                         c-0.193,0-0.376,0.015-0.559,0.028l-163.172-0.008c-2.68,0-5.156,1.429-6.496,3.75c-1.34,2.321-1.34,5.18,0,7.5l96.718,167.541 
                         c0.995,1.723,2.633,2.98,4.554,3.495c0.639,0.171,1.291,0.256,1.941,0.256c1.305,0,2.6-0.341,3.75-1.004
                         c31.091-17.949,56.815-43.864,74.391-74.945c17.059-30.166,26.093-64.425,26.127-99.075c0.003-1.992-0.786-3.901-2.193-5.31z" 
-                        stroke="black" stroke-width="2" fill="black" class="hover-path" />
+                        stroke="black" stroke-width="2" fill="url(#funghiPattern)" class="hoverPizza" />
 
                     
-                    <path id="Slice_4" d="M323.622,407.527c-0.078-0.16-0.154-0.321-0.244-0.477c-0.094-0.163-0.198-0.315-0.302-0.468l-81.581-141.317 
+                    <path id="Quattro_fromaggi" d="M323.622,407.527c-0.078-0.16-0.154-0.321-0.244-0.477c-0.094-0.163-0.198-0.315-0.302-0.468l-81.581-141.317 
                         c-1.34-2.321-3.816-3.75-6.495-3.75c-2.68,0-5.156,1.429-6.496,3.75l-96.734,167.529c-2.071,3.587-0.842,8.174,2.745,10.246 
                         c30.543,17.636,65.228,26.958,100.305,26.96c35.282,0,70.089-9.309,100.66-26.919c1.725-0.994,2.984-2.632,3.5-4.554 
                         s0.247-3.971-0.748-5.694l-14.61-25.306z" 
-                        stroke="black" stroke-width="2" fill="black" class="hover-path" />
+                        stroke="black" stroke-width="2" fill="url(#quattroFromaggiPattern)" class="hoverPizza" />
 
                     
-                    <path id="Slice_5" d="M130.445,397.065l81.593-141.308c1.34-2.321,1.34-5.18,0-7.5c-1.339-2.321-3.815-3.75-6.495-3.75l-193.453-0.009 
+                    <path id="Margarita" d="M130.445,397.065l81.593-141.308c1.34-2.321,1.34-5.18,0-7.5c-1.339-2.321-3.815-3.75-6.495-3.75l-193.453-0.009 
                         c-1.989,0-3.897,0.79-5.304,2.196c-1.406,1.407-2.197,3.314-2.197,5.303c-0.001,35.9,9.58,71.135,27.709,101.897 
                         c17.595,29.856,42.747,54.81,72.738,72.164c1.152,0.666,2.449,1.008,3.756,1.008c0.649,0,1.3-0.084,1.938-0.254
                         c1.923-0.514,3.563-1.771,4.558-3.495l14.677-25.419z" 
-                        stroke="black" stroke-width="2" fill="black" class="hover-path" />
+                        stroke="black" stroke-width="2" fill="url(#margaritaPattern)" class="hoverPizza" />
 
                     
-                    <path id="Slice_6" d="M12.057,225.484l29.213,0.001c0.18,0.013,0.359,0.028,0.542,0.028c0.193,0,0.376-0.015,0.559-0.028 
+                    <path id="Cappricciosa" d="M12.057,225.484l29.213,0.001c0.18,0.013,0.359,0.028,0.542,0.028c0.193,0,0.376-0.015,0.559-0.028 
                         l163.172,0.008c2.68,0,5.156-1.429,6.496-3.75c1.34-2.321,1.34-5.18,0-7.5l-96.719-167.54c-0.995-1.723-2.633-2.98-4.554-3.495 
                         c-1.92-0.515-3.968-0.246-5.691,0.749c-31.091,17.948-56.815,43.864-74.391,74.945c-17.059,30.166-26.093,64.425-26.127,99.075 
                         c-0.002,1.99,0.787,3.9,2.194,5.308c1.407,1.407,3.315,2.199,5.306,2.199z" 
-                        stroke="black" stroke-width="2" fill="black" class="hover-path" />
+                        stroke="black" stroke-width="2" fill="url(#cappricciosaPattern)" class="hoverPizza" />
                     
                 </g>
               </svg>  
