@@ -4,6 +4,8 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    backdrop-filter: cover;
 }
 
 .storeName {
@@ -12,6 +14,7 @@ body{
     padding: 50px;
     padding-right: 100px;
     padding-left: 100px; 
+    font-size:large;
     
     
 }
@@ -20,6 +23,7 @@ body{
     background-color: rgb(205, 33, 42, 0.9);
     border: solid black ;
     padding: 15px;
+    font-size: x-large;
     
     
 }
@@ -57,6 +61,6 @@ body{
     background-color: #CD212A;
     border-radius: 8px;
     cursor: pointer;  
-    font-size: 20px;
+    font-size: 90px;
     border:2px solid #CD212A
 }  
