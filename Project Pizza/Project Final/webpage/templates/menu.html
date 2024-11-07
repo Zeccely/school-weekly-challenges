@@ -52,7 +52,7 @@
                 <g>
                     <defs>
                         <pattern id="pepperoniPattern" patternUnits="objectBoundingBox" width="1" height="1">
-                            <image href="static/pepperoniPizza.png" width="100%" height="100%" />
+                            <image href="{{ url_for('static', filename='pepperoniPizza.png') }}" width="100%" height="100%" />
                         </pattern>
 
                           <pattern id="prociuttoPattern" patternUnits="objectBoundingBox" width="1" height="1">
@@ -159,65 +159,65 @@
 </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="pizzaChange" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="pizzaChangeLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="ingredientsDisplay fs-5" id="pizzaChangeLabel"> </h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <form>
+    <div class="modal fade" id="pizzaChange" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="pizzaChangeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="ingredientsDisplay fs-5" id="pizzaChangeLabel"> </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Extra Mozarella
-                    </label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Mozarella
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Pepperoni
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Mushrooms
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Prociutto
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Ham
+                            </label>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Extra Pepperoni
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Extra Mushrooms
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Extra Prociutto
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
-                        Extra Ham
-                    </label>
-                </div>
-            </form>
-        </div>
-        <div class="modal-footer">    
-            <form method="post">
+                <div class="modal-footer">    
+                    <form method="post">
 
-                <input class="backends" type="hidden" name="item_id" value="{{ item['item_id'] }}">
+                        <input class="backends" type="hidden" name="item_id" value="">
 
-                <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Add to Cart</button>
+                        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Add to Cart</button>
+                        
+                    </form>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+
                 
-            </form>
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
-
-        
-          
+                
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
   
-     
+  <script src="{{ url_for('static', filename='buttons.js') }}"></script>   
 </body>
 </html>

@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request, session, jsonify, make_response
-import serial
+# import serial
 import sqlite3
 import json
 import uuid
@@ -44,7 +44,6 @@ def menu():
     connection.row_factory = sqlite3.Row
     db = connection.cursor()
     items = db.execute("SELECT item_id, name, price FROM items").fetchall()
-
 
     # If an item is being added to the cart
     if request.method == "POST":
@@ -102,7 +101,7 @@ def post_data():
         return jsonify({"success": True, "timeleft": current_countdown}), 200
     return jsonify({"error": "Invalid data format"}), 400
 
-@app.route('/timeleft')
+@app.route('/timeleft', methods=["POST"])
 def timeleft():
     return render_template('timeleft.html', countdown=current_countdown)
 

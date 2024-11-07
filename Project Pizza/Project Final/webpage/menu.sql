@@ -17,12 +17,12 @@ GROUP BY item_id
 HAVING COUNT(*) > 1;
 
 
-INSERT INTO items (name, price) VALUES ('Pepperoni Pizza', 10.99);
-INSERT INTO items (name, price) VALUES ('Prociutto Pizza', 10.99);
-INSERT INTO items (name, price) VALUES ('Funghi Pizza', 10.99);
-INSERT INTO items (name, price) VALUES ('Quattro formaggi Pizza', 10.99);
-INSERT INTO items (name, price) VALUES ('Margherita Pizza', 10.99);
-INSERT INTO items (name, price) VALUES ('Capricciosa Pizza', 10.99);
+INSERT INTO items (name, price) VALUES ('Pepperoni', 10.99);
+INSERT INTO items (name, price) VALUES ('Prociutto', 10.99);
+INSERT INTO items (name, price) VALUES ('Funghi', 10.99);
+INSERT INTO items (name, price) VALUES ('Quattro formaggi', 10.99);
+INSERT INTO items (name, price) VALUES ('Margherita', 10.99);
+INSERT INTO items (name, price) VALUES ('Capricciosa', 10.99);
 
 PRAGMA table_info(cart);
 
