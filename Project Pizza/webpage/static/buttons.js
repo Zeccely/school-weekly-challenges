@@ -1,20 +1,40 @@
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+document.addEventListener('DOMContentLoaded', function () {
+    // Modal and Popover
+    const exampleModal = document.getElementById('pizzaChange');
+    const pizzaPaths = document.querySelectorAll('.hoverPizza');
+    
+    // Initialize popover for hover on each pizza path
+    const popoverTriggerList = [...pizzaPaths].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+  
+    if (exampleModal) {
+      pizzaPaths.forEach(function (pizza) {
+        // Add click event for modal trigger
+        pizza.addEventListener('click', function (event) {
+          // Trigger modal display
+          const button = event.target;
+  
+          // Extract pizza details from the clicked path
+          const title = button.getAttribute('data-bs-title');
+          const itemid = button.getAttribute('data-bs-itemid');
 
+          
+          // Update the modal's content and added functionality for the backend bcs its late and jess is tired
+          const modalTitle = exampleModal.querySelector('.ingredientsDisplay');
+          modalTitle.textContent = title;
 
-$('#pizzaChange').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget) // Button that triggered the modal
-    var recipient = button.data('') // Extract info from data-* attributes
-    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-    var modal = $(this)
-    modal.find('.modal-title').text(' ' + recipient)
-    modal.find('.modal-body input').val(recipient)
-  })
+          const cartAdder = exampleModal.querySelector(".backends");
+          cartAdder.value = itemid;
+        
+  
+          // Trigger the modal
+          const modal = new bootstrap.Modal(exampleModal);
+          modal.show();
+        });
+      });
+    }
+  });
 
-
-
-
+  
 
 
 

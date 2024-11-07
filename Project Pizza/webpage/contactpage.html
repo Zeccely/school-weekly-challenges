@@ -17,13 +17,16 @@
     <div class="storeName">
         <h1 >Pizza Store!</h1>
         
-        <p><br>Serving you the best traditional Pizza, Eat in or take it home!</p>
-        
-        
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
     </div>
 
     <div class="storeContact"> 
-    <ul><h2>Contact</h2> <br>
+    <ul>
+        <h2>Contact</h2> <br>
         <li>Adress: Trekstraat 56A 5624ML, Netherlands</li><br>
         <li>Phone Number: 068524789</li> <br>
         <li>Email: pizzastore@gmail.com </li><br>
@@ -32,7 +35,7 @@
     </div>
     
     <div class="ourMenu">
-    <button class="menuButton"> Our Menu </button>
+    <a class="menuButton" a href="{{ url_for('menu') }}"> Our Menu </a>
     </div>
 </div>
 </body>

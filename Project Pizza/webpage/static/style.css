@@ -63,4 +63,8 @@ body{
     cursor: pointer;  
     font-size: 90px;
     border:2px solid #CD212A
-}  
+} 
+a {
+    color: black;
+    text-decoration: none;
+  } 
