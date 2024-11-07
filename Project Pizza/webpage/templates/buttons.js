@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     // Modal and Popover
     const exampleModal = document.getElementById('pizzaChange');
@@ -23,7 +24,9 @@ document.addEventListener('DOMContentLoaded', function () {
           modalTitle.textContent = title;
 
           const cartAdder = exampleModal.querySelector(".backends");
-          cartAdder.value = itemid;
+                if (cartAdder) {
+                    cartAdder.value = itemid || ""; // Set the value for backend use
+                }
         
   
           // Trigger the modal
