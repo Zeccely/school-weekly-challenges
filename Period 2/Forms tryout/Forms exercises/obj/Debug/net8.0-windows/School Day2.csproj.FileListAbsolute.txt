@@ -1,0 +1,17 @@
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\bin\Debug\net8.0-windows\School Day2.exe
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\bin\Debug\net8.0-windows\School Day2.deps.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\bin\Debug\net8.0-windows\School Day2.runtimeconfig.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\bin\Debug\net8.0-windows\School Day2.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\bin\Debug\net8.0-windows\School Day2.pdb
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School_Day2.Form1.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.AssemblyInfo.cs
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.sourcelink.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\refint\School Day2.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.pdb
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\School Day2.genruntimeconfig.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms tryout\School Day2\obj\Debug\net8.0-windows\ref\School Day2.dll
