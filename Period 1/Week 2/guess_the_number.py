@@ -2,6 +2,8 @@ import random
 counter= 0
 shouldguess=True
 numberstuff= random.randint(1,100) #used the internet to check for a function that generates a random  integer but no floats are allowed :(
+    
+    
 while shouldguess:   #This is the safest way to do this thing, Break is not elegant
     
     try:
@@ -9,7 +11,8 @@ while shouldguess:   #This is the safest way to do this thing, Break is not eleg
         if guess_number < numberstuff:
             print('Too Low')
             counter= counter+1
-            print("You have tried",counter,"times.")
+            stringy = "You have tried " + str(counter) + " times"
+            print(stringy)
         elif guess_number > numberstuff:
             print('Too high')
             counter= counter+1
@@ -27,3 +30,4 @@ while shouldguess:   #This is the safest way to do this thing, Break is not eleg
             
     except:
         print('Decimals and letters are forbidden') #haha youre stuck now, get the number or it keeps running hehehehehehehehehehe
+        
