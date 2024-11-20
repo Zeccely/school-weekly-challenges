@@ -1,0 +1,18 @@
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise_3.Form1.resources
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise_3.Properties.Resources.resources
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.AssemblyInfo.cs
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.sourcelink.json
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\bin\Debug\net8.0-windows\Exercise 3.exe
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\bin\Debug\net8.0-windows\Exercise 3.deps.json
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\bin\Debug\net8.0-windows\Exercise 3.runtimeconfig.json
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\bin\Debug\net8.0-windows\Exercise 3.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\bin\Debug\net8.0-windows\Exercise 3.pdb
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\refint\Exercise 3.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.pdb
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\Exercise 3.genruntimeconfig.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 3\Exercise 3\Exercise 3\obj\Debug\net8.0-windows\ref\Exercise 3.dll
