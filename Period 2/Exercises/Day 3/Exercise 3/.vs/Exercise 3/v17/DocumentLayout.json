@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\",
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\exercises\\day 3\\exercise 3\\exercise 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\period 2\\exercises\\day 3\\exercise 3\\exercise 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|solutionrelative:exercise 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\exercises\\day 3\\exercise 3\\exercise 3\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\period 2\\exercises\\day 3\\exercise 3\\exercise 3\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|solutionrelative:exercise 3\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\exercise 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\exercise 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|solutionrelative:exercise 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\exercises\\day 3\\exercise 3\\exercise 3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\period 2\\exercises\\day 3\\exercise 3\\exercise 3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{641FF17D-F9F7-4EB8-B4A2-CB45321D5D09}|Exercise 3\\Exercise 3.csproj|solutionrelative:exercise 3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,43 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Exercise 3\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.Designer.cs",
               "RelativeToolTip": "Exercise 3\\Form1.Designer.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowEYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T22:04:28.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T22:04:28.555Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Car.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Car.cs",
               "RelativeDocumentMoniker": "Exercise 3\\Car.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Car.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Car.cs",
               "RelativeToolTip": "Exercise 3\\Car.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:47:24.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:47:24.281Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs",
               "RelativeDocumentMoniker": "Exercise 3\\Form1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs",
               "RelativeToolTip": "Exercise 3\\Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T18:58:42.266Z",
               "EditorCaption": ""
@@ -71,13 +73,12 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs",
               "RelativeDocumentMoniker": "Exercise 3\\Form1.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs [Design]",
-              "RelativeToolTip": "Exercise 3\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 3\\Exercise 3\\Exercise 3\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T18:56:24.376Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-18T18:56:24.376Z"
             }
           ]
         }
