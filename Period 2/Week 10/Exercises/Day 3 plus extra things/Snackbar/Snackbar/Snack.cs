@@ -13,11 +13,11 @@ namespace Snackbar
         private double amountStock;
         
 
-        public Snack(string namez, double pricez, double amouties) 
+        public Snack(string name, double price, double amount) 
         {
-            this.name = namez;
-            this.price = pricez;
-            this.amountStock = amouties;
+            this.name = name;
+            this.price = price;
+            this.amountStock = amount;
         }
         public string GetName()
         {

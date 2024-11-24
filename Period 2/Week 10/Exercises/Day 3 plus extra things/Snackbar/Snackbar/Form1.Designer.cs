@@ -163,7 +163,7 @@
             adminView.Location = new Point(363, 235);
             adminView.Margin = new Padding(2);
             adminView.Name = "adminView";
-            adminView.Size = new Size(78, 20);
+            adminView.Size = new Size(81, 24);
             adminView.TabIndex = 2;
             adminView.Text = "Admin";
             adminView.UseVisualStyleBackColor = true;
@@ -211,7 +211,7 @@
             button1.Location = new Point(168, 160);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(78, 20);
+            button1.Size = new Size(79, 22);
             button1.TabIndex = 1;
             button1.Text = "Pay";
             button1.UseVisualStyleBackColor = true;

@@ -5,15 +5,16 @@ namespace Snackbar
     public partial class Form1 : Form
     {
         SnackBar ShnackyWhacky = new SnackBar();
-        public static List<string> orderlist = new List<string>();
+        public Dictionary<string, Snack> SnackDict = new Dictionary<string, Snack>();
+        public static Dictionary<string,decimal> orderlist = new Dictionary<string,decimal>();
+        
+
         public Form1()
         {
             InitializeComponent();
-            
-        }
-        public List<string> GetList()
-        {
-            return orderlist;
+            orderlist.Add("Total Loempia", 0);
+            orderlist.Add("Total Kaastengels", 0);
+            orderlist.Add("Total Mexicano", 0);
         }
 
         private void orderedItems_SelectedIndexChanged(object sender, EventArgs e)
@@ -34,9 +35,12 @@ namespace Snackbar
 
 
             orderedItems.Items.Clear();
-            orderedItems.Items.Add($" Loempia  {loempiaNR.Value}");
+            orderedItems.Items.Add($" Loempia {loempiaNR.Value}");
             orderedItems.Items.Add($" Kaastengel  {KaasNR.Value}");
             orderedItems.Items.Add($" Mexicano  {MexiNR.Value}");
+
+            
+
 
             if (loempiaNR.Value == 0 && KaasNR.Value == 0 && MexiNR.Value == 0)
             {
@@ -44,16 +48,24 @@ namespace Snackbar
             }
             else
             {
+                ShnackyWhacky.snackDict["Snack1"].DecreaseStock(Convert.ToDouble(loempiaNR.Value));
+                ShnackyWhacky.snackDict["Snack2"].DecreaseStock(Convert.ToDouble(KaasNR.Value));
+                ShnackyWhacky.snackDict["Snack3"].DecreaseStock(Convert.ToDouble(MexiNR.Value));
+
+                orderlist["Total Loempia"] = orderlist["Total Loempia"] + loempiaNR.Value;
+                orderlist["Total Kaastengels"] = orderlist["Total Kaastengels"] + KaasNR.Value;
+                orderlist["Total Mexicano"] = orderlist["Total Mexicano"] + MexiNR.Value;
+
+            } //this is super annoying. I have no idea how to relate the snackdict to the form itself or how to use it for the admin view
+            
+        
+
+          
+            
               
-                orderlist.Add($"Total Loempia: {loempiaNR.Value}");
-                orderlist.Add($"Total Kaastengels: {KaasNR.Value}");
-                orderlist.Add($"Total Mexicano: {MexiNR.Value}");
-            }
-            Debug.WriteLine(orderlist);
-            //foreach (Snack x in ShnackyWhacky.snackList)   //If snacklist belongs to an instance of SnackBar you gotta use ShnackyWhacky.SnackList instead
-            //{
-            //    orderedItems.Items.Add($"{x.GetName()} + {loempiaNR.Value}");
-            //} 
+
+            Debug.WriteLine(string.Join(" ", orderlist));
+       
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -65,8 +77,13 @@ namespace Snackbar
 
         private void adminView_Click(object sender, EventArgs e)
         {
-            AdminView adminViewer = new AdminView();
+            Dictionary<string,Snack> salt2 = ShnackyWhacky.snackDict;
+            Dictionary<string,decimal> salt = orderlist;
+            AdminView adminViewer = new AdminView(salt);
             adminViewer.Show();
+
+            Debug.WriteLine(string.Join(" ",salt));
+            
         }
 
         private void loempiaNR_ValueChanged(object sender, EventArgs e)

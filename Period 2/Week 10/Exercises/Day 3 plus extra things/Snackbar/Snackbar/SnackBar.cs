@@ -8,16 +8,23 @@ namespace Snackbar
 {
     public class SnackBar
     {
-        Snack snac1 = new Snack("Loempia", 2, 20);
-        Snack snac2 = new Snack("Kaastengels", 5, 30);
-        Snack snac3 = new Snack("Mexicano", 3, 35);
-        public List<Snack> snackList;
+        public Dictionary<string,Snack> snackDict = new Dictionary<string, Snack>();
+        
+
+        public SnackBar()
+        {
+           snackDict.Add("Snack1", new Snack("Loempia", 2, 20));
+           snackDict.Add("Snack2", new Snack("Kaastengels", 5, 30));
+           snackDict.Add ("Snack3", new Snack("Mexicano", 3, 35));
+        }
 
         public double ProcessOrder(double snacc1, double snacc2, double snacc3)
+            
         {
-            bool loempia = snac1.DecreaseStock(snacc1);
-            bool kaastengel = snac2.DecreaseStock(snacc2);
-            bool mexicano = snac3.DecreaseStock(snacc3);
+            
+            bool loempia = snackDict["Snack1"].DecreaseStock(snacc1);
+            bool kaastengel = snackDict["Snack2"].DecreaseStock(snacc2);
+            bool mexicano = snackDict["Snack3"].DecreaseStock(snacc3);
 
 
             if (loempia == false || kaastengel == false || mexicano== false)
@@ -28,16 +35,17 @@ namespace Snackbar
             {
                 MessageBox.Show("Items ordered successfulley");
             }
-           
+            
+            
+            double soldloempia = 20 - snackDict["Snack1"].GetAmountStock();  
+            double soldkaas = 30 - snackDict["Snack2"].GetAmountStock();
+            double soldMexi = 35 - snackDict["Snack3"].GetAmountStock();
 
-            double gottapay = (snacc1 * snac1.GetPrice() + snacc2 * snac2.GetPrice() + snacc3 * snac3.GetPrice());
+
+            double gottapay = (snacc1 * snackDict["Snack1"].GetPrice() + snacc2 * snackDict["Snack2"].GetPrice() + snacc3 * snackDict["Snack3"].GetPrice());
             return gottapay;
         }
-        public void AddSnack(Snack snacky)
-        {
-            snackList.Add(snacky);
-        }
-     
+           
 
 
     }
