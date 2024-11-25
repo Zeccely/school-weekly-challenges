@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\week 11\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs [Design]",
+              "RelativeToolTip": "StreamingMusicApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T00:09:11.327Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
