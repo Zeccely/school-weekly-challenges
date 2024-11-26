@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ebQZ18LxWw=",
+  "dgSpecHash": "zH6gB1CY73Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\Snackbar2.1\\Snackbar\\Snackbar.csproj",
+  "projectFilePath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\Snackbar2.1\\Snackbar\\Snackbar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jepis\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jepis\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

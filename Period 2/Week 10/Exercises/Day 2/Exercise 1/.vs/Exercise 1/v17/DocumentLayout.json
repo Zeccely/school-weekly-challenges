@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\",
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\exercises\\day 2\\exercise 1\\exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|solutionrelative:exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\week 10\\exercises\\day 2\\exercise 1\\exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|solutionrelative:exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\exercises\\day 2\\exercise 1\\exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|solutionrelative:exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\week 10\\exercises\\day 2\\exercise 1\\exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5905F5C7-95E5-49F6-82A2-C32247274B3C}|Exercise 1\\Exercise 1.csproj|solutionrelative:exercise 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs",
               "RelativeDocumentMoniker": "Exercise 1\\Form1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs [Design]",
               "RelativeToolTip": "Exercise 1\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T17:23:46.281Z",
@@ -34,16 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs",
               "RelativeDocumentMoniker": "Exercise 1\\Form1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Form1.cs",
               "RelativeToolTip": "Exercise 1\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:34:41.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T17:34:41.723Z"
             }
           ]
         }

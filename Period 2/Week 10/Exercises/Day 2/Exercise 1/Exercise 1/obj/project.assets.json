@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Exercise 1.csproj",
+      "projectUniqueName": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Exercise 1.csproj",
       "projectName": "Exercise 1",
-      "projectPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Exercise 1.csproj",
+      "projectPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\Exercise 1.csproj",
       "packagesPath": "C:\\Users\\jepis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\obj\\",
+      "outputPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 2\\Exercise 1\\Exercise 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
