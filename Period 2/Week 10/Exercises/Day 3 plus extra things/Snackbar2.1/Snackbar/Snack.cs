@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -42,6 +43,12 @@ namespace Snackbar
                 this.amountStock = this.amountStock - amount;
                 return true;
             }
+        
         }
+        public bool CheckStock()
+        {
+           return (this.amountStock > 0);
+        }
+        
     }
 }

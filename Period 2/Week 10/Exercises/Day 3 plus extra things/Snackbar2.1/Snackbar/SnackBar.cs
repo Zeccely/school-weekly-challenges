@@ -20,20 +20,24 @@ namespace Snackbar
 
         public double ProcessOrder(double snacc1, double snacc2, double snacc3)
             
-        {
+        { //check first decrease later
             
-            bool loempia = snackDict["Snack1"].DecreaseStock(snacc1);
-            bool kaastengel = snackDict["Snack2"].DecreaseStock(snacc2);
-            bool mexicano = snackDict["Snack3"].DecreaseStock(snacc3);
+            bool loempia = snackDict["Snack1"].CheckStock(snacc1);
+            bool kaastengel = snackDict["Snack2"].CheckStock(snacc2);
+            bool mexicano = snackDict["Snack3"].CheckStock(snacc3);
 
 
-            if (loempia == false || kaastengel == false || mexicano== false)
+            if (!loempia || !kaastengel || !mexicano)
             {
                 MessageBox.Show("Cannot order");
+               
             }
             else
             {
                 MessageBox.Show("Items ordered successfulley");
+                loempia = snackDict["Snack1"].DecreaseStock(snacc1);
+                kaastengel = snackDict["Snack2"].DecreaseStock(snacc2);
+                mexicano = snackDict["Snack3"].DecreaseStock(snacc3);
             }
             
             
