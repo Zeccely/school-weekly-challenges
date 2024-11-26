@@ -22,9 +22,9 @@ namespace Snackbar
             
         { //check first decrease later
             
-            bool loempia = snackDict["Snack1"].CheckStock(snacc1);
-            bool kaastengel = snackDict["Snack2"].CheckStock(snacc2);
-            bool mexicano = snackDict["Snack3"].CheckStock(snacc3);
+            bool loempia = snackDict["Snack1"].CheckStock();
+            bool kaastengel = snackDict["Snack2"].CheckStock();
+            bool mexicano = snackDict["Snack3"].CheckStock();
 
 
             if (!loempia || !kaastengel || !mexicano)
