@@ -7,8 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\jepis\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\jepis\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\jepis\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

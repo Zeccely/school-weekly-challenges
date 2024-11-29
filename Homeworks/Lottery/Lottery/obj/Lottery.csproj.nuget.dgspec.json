@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\StreamingMusicApp.csproj": {}
+    "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\Lottery\\Lottery\\Lottery.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\StreamingMusicApp.csproj": {
+    "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\Lottery\\Lottery\\Lottery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\StreamingMusicApp.csproj",
-        "projectName": "StreamingMusicApp",
-        "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\StreamingMusicApp.csproj",
+        "projectUniqueName": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\Lottery\\Lottery\\Lottery.csproj",
+        "projectName": "Lottery",
+        "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\Lottery\\Lottery\\Lottery.csproj",
         "packagesPath": "C:\\Users\\jepis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Period 2\\Week 11\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\obj\\",
+        "outputPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\Lottery\\Lottery\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jepis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0-windows7.0": {
-            "targetAlias": "net5.0-windows",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
