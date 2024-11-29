@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Lottery")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ClassExampleSerialization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+146c1955e808a52e9be6944682be626883aaecd4")]
-[assembly: System.Reflection.AssemblyProductAttribute("Lottery")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Lottery")]
+[assembly: System.Reflection.AssemblyProductAttribute("ClassExampleSerialization")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ClassExampleSerialization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
