@@ -29,18 +29,19 @@
         private void InitializeComponent()
         {
             Addnumber = new Button();
-            numericUpDown1 = new NumericUpDown();
+            choosenumbers = new NumericUpDown();
             label1 = new Label();
             groupBox1 = new GroupBox();
-            listView1 = new ListView();
-            groupBox2 = new GroupBox();
             button1 = new Button();
+            chosenview = new ListView();
+            groupBox2 = new GroupBox();
+            settingsSave = new Button();
             nrlength = new NumericUpDown();
             maxVal = new NumericUpDown();
             label3 = new Label();
             label2 = new Label();
             LotteryNumbers = new ListBox();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)choosenumbers).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nrlength).BeginInit();
@@ -57,12 +58,12 @@
             Addnumber.UseVisualStyleBackColor = true;
             Addnumber.Click += numberadd_Click;
             // 
-            // numericUpDown1
+            // choosenumbers
             // 
-            numericUpDown1.Location = new Point(89, 57);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(70, 23);
-            numericUpDown1.TabIndex = 1;
+            choosenumbers.Location = new Point(89, 57);
+            choosenumbers.Name = "choosenumbers";
+            choosenumbers.Size = new Size(70, 23);
+            choosenumbers.TabIndex = 1;
             // 
             // label1
             // 
@@ -76,10 +77,10 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(listView1);
+            groupBox1.Controls.Add(chosenview);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(Addnumber);
-            groupBox1.Controls.Add(numericUpDown1);
+            groupBox1.Controls.Add(choosenumbers);
             groupBox1.Location = new Point(12, 167);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(266, 200);
@@ -87,16 +88,27 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Lottery Play!";
             // 
-            // listView1
+            // button1
             // 
-            listView1.Location = new Point(37, 119);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(186, 64);
-            listView1.TabIndex = 6;
-            listView1.UseCompatibleStateImageBehavior = false;
+            button1.Location = new Point(152, 88);
+            button1.Name = "button1";
+            button1.Size = new Size(97, 25);
+            button1.TabIndex = 9;
+            button1.Text = "Lotto!";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += Lotto_Click;
+            // 
+            // chosenview
+            // 
+            chosenview.Location = new Point(37, 119);
+            chosenview.Name = "chosenview";
+            chosenview.Size = new Size(190, 66);
+            chosenview.TabIndex = 6;
+            chosenview.UseCompatibleStateImageBehavior = false;
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(settingsSave);
             groupBox2.Controls.Add(nrlength);
             groupBox2.Controls.Add(maxVal);
             groupBox2.Controls.Add(label3);
@@ -108,15 +120,15 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Lottery Settings";
             // 
-            // button1
+            // settingsSave
             // 
-            button1.Location = new Point(152, 88);
-            button1.Name = "button1";
-            button1.Size = new Size(97, 25);
-            button1.TabIndex = 9;
-            button1.Text = "Lotto!";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += Lotto_Click;
+            settingsSave.Location = new Point(152, 104);
+            settingsSave.Name = "settingsSave";
+            settingsSave.Size = new Size(75, 23);
+            settingsSave.TabIndex = 9;
+            settingsSave.Text = "Save";
+            settingsSave.UseVisualStyleBackColor = true;
+            settingsSave.Click += settingsSave_Click;
             // 
             // nrlength
             // 
@@ -169,7 +181,7 @@
             Controls.Add(groupBox1);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)choosenumbers).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -182,16 +194,17 @@
         #endregion
 
         private Button Addnumber;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown choosenumbers;
         private Label label1;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
-        private ListView listView1;
+        private ListView chosenview;
         private ListBox LotteryNumbers;
         private Label label2;
         private NumericUpDown nrlength;
         private NumericUpDown maxVal;
         private Label label3;
         private Button button1;
+        private Button settingsSave;
     }
 }
