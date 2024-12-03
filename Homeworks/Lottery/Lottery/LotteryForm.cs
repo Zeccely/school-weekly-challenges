@@ -2,14 +2,14 @@ using System.Diagnostics;
 
 namespace Lottery
 {
-    public partial class Form1 : Form
+    public partial class LotteryForm : Form
     {
         Lottery Lotto;
         List<int> chosennumber = new List<int>();
         int nrlengthint;
         int[] Drawnnumbers;
 
-        public Form1()
+        public LotteryForm()
         {
             InitializeComponent();
             //putting things in here is kind of a trap and honestly do not do it. also think about initialization of parts of code and what you want to set after or before it starts

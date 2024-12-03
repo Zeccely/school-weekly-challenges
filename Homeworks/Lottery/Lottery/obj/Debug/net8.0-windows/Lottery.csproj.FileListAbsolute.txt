@@ -15,3 +15,20 @@ C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\Lottery\Lottery
 C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.pdb
 C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.genruntimeconfig.cache
 C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\ref\Lottery.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\bin\Debug\net8.0-windows\Lottery.exe
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\bin\Debug\net8.0-windows\Lottery.deps.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\bin\Debug\net8.0-windows\Lottery.runtimeconfig.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\bin\Debug\net8.0-windows\Lottery.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\bin\Debug\net8.0-windows\Lottery.pdb
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.AssemblyInfo.cs
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.sourcelink.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\refint\Lottery.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.pdb
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.genruntimeconfig.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\ref\Lottery.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\Lottery\Lottery\obj\Debug\net8.0-windows\Lottery.LotteryForm.resources

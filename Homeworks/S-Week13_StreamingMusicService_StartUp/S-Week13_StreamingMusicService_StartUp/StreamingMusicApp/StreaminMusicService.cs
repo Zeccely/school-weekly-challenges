@@ -30,7 +30,9 @@ namespace StreamingMusicApp
             foreach (Song s in this.songs)
             {
                 if (id == s.GetId())
-                { return s; }
+                { 
+                    return s; 
+                }
             }
             return null;
         }
@@ -54,6 +56,13 @@ namespace StreamingMusicApp
         public string GetInfo()
         {
             return $"Streaming Music service: {this.name} ({this.songs.Count} songs)";
+        }
+        enum Genre
+        {
+            Classic,
+            Dance,
+            KPop,
+            JRock,
         }
     }
 }

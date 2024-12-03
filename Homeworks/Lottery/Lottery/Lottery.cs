@@ -13,9 +13,9 @@ namespace Lottery
     {
         public int maxValue { get; private set; }
         private int nrLength;
-        int[] numbas = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 };
-        List<int> numbagone = new List<int>();
-        Random Randi = new Random();
+        private int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45 };
+        private List<int> numberGone = new List<int>();
+        private Random RandomGenerator = new Random();
         
 
         public Lottery(int maxval, int nrlength) 
@@ -25,29 +25,27 @@ namespace Lottery
             
         }
         
-        public int[] DrawAllNumbers(int nrlength) 
+        public List<int> DrawAllNumbers(int nrlength) 
         {
-            
-            int[] DrawnNumbas = new int[nrlength];
+
+            List<int> DrawnNumbas = new();
             bool isitafraud;
 
             for (int index = 0; index < nrlength; index++)
             {
                 
-                int randomNumba = Randi.Next(numbas.Length);
+                //rename all funnies and use camelCase
+
                 isitafraud = true;
 
                 while (isitafraud)
                 {
-                    if (!numbagone.Contains(randomNumba))
+                    int randomNumba = RandomGenerator.Next(numbers.Length);
+                    if (!numberGone.Contains(randomNumba))
                     {
                         isitafraud = false;
-                        numbagone.Add(randomNumba);
-                        DrawnNumbas[index] = numbas[randomNumba];
-                    }
-                    else
-                    {
-                        randomNumba = Randi.Next(numbas.Length);
+                        numberGone.Add(randomNumba);
+                        DrawnNumbas[index] = numbers[randomNumba]; 
                     }
                    
                 }   

@@ -11,7 +11,7 @@ namespace StreamingMusicApp
         private int id;
         private string artist;
         private string title;        
-        private int durationInSeconds;
+        private double durationInSeconds;
 
         public Song(int id, string artist, string title, int durationInSeconds)
         {
