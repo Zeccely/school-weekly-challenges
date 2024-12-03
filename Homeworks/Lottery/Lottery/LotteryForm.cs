@@ -7,7 +7,7 @@ namespace Lottery
         Lottery Lotto;
         List<int> chosennumber = new List<int>();
         int nrlengthint;
-        int[] Drawnnumbers;
+        List<int> Drawnnumbers;
 
         public LotteryForm()
         {

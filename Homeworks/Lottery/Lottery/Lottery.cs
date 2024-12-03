@@ -45,7 +45,7 @@ namespace Lottery
                     {
                         isitafraud = false;
                         numberGone.Add(randomNumba);
-                        DrawnNumbas[index] = numbers[randomNumba]; 
+                        DrawnNumbas.Add(randomNumba); 
                     }
                    
                 }   
