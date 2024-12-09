@@ -64,5 +64,17 @@ namespace StreamingMusicApp
             KPop,
             JRock,
         }
+        public void AddSongToFavorites(Song song)
+        {
+
+        }
+        public void RemoveSongFromFavorites(Song song)
+        {
+
+        }
+        public void GetFavoriteSongs()
+        {
+
+        }
     }
 }
