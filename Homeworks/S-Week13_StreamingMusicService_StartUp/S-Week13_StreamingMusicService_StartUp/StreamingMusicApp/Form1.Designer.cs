@@ -36,19 +36,27 @@ namespace StreamingMusicApp
             addSongs = new System.Windows.Forms.Button();
             groupBox1 = new System.Windows.Forms.GroupBox();
             groupBox2 = new System.Windows.Forms.GroupBox();
-            createUser = new System.Windows.Forms.Button();
-            textBox2 = new System.Windows.Forms.TextBox();
-            label2 = new System.Windows.Forms.Label();
-            textBox3 = new System.Windows.Forms.TextBox();
-            errorProvider1 = new System.Windows.Forms.ErrorProvider(components);
             label3 = new System.Windows.Forms.Label();
+            textBox3 = new System.Windows.Forms.TextBox();
+            label2 = new System.Windows.Forms.Label();
+            textBox2 = new System.Windows.Forms.TextBox();
+            createUser = new System.Windows.Forms.Button();
+            errorProvider1 = new System.Windows.Forms.ErrorProvider(components);
             tabControl1 = new System.Windows.Forms.TabControl();
             first_tab = new System.Windows.Forms.TabPage();
             second_tab = new System.Windows.Forms.TabPage();
+            userlistview = new System.Windows.Forms.ListBox();
+            label4 = new System.Windows.Forms.Label();
+            favoritesongs = new System.Windows.Forms.ListBox();
+            playlist = new System.Windows.Forms.ListBox();
+            Favis = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             tabControl1.SuspendLayout();
+            first_tab.SuspendLayout();
+            second_tab.SuspendLayout();
             SuspendLayout();
             // 
             // textBox1
@@ -113,22 +121,22 @@ namespace StreamingMusicApp
             groupBox2.TabStop = false;
             groupBox2.Text = "User";
             // 
-            // createUser
+            // label3
             // 
-            createUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            createUser.Location = new System.Drawing.Point(89, 104);
-            createUser.Name = "createUser";
-            createUser.Size = new System.Drawing.Size(132, 49);
-            createUser.TabIndex = 6;
-            createUser.Text = "Add User";
-            createUser.UseVisualStyleBackColor = true;
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label3.Location = new System.Drawing.Point(48, 73);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(51, 21);
+            label3.TabIndex = 7;
+            label3.Text = "Email:";
             // 
-            // textBox2
+            // textBox3
             // 
-            textBox2.Location = new System.Drawing.Point(144, 38);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(127, 23);
-            textBox2.TabIndex = 7;
+            textBox3.Location = new System.Drawing.Point(144, 75);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new System.Drawing.Size(127, 23);
+            textBox3.TabIndex = 8;
             // 
             // label2
             // 
@@ -140,26 +148,26 @@ namespace StreamingMusicApp
             label2.TabIndex = 6;
             label2.Text = "Username:";
             // 
-            // textBox3
+            // textBox2
             // 
-            textBox3.Location = new System.Drawing.Point(144, 75);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new System.Drawing.Size(127, 23);
-            textBox3.TabIndex = 8;
+            textBox2.Location = new System.Drawing.Point(144, 38);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new System.Drawing.Size(127, 23);
+            textBox2.TabIndex = 7;
+            // 
+            // createUser
+            // 
+            createUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            createUser.Location = new System.Drawing.Point(89, 104);
+            createUser.Name = "createUser";
+            createUser.Size = new System.Drawing.Size(132, 49);
+            createUser.TabIndex = 6;
+            createUser.Text = "Add User";
+            createUser.UseVisualStyleBackColor = true;
             // 
             // errorProvider1
             // 
             errorProvider1.ContainerControl = this;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label3.Location = new System.Drawing.Point(48, 73);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(51, 21);
-            label3.TabIndex = 7;
-            label3.Text = "Email:";
             // 
             // tabControl1
             // 
@@ -173,23 +181,83 @@ namespace StreamingMusicApp
             // 
             // first_tab
             // 
+            first_tab.Controls.Add(label5);
+            first_tab.Controls.Add(Favis);
+            first_tab.Controls.Add(playlist);
+            first_tab.Controls.Add(favoritesongs);
             first_tab.Location = new System.Drawing.Point(4, 24);
             first_tab.Name = "first_tab";
             first_tab.Padding = new System.Windows.Forms.Padding(3);
             first_tab.Size = new System.Drawing.Size(412, 359);
             first_tab.TabIndex = 0;
-            first_tab.Text = "First tab";
+            first_tab.Text = "Music";
             first_tab.UseVisualStyleBackColor = true;
             // 
             // second_tab
             // 
+            second_tab.Controls.Add(label4);
+            second_tab.Controls.Add(userlistview);
             second_tab.Location = new System.Drawing.Point(4, 24);
             second_tab.Name = "second_tab";
             second_tab.Padding = new System.Windows.Forms.Padding(3);
             second_tab.Size = new System.Drawing.Size(412, 359);
             second_tab.TabIndex = 1;
-            second_tab.Text = "Second Tab";
+            second_tab.Text = "Users";
             second_tab.UseVisualStyleBackColor = true;
+            // 
+            // userlistview
+            // 
+            userlistview.FormattingEnabled = true;
+            userlistview.ItemHeight = 15;
+            userlistview.Location = new System.Drawing.Point(6, 34);
+            userlistview.Name = "userlistview";
+            userlistview.Size = new System.Drawing.Size(172, 319);
+            userlistview.TabIndex = 0;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new System.Drawing.Point(49, 12);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(79, 15);
+            label4.TabIndex = 1;
+            label4.Text = "User View List";
+            // 
+            // favoritesongs
+            // 
+            favoritesongs.FormattingEnabled = true;
+            favoritesongs.ItemHeight = 15;
+            favoritesongs.Location = new System.Drawing.Point(25, 34);
+            favoritesongs.Name = "favoritesongs";
+            favoritesongs.Size = new System.Drawing.Size(160, 319);
+            favoritesongs.TabIndex = 0;
+            // 
+            // playlist
+            // 
+            playlist.FormattingEnabled = true;
+            playlist.ItemHeight = 15;
+            playlist.Location = new System.Drawing.Point(215, 34);
+            playlist.Name = "playlist";
+            playlist.Size = new System.Drawing.Size(171, 319);
+            playlist.TabIndex = 1;
+            // 
+            // Favis
+            // 
+            Favis.AutoSize = true;
+            Favis.Location = new System.Drawing.Point(62, 12);
+            Favis.Name = "Favis";
+            Favis.Size = new System.Drawing.Size(84, 15);
+            Favis.TabIndex = 2;
+            Favis.Text = "Favorite Songs";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(275, 12);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(44, 15);
+            label5.TabIndex = 3;
+            label5.Text = "Playlist";
             // 
             // Form1
             // 
@@ -208,6 +276,10 @@ namespace StreamingMusicApp
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             tabControl1.ResumeLayout(false);
+            first_tab.ResumeLayout(false);
+            first_tab.PerformLayout();
+            second_tab.ResumeLayout(false);
+            second_tab.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -229,6 +301,12 @@ namespace StreamingMusicApp
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage first_tab;
         private System.Windows.Forms.TabPage second_tab;
+        private System.Windows.Forms.ListBox userlistview;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ListBox playlist;
+        private System.Windows.Forms.ListBox favoritesongs;
+        private System.Windows.Forms.Label Favis;
+        private System.Windows.Forms.Label label5;
     }
 }
 
