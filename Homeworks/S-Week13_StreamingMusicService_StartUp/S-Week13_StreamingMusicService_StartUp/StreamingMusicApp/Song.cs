@@ -27,6 +27,12 @@ namespace StreamingMusicApp
         public string GetArtist()
         { return this.artist; }
 
+        public string GetTitle() 
+        { return this.title; }
+
+        public double GetDuration() 
+        {  return this.durationInSeconds; }
+
         public string GetInfo()
         {
             return $"ID {this.id:00}: {this.artist} - {this.title} ({this.durationInSeconds} seconds)";

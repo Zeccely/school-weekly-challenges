@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace StreamingMusicApp
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form //Ahhhhh I don't know how to connect this properly!
     {
         public Form1()
         {

@@ -11,12 +11,16 @@ namespace StreamingMusicApp
         private int songIdSeeder;
         private string name;
         private List<Song> songs;
+        private List<User> UserList;
+        
 
         public StreamingMusicService(string name)
         {
             this.songIdSeeder = 1;
             this.name = name;
             this.songs = new List<Song>();
+            this.UserList = new List<User>();
+            
         }
 
         public void AddSong(string artist, string title, int durationInSeconds)
@@ -64,17 +68,29 @@ namespace StreamingMusicApp
             KPop,
             JRock,
         }
-        public void AddSongToFavorites(Song song)
+        public void AddUser(User user)
         {
-
+            UserList.Add(user);
         }
-        public void RemoveSongFromFavorites(Song song)
-        {
 
+        public string GetUser(string username)
+        {
+            return username;
         }
-        public void GetFavoriteSongs()
-        {
 
+        public List<User> GetUsers(List<User> userlist)
+        {
+            return userlist;
+        }
+        public string GetUserInfo(List<User> userlisty) //also include number of users
+        {
+            List<string> usernames = new List<string>();
+
+            foreach (User user in userlisty)
+            {
+                usernames.Add(user.GetUsername());
+            }
+            return $"Nr of users: {userlisty.Count} \n All Users: {string.Join("\n", usernames)} ";
         }
     }
 }

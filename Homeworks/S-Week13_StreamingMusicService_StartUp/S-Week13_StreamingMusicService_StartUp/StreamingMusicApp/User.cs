@@ -3,45 +3,73 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace StreamingMusicApp
 {
-    internal class User
+    public class User
     {
+        private const int MaxSongsInFavs = 50;
+
         private string Username;
         private string Name;
         private string Email;
-        private int Userid;
-        private List<User> UserList;
+        private List<Song> FavSongs { get; set; }
 
-        public User(string username, string email, int userid)
+
+        public User(string username, string email)
         {
             this.Username = username;
             this.Email = email;
-            this.Userid = userid;
+            FavSongs = new List<Song>(); //yo did you know you don't need to put it in the constructor? it works anyway? it makes a list anyway? wow!
+
         }
 
-        public void AddUser(User user)
+
+        public void AddSongToFavorites(Song song)
         {
-            UserList.Add(user);
+
+            if (FavSongs.Count < MaxSongsInFavs)
+            {
+                FavSongs.Add(song);
+            }
+            else
+            {
+                MessageBox.Show("Limit Excedded!");
+            }
+        }
+        public void RemoveSongFromFavorites(Song song)
+        {
+            if (FavSongs.Count == 0)
+            {
+                MessageBox.Show("There are no more songs!");
+            }
+            if (!FavSongs.Contains(song))
+            {
+                MessageBox.Show("That song is not there anymore");
+            }
+            else
+            {
+                FavSongs.Remove(song);
+            }
+
+        }
+        public string GetUsername()
+        {
+            return this.Username;
         }
 
-        public string GetUser(string username)
+        public string GetFavoriteSongs()
         {
-            return username;
-        }
+            List<string> favoritesongs = new List<string>();
+            foreach (Song s in FavSongs)
+            {
+                favoritesongs.Add(s.GetInfo());
 
-        public List<User> GetUsers()
-        {
-            return UserList;
+            }
+            return $"List of Favorite songs of {Username}: \n {string.Join("\n", favoritesongs)}";
         }
-        public List<User> GetInfo() //also include number of users
-        {
-            return null;
-        }
-    
     }
-
 
       
 
