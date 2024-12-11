@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jepis\\Desktop\\School stuff\\PracticeAss_Group\\Project_Group\\Project_Group.csproj",
+      "projectUniqueName": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\PracticeAss_Group\\Project_Group\\Project_Group.csproj",
       "projectName": "Project_Group",
-      "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\PracticeAss_Group\\Project_Group\\Project_Group.csproj",
+      "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\PracticeAss_Group\\Project_Group\\Project_Group.csproj",
       "packagesPath": "C:\\Users\\jepis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jepis\\Desktop\\School stuff\\PracticeAss_Group\\Project_Group\\obj\\",
+      "outputPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\PracticeAss_Group\\Project_Group\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jepis\\AppData\\Roaming\\NuGet\\NuGet.Config",

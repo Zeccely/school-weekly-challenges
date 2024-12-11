@@ -1,0 +1,8 @@
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AddForm.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.MainForm.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AssemblyInfo.cs
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.sourcelink.json
