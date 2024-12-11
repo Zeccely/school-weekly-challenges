@@ -1,0 +1,26 @@
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AddForm.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.MainForm.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AssemblyInfo.cs
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.sourcelink.json
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AddForm.resources
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.MainForm.resources
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.AssemblyInfo.cs
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\bin\Debug\net5.0-windows\Bakery.exe
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\bin\Debug\net5.0-windows\Bakery.deps.json
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\bin\Debug\net5.0-windows\Bakery.runtimeconfig.json
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\bin\Debug\net5.0-windows\Bakery.runtimeconfig.dev.json
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\bin\Debug\net5.0-windows\Bakery.dll
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\bin\Debug\net5.0-windows\Bakery.pdb
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.dll
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\refint\Bakery.dll
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.pdb
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\Bakery.genruntimeconfig.cache
+C:\Users\jepis\Desktop\S-Week13_BakeryStartUp123456789\S-Week13_BakeryStartUp\S-Week14_BakeryStartUp\Bakery\obj\Debug\net5.0-windows\ref\Bakery.dll
