@@ -37,20 +37,21 @@ namespace StreamingMusicApp
             groupBox1 = new System.Windows.Forms.GroupBox();
             groupBox2 = new System.Windows.Forms.GroupBox();
             label3 = new System.Windows.Forms.Label();
-            textBox3 = new System.Windows.Forms.TextBox();
+            emailtbx = new System.Windows.Forms.TextBox();
             label2 = new System.Windows.Forms.Label();
-            textBox2 = new System.Windows.Forms.TextBox();
+            usernametbx = new System.Windows.Forms.TextBox();
             createUser = new System.Windows.Forms.Button();
             errorProvider1 = new System.Windows.Forms.ErrorProvider(components);
             tabControl1 = new System.Windows.Forms.TabControl();
             first_tab = new System.Windows.Forms.TabPage();
-            second_tab = new System.Windows.Forms.TabPage();
-            userlistview = new System.Windows.Forms.ListBox();
-            label4 = new System.Windows.Forms.Label();
-            favoritesongs = new System.Windows.Forms.ListBox();
-            playlist = new System.Windows.Forms.ListBox();
-            Favis = new System.Windows.Forms.Label();
             label5 = new System.Windows.Forms.Label();
+            Favis = new System.Windows.Forms.Label();
+            playlist = new System.Windows.Forms.ListBox();
+            favoritesongs = new System.Windows.Forms.ListBox();
+            second_tab = new System.Windows.Forms.TabPage();
+            label4 = new System.Windows.Forms.Label();
+            userlistview = new System.Windows.Forms.ListBox();
+            songusercounterlbl = new System.Windows.Forms.Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
@@ -78,7 +79,7 @@ namespace StreamingMusicApp
             // removeSongs
             // 
             removeSongs.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            removeSongs.Location = new System.Drawing.Point(89, 138);
+            removeSongs.Location = new System.Drawing.Point(89, 149);
             removeSongs.Name = "removeSongs";
             removeSongs.Size = new System.Drawing.Size(132, 49);
             removeSongs.TabIndex = 2;
@@ -88,7 +89,7 @@ namespace StreamingMusicApp
             // addSongs
             // 
             addSongs.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            addSongs.Location = new System.Drawing.Point(89, 83);
+            addSongs.Location = new System.Drawing.Point(89, 94);
             addSongs.Name = "addSongs";
             addSongs.Size = new System.Drawing.Size(132, 49);
             addSongs.TabIndex = 3;
@@ -110,9 +111,9 @@ namespace StreamingMusicApp
             // groupBox2
             // 
             groupBox2.Controls.Add(label3);
-            groupBox2.Controls.Add(textBox3);
+            groupBox2.Controls.Add(emailtbx);
             groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(textBox2);
+            groupBox2.Controls.Add(usernametbx);
             groupBox2.Controls.Add(createUser);
             groupBox2.Location = new System.Drawing.Point(12, 39);
             groupBox2.Name = "groupBox2";
@@ -131,12 +132,12 @@ namespace StreamingMusicApp
             label3.TabIndex = 7;
             label3.Text = "Email:";
             // 
-            // textBox3
+            // emailtbx
             // 
-            textBox3.Location = new System.Drawing.Point(144, 75);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new System.Drawing.Size(127, 23);
-            textBox3.TabIndex = 8;
+            emailtbx.Location = new System.Drawing.Point(144, 75);
+            emailtbx.Name = "emailtbx";
+            emailtbx.Size = new System.Drawing.Size(127, 23);
+            emailtbx.TabIndex = 8;
             // 
             // label2
             // 
@@ -148,12 +149,12 @@ namespace StreamingMusicApp
             label2.TabIndex = 6;
             label2.Text = "Username:";
             // 
-            // textBox2
+            // usernametbx
             // 
-            textBox2.Location = new System.Drawing.Point(144, 38);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new System.Drawing.Size(127, 23);
-            textBox2.TabIndex = 7;
+            usernametbx.Location = new System.Drawing.Point(144, 38);
+            usernametbx.Name = "usernametbx";
+            usernametbx.Size = new System.Drawing.Size(127, 23);
+            usernametbx.TabIndex = 7;
             // 
             // createUser
             // 
@@ -164,6 +165,7 @@ namespace StreamingMusicApp
             createUser.TabIndex = 6;
             createUser.Text = "Add User";
             createUser.UseVisualStyleBackColor = true;
+            createUser.Click += createUser_Click;
             // 
             // errorProvider1
             // 
@@ -193,6 +195,42 @@ namespace StreamingMusicApp
             first_tab.Text = "Music";
             first_tab.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(275, 12);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(44, 15);
+            label5.TabIndex = 3;
+            label5.Text = "Playlist";
+            // 
+            // Favis
+            // 
+            Favis.AutoSize = true;
+            Favis.Location = new System.Drawing.Point(62, 12);
+            Favis.Name = "Favis";
+            Favis.Size = new System.Drawing.Size(84, 15);
+            Favis.TabIndex = 2;
+            Favis.Text = "Favorite Songs";
+            // 
+            // playlist
+            // 
+            playlist.FormattingEnabled = true;
+            playlist.ItemHeight = 15;
+            playlist.Location = new System.Drawing.Point(215, 34);
+            playlist.Name = "playlist";
+            playlist.Size = new System.Drawing.Size(171, 319);
+            playlist.TabIndex = 1;
+            // 
+            // favoritesongs
+            // 
+            favoritesongs.FormattingEnabled = true;
+            favoritesongs.ItemHeight = 15;
+            favoritesongs.Location = new System.Drawing.Point(25, 34);
+            favoritesongs.Name = "favoritesongs";
+            favoritesongs.Size = new System.Drawing.Size(160, 319);
+            favoritesongs.TabIndex = 0;
+            // 
             // second_tab
             // 
             second_tab.Controls.Add(label4);
@@ -205,15 +243,6 @@ namespace StreamingMusicApp
             second_tab.Text = "Users";
             second_tab.UseVisualStyleBackColor = true;
             // 
-            // userlistview
-            // 
-            userlistview.FormattingEnabled = true;
-            userlistview.ItemHeight = 15;
-            userlistview.Location = new System.Drawing.Point(6, 34);
-            userlistview.Name = "userlistview";
-            userlistview.Size = new System.Drawing.Size(172, 319);
-            userlistview.TabIndex = 0;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -223,47 +252,30 @@ namespace StreamingMusicApp
             label4.TabIndex = 1;
             label4.Text = "User View List";
             // 
-            // favoritesongs
+            // userlistview
             // 
-            favoritesongs.FormattingEnabled = true;
-            favoritesongs.ItemHeight = 15;
-            favoritesongs.Location = new System.Drawing.Point(25, 34);
-            favoritesongs.Name = "favoritesongs";
-            favoritesongs.Size = new System.Drawing.Size(160, 319);
-            favoritesongs.TabIndex = 0;
+            userlistview.FormattingEnabled = true;
+            userlistview.ItemHeight = 15;
+            userlistview.Location = new System.Drawing.Point(6, 34);
+            userlistview.Name = "userlistview";
+            userlistview.Size = new System.Drawing.Size(172, 319);
+            userlistview.TabIndex = 0;
             // 
-            // playlist
+            // songusercounterlbl
             // 
-            playlist.FormattingEnabled = true;
-            playlist.ItemHeight = 15;
-            playlist.Location = new System.Drawing.Point(215, 34);
-            playlist.Name = "playlist";
-            playlist.Size = new System.Drawing.Size(171, 319);
-            playlist.TabIndex = 1;
-            // 
-            // Favis
-            // 
-            Favis.AutoSize = true;
-            Favis.Location = new System.Drawing.Point(62, 12);
-            Favis.Name = "Favis";
-            Favis.Size = new System.Drawing.Size(84, 15);
-            Favis.TabIndex = 2;
-            Favis.Text = "Favorite Songs";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new System.Drawing.Point(275, 12);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(44, 15);
-            label5.TabIndex = 3;
-            label5.Text = "Playlist";
+            songusercounterlbl.AutoSize = true;
+            songusercounterlbl.Location = new System.Drawing.Point(684, 9);
+            songusercounterlbl.Name = "songusercounterlbl";
+            songusercounterlbl.Size = new System.Drawing.Size(100, 15);
+            songusercounterlbl.TabIndex = 10;
+            songusercounterlbl.Text = "CounterSongUser";
             // 
             // Form1
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(800, 438);
+            Controls.Add(songusercounterlbl);
             Controls.Add(tabControl1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -292,9 +304,9 @@ namespace StreamingMusicApp
         private System.Windows.Forms.Button addSongs;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox emailtbx;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox usernametbx;
         private System.Windows.Forms.Button createUser;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ErrorProvider errorProvider1;
@@ -307,6 +319,7 @@ namespace StreamingMusicApp
         private System.Windows.Forms.ListBox favoritesongs;
         private System.Windows.Forms.Label Favis;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label songusercounterlbl;
     }
 }
 

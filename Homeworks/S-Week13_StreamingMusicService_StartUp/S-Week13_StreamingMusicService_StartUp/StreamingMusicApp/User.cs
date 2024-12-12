@@ -69,6 +69,18 @@ namespace StreamingMusicApp
             }
             return $"List of Favorite songs of {Username}: \n {string.Join("\n", favoritesongs)}";
         }
+        public string GetFavoriteSongs(Genre genre)
+        {
+            List<string> favoritesongs = new List<string>();
+            
+            foreach (Song s in FavSongs)
+            {
+                
+                favoritesongs.Add(s.GetInfoGenre());
+
+            }
+            return $"List of Favorite songs of {Username}: \n {string.Join("\n", favoritesongs)}";
+        }
     }
 
       

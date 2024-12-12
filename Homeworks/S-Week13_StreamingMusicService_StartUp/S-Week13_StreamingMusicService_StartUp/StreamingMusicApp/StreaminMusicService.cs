@@ -11,7 +11,9 @@ namespace StreamingMusicApp
         private int songIdSeeder;
         private string name;
         private List<Song> songs;
-        private List<User> UserList;
+        public List<User> UserList;
+        
+        
         
 
         public StreamingMusicService(string name)
@@ -23,9 +25,14 @@ namespace StreamingMusicApp
             
         }
 
-        public void AddSong(string artist, string title, int durationInSeconds)
+        public void AddSong(string artist, string title, double durationInSeconds)
         {
             this.songs.Add(new Song(this.songIdSeeder, artist, title, durationInSeconds));
+            this.songIdSeeder++;
+        }
+        public void AddSong(string artist, string title, double  durationInSeconds, Genre Genre )
+        {
+            this.songs.Add(new Song(this.songIdSeeder, artist, title, durationInSeconds, Genre));
             this.songIdSeeder++;
         }
 
@@ -41,9 +48,9 @@ namespace StreamingMusicApp
             return null;
         }
 
-        public Song[] GetSongs()
+        public Song[] GetSongs() 
         {
-            return this.songs.ToArray();
+            return this.songs.ToArray();  //ew arrays How can I make a editable playlist with this?
         }
 
         public Song[] GetSongs(string artist)
@@ -54,20 +61,14 @@ namespace StreamingMusicApp
                 if(artist == s.GetArtist())
                 { foundSongs.Add(s); }
             }
-            return foundSongs.ToArray();
+            return foundSongs.ToArray(); //ew arrays
         }
 
         public string GetInfo()
         {
             return $"Streaming Music service: {this.name} ({this.songs.Count} songs)";
         }
-        enum Genre
-        {
-            Classic,
-            Dance,
-            KPop,
-            JRock,
-        }
+       
         public void AddUser(User user)
         {
             UserList.Add(user);
@@ -82,15 +83,15 @@ namespace StreamingMusicApp
         {
             return userlist;
         }
-        public string GetUserInfo(List<User> userlisty) //also include number of users
-        {
-            List<string> usernames = new List<string>();
+        //public string GetUserInfo() //also include number of users
+        //{
+        //    List<string> usernames = new List<string>();
 
-            foreach (User user in userlisty)
-            {
-                usernames.Add(user.GetUsername());
-            }
-            return $"Nr of users: {userlisty.Count} \n All Users: {string.Join("\n", usernames)} ";
-        }
+        //    foreach (User user in UserList)
+        //    {
+        //        usernames.Add(user.GetUsername());
+        //    }
+        //    return $"Nr of users: {UserList.Count} \n All Users: {string.Join("\n", usernames)} ";
+        //}
     }
 }
