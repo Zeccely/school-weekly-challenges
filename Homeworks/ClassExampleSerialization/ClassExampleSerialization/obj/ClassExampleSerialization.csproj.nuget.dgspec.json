@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj": {}
+    "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj": {
+    "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj",
+        "projectUniqueName": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj",
         "projectName": "ClassExampleSerialization",
-        "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj",
+        "projectPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\ClassExampleSerialization.csproj",
         "packagesPath": "C:\\Users\\jepis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\obj\\",
+        "outputPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\ClassExampleSerialization\\ClassExampleSerialization\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\jepis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -63,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

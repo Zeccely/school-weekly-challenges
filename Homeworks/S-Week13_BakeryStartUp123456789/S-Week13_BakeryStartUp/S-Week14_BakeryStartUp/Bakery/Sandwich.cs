@@ -1,17 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Bakery
 {
+    [DataContract]
     public class Sandwich
     {
-
+        [DataMember]
         private string sname;
+        [DataMember]
         private double basePrice;
+        [DataMember]
         private BreadType sBreadType;
+        [DataMember]
         private List<Ingredient> singredients;
 
         public Sandwich(string name, double price, BreadType breadtype )
@@ -41,17 +46,17 @@ namespace Bakery
             
         }
 
-        public string GetInfo()
+        public override string ToString()
         {
-            return $"{sname}: ({string.Join(" ",sBreadType)} with {string.Join(" ",singredients)}";
+            return $"{sname}: {string.Join(" ",sBreadType)} with {string.Join(" ", singredients)}"; //I cannot add things without ingredients because of this
         }
 
-        public double GetPrice()
+        public double GetRevenue()
         {
             double pricetracker = 0;
             foreach( Ingredient y in singredients )
             {
-                pricetracker += y.GetIngredientPrice();
+                pricetracker += y.GetPrice();
             }
             return basePrice + pricetracker;
         }
