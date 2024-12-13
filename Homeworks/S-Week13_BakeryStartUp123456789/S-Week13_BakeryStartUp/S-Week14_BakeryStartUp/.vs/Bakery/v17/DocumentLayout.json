@@ -51,8 +51,7 @@
               "ViewState": "AgIAABcAAAAAAAAAAAAQwDgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:46:44.272Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:39:15.688Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -91,8 +89,7 @@
               "RelativeToolTip": "Bakery\\BreadShop.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAkwE8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T00:54:44.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T00:54:44.683Z"
             },
             {
               "$type": "Document",
@@ -102,7 +99,7 @@
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
               "RelativeToolTip": "Bakery\\MainForm.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwJYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwJYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:38:04.51Z",
               "EditorCaption": ""

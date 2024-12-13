@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\streaminmusicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\streaminmusicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\streaminmusicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\streaminmusicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_streamingmusicservice_startup\\s-week13_streamingmusicservice_startup\\streamingmusicapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\User.cs",
               "RelativeDocumentMoniker": "StreamingMusicApp\\User.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StreaminMusicService.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\StreaminMusicService.cs",
               "RelativeDocumentMoniker": "StreamingMusicApp\\StreaminMusicService.cs",
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs",
               "RelativeDocumentMoniker": "StreamingMusicApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs*",
-              "RelativeToolTip": "StreamingMusicApp\\Form1.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCsAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs",
+              "RelativeToolTip": "StreamingMusicApp\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T16:44:36.299Z",
               "IsPinned": true,
@@ -74,15 +74,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Song.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Song.cs",
               "RelativeDocumentMoniker": "StreamingMusicApp\\Song.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Song.cs",
               "RelativeToolTip": "StreamingMusicApp\\Song.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T11:53:12.637Z"
+              "WhenOpened": "2024-12-03T11:53:12.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,8 +91,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs",
               "RelativeDocumentMoniker": "StreamingMusicApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs [Design]*",
-              "RelativeToolTip": "StreamingMusicApp\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_StreamingMusicService_StartUp\\S-Week13_StreamingMusicService_StartUp\\StreamingMusicApp\\Form1.cs [Design]",
+              "RelativeToolTip": "StreamingMusicApp\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T00:09:11.327Z",
               "EditorCaption": " [Design]"
