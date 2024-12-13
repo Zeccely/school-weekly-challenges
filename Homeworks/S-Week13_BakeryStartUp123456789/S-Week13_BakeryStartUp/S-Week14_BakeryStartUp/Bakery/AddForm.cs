@@ -26,7 +26,7 @@ namespace Bakery
             Debug.WriteLine(ingredientsList);
             foreach (Ingredient i in ingredientsList)
             {
-                ingredients.Items.Add(i); //bakery.ingredient >_>
+                ingredients.Items.Add(i); 
             }
 
 
@@ -38,7 +38,9 @@ namespace Bakery
             string sandoName = (sandwichName.Text.ToString());
             double sandoPrice = 4;
             BreadType typeFilter = (BreadType)BreadFilter.SelectedItem;
-            sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter);
+
+            sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter, );
+            Debug.WriteLine(sandwichy);
             this.bakery.AddSandwitch(sandwichy);
             int counterafter = bakery.GetAvailableSandwiches().Count;
             if (counterbefore < counterafter)

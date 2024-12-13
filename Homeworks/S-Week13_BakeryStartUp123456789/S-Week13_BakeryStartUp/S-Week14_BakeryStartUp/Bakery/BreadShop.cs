@@ -17,7 +17,7 @@ namespace Bakery
         [DataMember]
         private string bname;
         [DataMember]
-        private int VAT_PERCENTAGE = 9; //now tell me how is a percent an int ONLY 9???? WAKANDA DREAM WORLD IS THIS
+        private int VAT_PERCENTAGE = 9; 
         [DataMember]
         private List<Sandwich> sandwichList;
         [DataMember]
@@ -61,13 +61,13 @@ namespace Bakery
             this.sandwichList.Add(sandwich);                          
             
         }
-        public void RemoveSandwich(Sandwich sandwich) //experimental stuff don't mind me
+        public void RemoveSandwich(Sandwich sandwich) 
         {
-            if (sandwichList.Contains(sandwich) && sandwichList.Count > 0)
+            if (sandwichList.Contains(sandwich))
             {
                 this.sandwichList?.Remove(sandwich);
             }
-            else
+            else //try not to depend on display logic just return false and add this to the form logic
             {
                 MessageBox.Show("Couldn't remove, make sure the name is the same. If all else fails contact Jessica"); 
             }
