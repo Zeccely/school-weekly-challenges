@@ -15,7 +15,7 @@ namespace Bakery
         [DataMember]
         private double basePrice;
         [DataMember]
-        private BreadType sBreadType;
+        private BreadType breadType;
         [DataMember]
         private List<Ingredient> singredients;
 
@@ -25,7 +25,7 @@ namespace Bakery
             
             this.sname = name;
             this.basePrice = price;
-            this.sBreadType = breadtype;
+            this.breadType = breadtype;
         }
         public Sandwich(string sname, double basePrice, BreadType sBreadType, List<Ingredient> singredients) 
             : this(sname, basePrice, sBreadType)
@@ -40,7 +40,7 @@ namespace Bakery
 
         public BreadType GetBread()
         {
-            return sBreadType;
+            return breadType;
         }
 
         public void AddIngredient(Ingredient ingredient)
@@ -54,7 +54,7 @@ namespace Bakery
 
         public override string ToString()
         {
-            return $"{sname}: {string.Join(" ", sBreadType)}"; //with {string.Join(" ", singredients)}"; //I cannot add things without ingredients because of this
+            return $"{sname}: {string.Join(" ", breadType)}"; //with {string.Join(" ", singredients)}"; //I cannot add things without ingredients because of this
         }
 
         public double GetRevenue()

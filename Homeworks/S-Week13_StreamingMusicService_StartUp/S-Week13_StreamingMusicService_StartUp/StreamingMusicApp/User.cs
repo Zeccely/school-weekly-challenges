@@ -15,6 +15,7 @@ namespace StreamingMusicApp
         private string Name;
         private string Email;
         private List<Song> FavSongs { get; set; }
+        private List<Song> AllSongs { get; set; }
 
 
         public User(string username, string email)
@@ -22,7 +23,7 @@ namespace StreamingMusicApp
             this.Username = username;
             this.Email = email;
             FavSongs = new List<Song>(); //yo did you know you don't need to put it in the constructor? it works anyway? it makes a list anyway? wow!
-
+            AllSongs = new List<Song>();
         }
 
 
@@ -81,6 +82,11 @@ namespace StreamingMusicApp
             }
             return $"List of Favorite songs of {Username}: \n {string.Join("\n", favoritesongs)}";
         }
+        public int GetAllSongs()
+        {
+            return AllSongs.Count;
+        }
+        
     }
 
       

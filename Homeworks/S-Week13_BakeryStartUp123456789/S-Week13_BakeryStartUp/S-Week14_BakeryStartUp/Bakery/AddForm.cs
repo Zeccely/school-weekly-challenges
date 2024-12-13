@@ -39,7 +39,7 @@ namespace Bakery
             double sandoPrice = 4;
             BreadType typeFilter = (BreadType)BreadFilter.SelectedItem;
 
-            sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter, );
+            sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter);
             Debug.WriteLine(sandwichy);
             this.bakery.AddSandwitch(sandwichy);
             int counterafter = bakery.GetAvailableSandwiches().Count;
