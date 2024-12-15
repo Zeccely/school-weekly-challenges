@@ -14,8 +14,8 @@ namespace StreamingMusicApp
         private string Username;
         private string Name;
         private string Email;
-        private List<Song> FavSongs { get; set; }
-        private List<Song> AllSongs { get; set; }
+        public List<Song> FavSongs { get; set; }
+        public  List<Song> AllSongs { get; set; }
 
 
         public User(string username, string email)
@@ -55,7 +55,9 @@ namespace StreamingMusicApp
             }
 
         }
-        public string GetUsername()
+        public string GetUsername() 
+        { return Username; }
+        public override string ToString()
         {
             return this.Username;
         }

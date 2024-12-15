@@ -116,7 +116,7 @@ namespace Bakery
             // confirmationlbl
             // 
             confirmationlbl.AutoSize = true;
-            confirmationlbl.Location = new System.Drawing.Point(127, 105);
+            confirmationlbl.Location = new System.Drawing.Point(129, 106);
             confirmationlbl.Name = "confirmationlbl";
             confirmationlbl.Size = new System.Drawing.Size(58, 15);
             confirmationlbl.TabIndex = 14;

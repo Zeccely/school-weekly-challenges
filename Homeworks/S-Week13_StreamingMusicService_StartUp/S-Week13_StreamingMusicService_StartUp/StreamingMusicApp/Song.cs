@@ -30,6 +30,14 @@ namespace StreamingMusicApp
             this.durationInSeconds = durationInSeconds;
             this.genreS = genre;
         }
+        //public Song(string artist, string title, double durationInSeconds, Genre genre)
+        //{
+        //    this.id = 0;
+        //    this.artist = artist;
+        //    this.title = title;
+        //    this.durationInSeconds = durationInSeconds;
+        //    this.genreS = genre;
+        //}
 
         public int GetId()
         { return this.id; }
@@ -51,7 +59,11 @@ namespace StreamingMusicApp
         {
             return $"Genre: ({this.genreS}) ID {this.id:00} : {this.artist} - {this.title} ({this.durationInSeconds} seconds) ";
         }
-      
+        public override string ToString()
+        {
+            return $"{this.genreS}: {this.artist} - {this.title} ({this.durationInSeconds} seconds) ";
+        }
+
         public Genre GetGenre()
         {
             return this.genreS;

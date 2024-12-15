@@ -10,7 +10,7 @@ namespace StreamingMusicApp
     {
         private int songIdSeeder;
         private string name;
-        private List<Song> songs;
+        public List<Song> Songs;
         public List<User> UserList;
         
         
@@ -20,25 +20,27 @@ namespace StreamingMusicApp
         {
             this.songIdSeeder = 1;
             this.name = name;
-            this.songs = new List<Song>();
+            this.Songs = new List<Song>();
             this.UserList = new List<User>();
             
         }
 
         public void AddSong(string artist, string title, double durationInSeconds)
         {
-            this.songs.Add(new Song(this.songIdSeeder, artist, title, durationInSeconds));
+            this.Songs.Add(new Song(this.songIdSeeder, artist, title, durationInSeconds));
             this.songIdSeeder++;
         }
-        public void AddSong(string artist, string title, double  durationInSeconds, Genre Genre )
+        public Song AddSong(string artist, string title, double  durationInSeconds, Genre Genre )
         {
-            this.songs.Add(new Song(this.songIdSeeder, artist, title, durationInSeconds, Genre));
+            Song newtrack = new Song(this.songIdSeeder, artist, title, durationInSeconds, Genre);
+            this.Songs.Add(newtrack);
             this.songIdSeeder++;
+            return newtrack;
         }
 
-        public Song GetSong(int id)
+        public Song GetSong(int id)   //I may have accidentally removed this "Id"?
         {
-            foreach (Song s in this.songs)
+            foreach (Song s in this.Songs)
             {
                 if (id == s.GetId())
                 { 
@@ -50,13 +52,13 @@ namespace StreamingMusicApp
 
         public Song[] GetSongs() 
         {
-            return this.songs.ToArray();  //ew arrays How can I make a editable playlist with this?
+            return this.Songs.ToArray();  //ew arrays How can I make a editable playlist with this?
         }
 
         public Song[] GetSongs(string artist)
         {
             List<Song> foundSongs = new List<Song>();
-            foreach (Song s in this.songs)
+            foreach (Song s in this.Songs)
             {
                 if(artist == s.GetArtist())
                 { foundSongs.Add(s); }
@@ -66,7 +68,7 @@ namespace StreamingMusicApp
 
         public string GetInfo()
         {
-            return $"Streaming Music service: {this.name} ({this.songs.Count} songs)";
+            return $"Streaming Music service: {this.name} ({this.Songs.Count} songs)";
         }
        
         public void AddUser(User user)
@@ -82,6 +84,29 @@ namespace StreamingMusicApp
         public List<User> GetUsers(List<User> userlist)
         {
             return userlist;
+        }
+        public bool UsernameCheck(string username)
+        {
+            foreach (User user in UserList)
+            {
+                if (user.GetUsername() == username)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public bool SongCheck(Song song)
+        {
+            foreach(Song s in this.Songs)
+            {
+                if(s.GetInfo() == song.GetInfo())
+                {
+                    return true;
+                }
+            }
+            return false;
+            
         }
         //public string GetUserInfo() //also include number of users
         //{
