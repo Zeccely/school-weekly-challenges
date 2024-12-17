@@ -51,8 +51,7 @@
               "ViewState": "AgIAAC0AAAAAAAAAAAA7wEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:46:44.272Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -65,8 +64,7 @@
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:39:15.688Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -79,8 +77,7 @@
               "ViewState": "AgIAAF4AAAAAAAAAAAAkwE8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T00:54:44.683Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs [Design]",
               "RelativeToolTip": "Bakery\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T23:33:11.59Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-06T23:33:11.59Z"
             },
             {
               "$type": "Document",
@@ -129,8 +125,7 @@
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs [Design]",
               "RelativeToolTip": "Bakery\\AddForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T23:33:18.531Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-06T23:33:18.531Z"
             }
           ]
         }
