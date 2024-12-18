@@ -27,6 +27,7 @@ namespace CarSales
             this.Year = year;
             this.Price = price;
         }
-       
+      
+
     }
 }

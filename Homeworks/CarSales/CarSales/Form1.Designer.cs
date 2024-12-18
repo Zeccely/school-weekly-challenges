@@ -30,6 +30,7 @@
         {
             SaveData = new Button();
             LoadData = new Button();
+            clearButton = new Button();
             SuspendLayout();
             // 
             // SaveData
@@ -51,11 +52,22 @@
             LoadData.UseVisualStyleBackColor = true;
             LoadData.Click += LoadData_Click;
             // 
+            // clearButton
+            // 
+            clearButton.Location = new Point(381, 213);
+            clearButton.Name = "clearButton";
+            clearButton.Size = new Size(127, 37);
+            clearButton.TabIndex = 2;
+            clearButton.Text = "Clear Data";
+            clearButton.UseVisualStyleBackColor = true;
+            clearButton.Click += clearButton_Click;
+            // 
             // CarDealership
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(520, 333);
+            Controls.Add(clearButton);
             Controls.Add(LoadData);
             Controls.Add(SaveData);
             Name = "CarDealership";
@@ -67,5 +79,6 @@
 
         private Button SaveData;
         private Button LoadData;
+        private Button clearButton;
     }
 }

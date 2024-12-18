@@ -13,26 +13,32 @@ namespace CarSales
 
         string name;
         public List<Car> cars = new List<Car>();
+        
 
         public Dealership(string name) 
         {
             this.name = name;
         }
-        public bool CarCheck(string brand, string model, int year, double price)
+        
+        public Car FindCar(string brand, string model, int year, double price)
         {
             foreach (Car car in cars)
             {
-                if (car.Brand == brand && car.Model==model && car.Year == year && car.Price == price)
+                Debug.WriteLine(car.Model);
+                Debug.WriteLine(model);
+                if (car.Model.Equals(model) && car.Brand.Equals(brand) && car.Year.Equals(year) && car.Price.Equals(price))
                 {
-                    return true;
+                    return car;
                 }
             }
-            return false;
+            return null;
         }
 
-        public List<Car> GetCars()
+        public void GetCars()
         {
+
             OpenFileDialog openSesame = new OpenFileDialog();
+            List<Car> copyofcars = new List<Car>();
             //create a condition for the dialog to limit the type to csv only
             if (openSesame.ShowDialog() == DialogResult.OK)
             {
@@ -46,32 +52,35 @@ namespace CarSales
                     string carModel;
                     int carYear;
                     double carPrice;
-                    List<Car> comparisonlist = new List<Car>();
-
+      
                     while (!streamReader.EndOfStream)
                     {
-                        
-
                         renamethis = streamReader.ReadLine();
                         string[] renamethisaswell = renamethis.Split(",");
                         carBrand = renamethisaswell[0];
                         carModel = renamethisaswell[1];
                         carYear = Convert.ToInt32(renamethisaswell[2]);
-                        carPrice = Convert.ToDouble(renamethisaswell[3]); 
-                        
-
-                        Car car = new Car(carBrand, carModel, carPrice);
-                        comparisonlist.Add(car);
-
+                        carPrice = Convert.ToDouble(renamethisaswell[3]);
+                        Car car = null;
 
                         
-                       
-                    }
+                        if (cars.Count > 0 )
+                        {
+                            car = FindCar(carBrand, carModel, carYear, carPrice);
+                        }
+                        if (car == null)
+                        {
+                            car = new Car(carBrand, carModel, carYear, carPrice);
+                        }
+                        
+                        copyofcars.Add(car);
+                        
 
-                    if (CarCheck(carBrand, carModel, carYear, carPrice) == false)
-                    {
-                        cars.Add(car);
+
                     }
+                      cars = copyofcars; 
+
+                    
                 }
                 catch (Exception e) 
                 {
@@ -83,7 +92,11 @@ namespace CarSales
                 }
                 
             }
-            return cars;
+           
+        }
+        public void ClearData()
+        {
+            cars.Clear();
         }
     }
 }
