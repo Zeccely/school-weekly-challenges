@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Bakery
 {
@@ -49,12 +50,16 @@ namespace Bakery
             {
                 this.singredients.Add(ingredient);
             }
+            else
+            {
+                MessageBox.Show("No more than 5");
+            }
             
         }
 
         public override string ToString()
         {
-            return $"{sname}: {string.Join(" ", breadType)}"; //with {string.Join(" ", singredients)}"; //I cannot add things without ingredients because of this
+            return $"{sname}: {string.Join(" ", breadType)} with {string.Join(" ", singredients)}";
         }
 
         public double GetRevenue()

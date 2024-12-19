@@ -35,9 +35,9 @@ namespace Bakery
             BreadAdder = new System.Windows.Forms.Button();
             label3 = new System.Windows.Forms.Label();
             sandwichName = new System.Windows.Forms.TextBox();
-            ingredients = new System.Windows.Forms.ComboBox();
             confirmationlbl = new System.Windows.Forms.Label();
             RemoveBtn = new System.Windows.Forms.Button();
+            ingredientsChListBox = new System.Windows.Forms.CheckedListBox();
             SuspendLayout();
             // 
             // label1
@@ -77,10 +77,10 @@ namespace Bakery
             // 
             // BreadAdder
             // 
-            BreadAdder.Location = new System.Drawing.Point(12, 148);
+            BreadAdder.Location = new System.Drawing.Point(10, 296);
             BreadAdder.Margin = new System.Windows.Forms.Padding(1);
             BreadAdder.Name = "BreadAdder";
-            BreadAdder.Size = new System.Drawing.Size(402, 22);
+            BreadAdder.Size = new System.Drawing.Size(404, 22);
             BreadAdder.TabIndex = 10;
             BreadAdder.Text = "Add Sandwich";
             BreadAdder.UseVisualStyleBackColor = true;
@@ -105,18 +105,10 @@ namespace Bakery
             sandwichName.Size = new System.Drawing.Size(332, 23);
             sandwichName.TabIndex = 12;
             // 
-            // ingredients
-            // 
-            ingredients.FormattingEnabled = true;
-            ingredients.Location = new System.Drawing.Point(88, 57);
-            ingredients.Name = "ingredients";
-            ingredients.Size = new System.Drawing.Size(332, 23);
-            ingredients.TabIndex = 13;
-            // 
             // confirmationlbl
             // 
             confirmationlbl.AutoSize = true;
-            confirmationlbl.Location = new System.Drawing.Point(129, 106);
+            confirmationlbl.Location = new System.Drawing.Point(165, 261);
             confirmationlbl.Name = "confirmationlbl";
             confirmationlbl.Size = new System.Drawing.Size(58, 15);
             confirmationlbl.TabIndex = 14;
@@ -124,7 +116,7 @@ namespace Bakery
             // 
             // RemoveBtn
             // 
-            RemoveBtn.Location = new System.Drawing.Point(10, 174);
+            RemoveBtn.Location = new System.Drawing.Point(10, 322);
             RemoveBtn.Name = "RemoveBtn";
             RemoveBtn.Size = new System.Drawing.Size(404, 23);
             RemoveBtn.TabIndex = 15;
@@ -132,14 +124,23 @@ namespace Bakery
             RemoveBtn.UseVisualStyleBackColor = true;
             RemoveBtn.Click += RemoveBtn_Click;
             // 
+            // ingredientsChListBox
+            // 
+            ingredientsChListBox.FormattingEnabled = true;
+            ingredientsChListBox.Location = new System.Drawing.Point(88, 60);
+            ingredientsChListBox.Name = "ingredientsChListBox";
+            ingredientsChListBox.Size = new System.Drawing.Size(332, 184);
+            ingredientsChListBox.TabIndex = 16;
+            ingredientsChListBox.ItemCheck += ingredientsChListBox_ItemCheck;
+            // 
             // AddForm
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(430, 211);
+            ClientSize = new System.Drawing.Size(430, 357);
+            Controls.Add(ingredientsChListBox);
             Controls.Add(RemoveBtn);
             Controls.Add(confirmationlbl);
-            Controls.Add(ingredients);
             Controls.Add(sandwichName);
             Controls.Add(label3);
             Controls.Add(BreadAdder);
@@ -161,9 +162,9 @@ namespace Bakery
         private System.Windows.Forms.Button BreadAdder;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox sandwichName;
-        private System.Windows.Forms.ComboBox ingredients;
         private System.Windows.Forms.Label confirmationlbl;
         private System.Windows.Forms.Button RemoveBtn;
+        private System.Windows.Forms.CheckedListBox ingredientsChListBox;
     }
 }
 

@@ -23,10 +23,10 @@ namespace Bakery
             BreadFilter.DataSource = Enum.GetValues(typeof(BreadType));
             this.bakery = b;
             ingredientsList = bakery.GetAvailableIngredients();
-            Debug.WriteLine(ingredientsList);
+            Debug.WriteLine(ingredientsChListBox);
             foreach (Ingredient i in ingredientsList)
             {
-                ingredients.Items.Add(i); 
+                ingredientsChListBox.Items.Add(i);
             }
 
 
@@ -35,14 +35,22 @@ namespace Bakery
         public void BreadAdder_Click(object sender, EventArgs e)
         {
             int counterbefore = bakery.GetAvailableSandwiches().Count;
+            Debug.WriteLine($"Counter before {counterbefore}");
             string sandoName = (sandwichName.Text.ToString());
             double sandoPrice = 4;
+            List<Ingredient> sandoingredient = new List<Ingredient>();
             BreadType typeFilter = (BreadType)BreadFilter.SelectedItem;
 
-            sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter);
+            foreach(Ingredient i in ingredientsChListBox.CheckedItems)
+            {
+                sandoingredient.Add(i);
+            }
+
+            sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter, sandoingredient);
             Debug.WriteLine(sandwichy);
             this.bakery.AddSandwitch(sandwichy);
             int counterafter = bakery.GetAvailableSandwiches().Count;
+            Debug.WriteLine($"Counter after {counterafter}");
             if (counterbefore < counterafter)
             {
                 confirmationlbl.Text = "Sandwich Added Successfully!";
@@ -66,8 +74,8 @@ namespace Bakery
         private void RemoveBtn_Click(object sender, EventArgs e) //only works if you don't close this form
         {
             int counterbefore = bakery.GetAvailableSandwiches().Count;
-            string sandoName = (sandwichName.Text.ToString());           
-            BreadType typeFilter = (BreadType)BreadFilter.SelectedItem;          
+            string sandoName = (sandwichName.Text.ToString());
+            BreadType typeFilter = (BreadType)BreadFilter.SelectedItem;
             this.bakery.RemoveSandwich(sandwichy);
             int counterafter = bakery.GetAvailableSandwiches().Count;
             if (counterbefore > counterafter)
@@ -78,6 +86,11 @@ namespace Bakery
             {
                 confirmationlbl.Text = "Couldn't remove, make sure the name is the same. If all else fails contact Jessica";
             }
+        }
+
+        private void ingredientsChListBox_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+
         }
     }
 }

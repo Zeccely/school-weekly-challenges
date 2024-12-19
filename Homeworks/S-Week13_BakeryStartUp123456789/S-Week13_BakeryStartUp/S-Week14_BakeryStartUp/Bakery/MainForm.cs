@@ -18,6 +18,8 @@ namespace Bakery
     public partial class MainForm : Form
     {
         BreadShop bakery = new BreadShop("Bakary");
+        double total;
+        
         public MainForm()
         {
             InitializeComponent();
@@ -90,7 +92,7 @@ namespace Bakery
 
         }
 
-        private void SaveData_Click(object sender, EventArgs e) //how do I make it save into computer
+        private void SaveData_Click(object sender, EventArgs e)
         {
             string filename;
             FileStream? fs = null;
@@ -131,8 +133,9 @@ namespace Bakery
         {
             BreadType typeFilter = (BreadType)BreadFilterdrp.SelectedItem;
             SMenu.Items.Clear();
-
-            foreach (Sandwich s in this.bakery.GetAvailableSandwiches(typeFilter))
+            List<Sandwich> sandwichdisplay = new List<Sandwich>();
+            sandwichdisplay = this.bakery.GetAvailableSandwiches(typeFilter);
+            foreach (Sandwich s in sandwichdisplay)
             {
                 SMenu.Items.Add(s);
             }
@@ -141,12 +144,35 @@ namespace Bakery
 
         private void SMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Sandwich chosen = (Sandwich)SMenu.SelectedItem;
+
+            Sandwich chosen = (Sandwich)SMenu.SelectedItem; 
             lblSandwichInfo.Text = chosen.ToString();
         }
 
-        private void SellSandwhich_Click(object sender, EventArgs e)
+        private void SellSandwhich_Click(object sender, EventArgs e) //PAY ATTENTION HERE
         {
+            
+            if (bakery.GetAvailableSandwiches().Contains(SMenu.SelectedItem))
+            {
+                Sandwich sandwich = (Sandwich)SMenu.SelectedItem;
+                bakery.SellSandwich(sandwich);
+                total += sandwich.GetRevenue();
+            }
+            else
+            {
+                MessageBox.Show("Where Sammich?");
+            }
+
+            SMenu.Items.Clear();
+            var soldcounterie = bakery.GetSoldSandwich().Count;
+            soldcounter.Text = soldcounterie.ToString();
+            Debug.WriteLine($"Sold stuff {soldcounterie}");
+        }
+
+        private void TotalRevenue_Click(object sender, EventArgs e)
+        {
+
+            revenuelbl.Text = total.ToString();
 
         }
     }

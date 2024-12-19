@@ -74,6 +74,7 @@ namespace Bakery
         }
         public void SellSandwich(Sandwich sandwich)
         {
+            Debug.WriteLine($"The list count is {soldSandwhichList.Count}");
             if(sandwichList.Contains(sandwich))
             {
                 sandwichList.Remove(sandwich);
@@ -84,6 +85,7 @@ namespace Bakery
             {
                 MessageBox.Show("Not a sandwich");
             }
+            Debug.WriteLine($"The list count is {soldSandwhichList.Count}");
         }
 
         public List<Ingredient> GetAvailableIngredients() //no arrays in this assignment.
@@ -111,6 +113,10 @@ namespace Bakery
             }
            
             return availableSandwiches;
+        }
+        public List<Sandwich> GetSoldSandwich()
+        {
+            return soldSandwhichList;
         }
         
 

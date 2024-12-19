@@ -38,10 +38,12 @@ namespace Bakery
             SaveData = new System.Windows.Forms.Button();
             SMenu = new System.Windows.Forms.ListBox();
             groupBox2 = new System.Windows.Forms.GroupBox();
-            TotalRevenue = new System.Windows.Forms.Button();
             SellSandwhich = new System.Windows.Forms.Button();
             lblSandwichInfo = new System.Windows.Forms.Label();
+            TotalRevenue = new System.Windows.Forms.Button();
             saver = new System.Windows.Forms.OpenFileDialog();
+            revenuelbl = new System.Windows.Forms.Label();
+            soldcounter = new System.Windows.Forms.Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -144,7 +146,6 @@ namespace Bakery
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(TotalRevenue);
             groupBox2.Controls.Add(SellSandwhich);
             groupBox2.Controls.Add(lblSandwichInfo);
             groupBox2.Location = new System.Drawing.Point(317, 1);
@@ -156,19 +157,9 @@ namespace Bakery
             groupBox2.TabStop = false;
             groupBox2.Text = "Cart";
             // 
-            // TotalRevenue
-            // 
-            TotalRevenue.Location = new System.Drawing.Point(4, 187);
-            TotalRevenue.Margin = new System.Windows.Forms.Padding(1);
-            TotalRevenue.Name = "TotalRevenue";
-            TotalRevenue.Size = new System.Drawing.Size(256, 22);
-            TotalRevenue.TabIndex = 2;
-            TotalRevenue.Text = "Show total revenue";
-            TotalRevenue.UseVisualStyleBackColor = true;
-            // 
             // SellSandwhich
             // 
-            SellSandwhich.Location = new System.Drawing.Point(4, 163);
+            SellSandwhich.Location = new System.Drawing.Point(6, 187);
             SellSandwhich.Margin = new System.Windows.Forms.Padding(1);
             SellSandwhich.Name = "SellSandwhich";
             SellSandwhich.Size = new System.Drawing.Size(256, 22);
@@ -188,17 +179,49 @@ namespace Bakery
             lblSandwichInfo.Text = "[Sandwich Data]";
             lblSandwichInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // TotalRevenue
+            // 
+            TotalRevenue.Location = new System.Drawing.Point(26, 229);
+            TotalRevenue.Margin = new System.Windows.Forms.Padding(1);
+            TotalRevenue.Name = "TotalRevenue";
+            TotalRevenue.Size = new System.Drawing.Size(256, 22);
+            TotalRevenue.TabIndex = 2;
+            TotalRevenue.Text = "Show total revenue";
+            TotalRevenue.UseVisualStyleBackColor = true;
+            TotalRevenue.Click += TotalRevenue_Click;
+            // 
             // saver
             // 
             saver.DefaultExt = "xml";
             saver.FileName = "saver";
             saver.Title = "Bakery";
             // 
+            // revenuelbl
+            // 
+            revenuelbl.AutoSize = true;
+            revenuelbl.Location = new System.Drawing.Point(323, 236);
+            revenuelbl.Name = "revenuelbl";
+            revenuelbl.Size = new System.Drawing.Size(52, 15);
+            revenuelbl.TabIndex = 3;
+            revenuelbl.Text = "Revenue";
+            // 
+            // soldcounter
+            // 
+            soldcounter.AutoSize = true;
+            soldcounter.Location = new System.Drawing.Point(498, 236);
+            soldcounter.Name = "soldcounter";
+            soldcounter.Size = new System.Drawing.Size(73, 15);
+            soldcounter.TabIndex = 4;
+            soldcounter.Text = "SoldCounter";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(591, 229);
+            ClientSize = new System.Drawing.Size(588, 270);
+            Controls.Add(soldcounter);
+            Controls.Add(revenuelbl);
+            Controls.Add(TotalRevenue);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Margin = new System.Windows.Forms.Padding(1);
@@ -208,6 +231,7 @@ namespace Bakery
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -225,5 +249,7 @@ namespace Bakery
         private System.Windows.Forms.Button btnShowOfferedSandwiches;
         private System.Windows.Forms.ListBox SMenu;
         private System.Windows.Forms.OpenFileDialog saver;
+        private System.Windows.Forms.Label revenuelbl;
+        private System.Windows.Forms.Label soldcounter;
     }
 }
