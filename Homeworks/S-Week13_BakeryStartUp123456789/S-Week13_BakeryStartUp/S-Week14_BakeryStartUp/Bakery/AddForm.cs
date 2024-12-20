@@ -41,9 +41,9 @@ namespace Bakery
             List<Ingredient> sandoingredient = new List<Ingredient>();
             BreadType typeFilter = (BreadType)BreadFilter.SelectedItem;
 
-            foreach(Ingredient i in ingredientsChListBox.CheckedItems)
-            {
-                sandoingredient.Add(i);
+            foreach(Ingredient ingri in ingredientsChListBox.CheckedItems)
+            { 
+                sandoingredient.Add(ingri);
             }
 
             sandwichy = new Sandwich(sandoName, sandoPrice, typeFilter, sandoingredient);
