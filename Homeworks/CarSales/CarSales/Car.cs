@@ -27,7 +27,15 @@ namespace CarSales
             this.Year = year;
             this.Price = price;
         }
-      
 
+        public override string ToString()
+        {
+            return $"{this.Brand} {this.Model}";
+        }
+
+        public string GetDetails()
+        {
+            return $" Car Brand: {this.Brand}\n Car Model: {this.Model}\n Car Year: {this.Year}\n Car Price: {this.Price} Euros";
+        }
     }
 }

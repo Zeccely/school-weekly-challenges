@@ -13,6 +13,9 @@ namespace CarSales
 
         string name;
         public List<Car> cars = new List<Car>();
+        public List<Car> soldCars = new List<Car>();
+        public List<Car> availableCars = new List<Car>();
+
         
 
         public Dealership(string name) 
@@ -97,6 +100,72 @@ namespace CarSales
         public void ClearData()
         {
             cars.Clear();
+        }
+
+
+
+        public List<Car> SearchCars(string brand, string model, string price)
+        {
+            List<Car> foundcars = new List<Car>();
+            
+            foundcars = FilterBrand(brand);
+            foundcars = FilterModel(model, new List<Car>(foundcars));
+            foundcars = FilterPrice(price, new List<Car>(foundcars));    
+            
+            return foundcars;
+          
+        }
+
+        public List<Car> FilterBrand(string brand)
+        {
+            List<Car> foundcars = new List<Car>();
+
+            foreach (Car car in cars)
+            {
+
+                if (car.Brand.Contains(brand, StringComparison.OrdinalIgnoreCase))
+                {
+                    foundcars.Add(car);
+                }
+
+            }
+            Debug.WriteLine(foundcars);
+            return foundcars;
+
+        }
+        public List<Car> FilterModel(string model, List<Car> filteredcars)
+        {
+            List<Car> foundcars = new List<Car>();
+
+            foreach(Car car in filteredcars)
+            {
+                if (car.Model.Contains(model, StringComparison.OrdinalIgnoreCase))
+                {
+                    foundcars.Add(car);
+                }
+            }
+            return foundcars;
+        }
+
+        public List<Car> FilterPrice(string price, List<Car> filteredcars)
+        {
+            List<Car> foundcars = new List<Car>();
+            
+
+            foreach (Car car in filteredcars)
+            {
+                string carprice = car.Price.ToString();
+                if (carprice.Contains(price))
+                {
+                    foundcars.Add(car);
+                }
+            }
+            return foundcars;
+        }
+
+        public void SellCar()
+        {
+
         }
     }
 }
