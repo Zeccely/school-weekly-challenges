@@ -42,10 +42,9 @@
             carBrandtbx = new TextBox();
             carbrandlbl = new Label();
             custdata = new TabPage();
+            custNumtbx = new TextBox();
             addCustbtn = new Button();
-            custPhonenum = new NumericUpDown();
-            Zipcodenum = new NumericUpDown();
-            citytbx = new TextBox();
+            custzipcitytbx = new TextBox();
             custAddresstbx = new TextBox();
             custNametbx = new TextBox();
             custzipcitylbl = new Label();
@@ -62,23 +61,21 @@
             CarUser.SuspendLayout();
             searchcar.SuspendLayout();
             custdata.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)custPhonenum).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)Zipcodenum).BeginInit();
             Foundcargbx.SuspendLayout();
             SuspendLayout();
             // 
             // SaveData
             // 
-            SaveData.Location = new Point(315, 249);
+            SaveData.Location = new Point(310, 249);
             SaveData.Name = "SaveData";
-            SaveData.Size = new Size(118, 38);
+            SaveData.Size = new Size(127, 38);
             SaveData.TabIndex = 0;
             SaveData.Text = "Save Data";
             SaveData.UseVisualStyleBackColor = true;
             // 
             // LoadData
             // 
-            LoadData.Location = new Point(188, 249);
+            LoadData.Location = new Point(180, 249);
             LoadData.Name = "LoadData";
             LoadData.Size = new Size(121, 37);
             LoadData.TabIndex = 1;
@@ -88,7 +85,7 @@
             // 
             // clearButton
             // 
-            clearButton.Location = new Point(439, 249);
+            clearButton.Location = new Point(448, 249);
             clearButton.Name = "clearButton";
             clearButton.Size = new Size(121, 38);
             clearButton.TabIndex = 2;
@@ -194,10 +191,9 @@
             // 
             // custdata
             // 
+            custdata.Controls.Add(custNumtbx);
             custdata.Controls.Add(addCustbtn);
-            custdata.Controls.Add(custPhonenum);
-            custdata.Controls.Add(Zipcodenum);
-            custdata.Controls.Add(citytbx);
+            custdata.Controls.Add(custzipcitytbx);
             custdata.Controls.Add(custAddresstbx);
             custdata.Controls.Add(custNametbx);
             custdata.Controls.Add(custzipcitylbl);
@@ -212,35 +208,29 @@
             custdata.Text = "Customer Details";
             custdata.UseVisualStyleBackColor = true;
             // 
+            // custNumtbx
+            // 
+            custNumtbx.Location = new Point(120, 43);
+            custNumtbx.Name = "custNumtbx";
+            custNumtbx.Size = new Size(256, 23);
+            custNumtbx.TabIndex = 15;
+            // 
             // addCustbtn
             // 
-            addCustbtn.Location = new Point(120, 160);
+            addCustbtn.Location = new Point(124, 160);
             addCustbtn.Name = "addCustbtn";
             addCustbtn.Size = new Size(127, 37);
             addCustbtn.TabIndex = 14;
             addCustbtn.Text = "Add Customer";
             addCustbtn.UseVisualStyleBackColor = true;
+            addCustbtn.Click += addCustbtn_Click;
             // 
-            // custPhonenum
+            // custzipcitytbx
             // 
-            custPhonenum.Location = new Point(120, 44);
-            custPhonenum.Name = "custPhonenum";
-            custPhonenum.Size = new Size(252, 23);
-            custPhonenum.TabIndex = 13;
-            // 
-            // Zipcodenum
-            // 
-            Zipcodenum.Location = new Point(139, 112);
-            Zipcodenum.Name = "Zipcodenum";
-            Zipcodenum.Size = new Size(78, 23);
-            Zipcodenum.TabIndex = 12;
-            // 
-            // citytbx
-            // 
-            citytbx.Location = new Point(228, 112);
-            citytbx.Name = "citytbx";
-            citytbx.Size = new Size(148, 23);
-            citytbx.TabIndex = 11;
+            custzipcitytbx.Location = new Point(133, 104);
+            custzipcitytbx.Name = "custzipcitytbx";
+            custzipcitytbx.Size = new Size(243, 23);
+            custzipcitytbx.TabIndex = 11;
             // 
             // custAddresstbx
             // 
@@ -253,14 +243,14 @@
             // 
             custNametbx.Location = new Point(61, 15);
             custNametbx.Name = "custNametbx";
-            custNametbx.Size = new Size(311, 23);
+            custNametbx.Size = new Size(315, 23);
             custNametbx.TabIndex = 9;
             // 
             // custzipcitylbl
             // 
             custzipcitylbl.AutoSize = true;
             custzipcitylbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            custzipcitylbl.Location = new Point(6, 110);
+            custzipcitylbl.Location = new Point(6, 105);
             custzipcitylbl.Name = "custzipcitylbl";
             custzipcitylbl.Size = new Size(127, 20);
             custzipcitylbl.TabIndex = 8;
@@ -304,6 +294,7 @@
             sellCarbtn.TabIndex = 6;
             sellCarbtn.Text = "Sell Car";
             sellCarbtn.UseVisualStyleBackColor = true;
+            sellCarbtn.Click += sellCarbtn_Click;
             // 
             // Foundcargbx
             // 
@@ -346,7 +337,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(306, 312);
+            button1.Location = new Point(310, 312);
             button1.Name = "button1";
             button1.Size = new Size(127, 37);
             button1.TabIndex = 11;
@@ -373,8 +364,6 @@
             searchcar.PerformLayout();
             custdata.ResumeLayout(false);
             custdata.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)custPhonenum).EndInit();
-            ((System.ComponentModel.ISupportInitialize)Zipcodenum).EndInit();
             Foundcargbx.ResumeLayout(false);
             Foundcargbx.PerformLayout();
             ResumeLayout(false);
@@ -390,9 +379,7 @@
         private TabPage searchcar;
         private TabPage custdata;
         private Label custnamelbl;
-        private NumericUpDown custPhonenum;
-        private NumericUpDown Zipcodenum;
-        private TextBox citytbx;
+        private TextBox custzipcitytbx;
         private TextBox custAddresstbx;
         private TextBox custNametbx;
         private Label custzipcitylbl;
@@ -412,5 +399,6 @@
         private Button carSearchbtn;
         private RichTextBox cardetailstbx;
         private TextBox carPricetbx;
+        private TextBox custNumtbx;
     }
 }

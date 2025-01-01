@@ -5,7 +5,7 @@ namespace CarSales
     public partial class CarDealership : Form
     {
         Dealership dealership = new Dealership("Toyoda");
-
+        Customer buyer; 
 
         public CarDealership()
         {
@@ -39,7 +39,6 @@ namespace CarSales
 
             }
 
-           
         }
 
 
@@ -57,6 +56,36 @@ namespace CarSales
             {
                 Console.WriteLine(ex.Message);
             }
+
+        }
+
+        private void sellCarbtn_Click(object sender, EventArgs e) //can only sell a car if customer data is filled in
+        {
+            DateTime Daymonthyear = new DateTime();
+            DateTime purchasedaymonthyear = Daymonthyear.Date;
+            
+            dealership.SellCar((Car)foundCarscmbx.SelectedItem, buyer, ); //need to add datetime
+
+        }
+
+        private void addCustbtn_Click(object sender, EventArgs e)
+        {
+            string custname = custNametbx.Text.Trim();
+            string phoneno = custNumtbx.Text.Trim();
+            string address = custAddresstbx.Text.Trim();
+            string zipcodecity = custzipcitytbx.Text.Trim();
+
+            var result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
+
+            if (result == true)
+            {
+                MessageBox.Show("Customer Added");
+            }
+            else
+            {
+                MessageBox.Show("Please fill in all the required data");
+            }
+          
 
         }
     }

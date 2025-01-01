@@ -11,12 +11,11 @@ namespace CarSales
     internal class Dealership
     {
 
-        string name;
-        public List<Car> cars = new List<Car>();
-        public List<Car> soldCars = new List<Car>();
-        public List<Car> availableCars = new List<Car>();
-
-        
+        private string name;
+        public DateTime DateOfPurchase { get; private set; }
+        private List<Car> cars = new List<Car>();
+        private List<Car> soldcars = new List<Car>();
+        List<Customer> customers = new List<Customer>();
 
         public Dealership(string name) 
         {
@@ -48,8 +47,8 @@ namespace CarSales
                 StreamReader streamReader = new StreamReader(File.OpenRead(openSesame.FileName));
                 try
                 {
-                    string renamethis = streamReader.ReadLine();
-                    Debug.WriteLine(renamethis);
+                    string incomingcsv = streamReader.ReadLine();
+                    Debug.WriteLine(incomingcsv);
 
                     string carBrand;
                     string carModel;
@@ -58,12 +57,12 @@ namespace CarSales
       
                     while (!streamReader.EndOfStream)
                     {
-                        renamethis = streamReader.ReadLine();
-                        string[] renamethisaswell = renamethis.Split(",");
-                        carBrand = renamethisaswell[0];
-                        carModel = renamethisaswell[1];
-                        carYear = Convert.ToInt32(renamethisaswell[2]);
-                        carPrice = Convert.ToDouble(renamethisaswell[3]);
+                        incomingcsv = streamReader.ReadLine();
+                        string[] cardatacsv = incomingcsv.Split(",");
+                        carBrand = cardatacsv[0];
+                        carModel = cardatacsv[1];
+                        carYear = Convert.ToInt32(cardatacsv[2]);
+                        carPrice = Convert.ToDouble(cardatacsv[3]);
                         Car car = null;
 
                         
@@ -71,7 +70,7 @@ namespace CarSales
                         {
                             car = FindCar(carBrand, carModel, carYear, carPrice);
                         }
-                        if (car == null)
+                        if (car == null && !soldcars.Contains(car))
                         {
                             car = new Car(carBrand, carModel, carYear, carPrice);
                         }
@@ -100,8 +99,8 @@ namespace CarSales
         public void ClearData()
         {
             cars.Clear();
+            customers.Clear();
         }
-
 
 
         public List<Car> SearchCars(string brand, string model, string price)
@@ -150,7 +149,6 @@ namespace CarSales
         public List<Car> FilterPrice(string price, List<Car> filteredcars)
         {
             List<Car> foundcars = new List<Car>();
-            
 
             foreach (Car car in filteredcars)
             {
@@ -163,9 +161,37 @@ namespace CarSales
             return foundcars;
         }
 
-        public void SellCar()
+
+
+        public List<Car> SellCar(Car car, Customer cust, DateTime dateofpurchase)
         {
+            if (cars.Contains(car)) 
+            {
+                soldcars.Add(car);
+                cars.Remove(car);
+            }
+        
+            return soldcars;
 
         }
-    }
+
+        public bool AddCustomer(string name, string phoneno, string address, string zipcodecity)
+        {
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(phoneno) || string.IsNullOrEmpty(address) || string.IsNullOrEmpty(zipcodecity))
+            {
+                return false;
+            }
+    
+            Customer customer = new Customer(name, phoneno, address, zipcodecity);
+            customers.Add(customer);
+
+            return true; 
+          
+        }
+
+        public string Markdowner(Car c, Customer cust)
+        {
+            return $" # {c.dateOfPurchase} | {c.Brand} {c.Model} ({c.Year})\n -*Price*: {c.Price}\n -*Customer*: {cust.name}\n -*Phone no.*: {cust.phoneNo}\n -*Address*: {cust.address}\n -*Zip code & city*: {cust.zipCodeCity}\n ---";
+        }
+    }//what is $@ never heard of her 
 }

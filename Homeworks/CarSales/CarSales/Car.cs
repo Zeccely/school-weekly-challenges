@@ -13,12 +13,15 @@ namespace CarSales
         public int Year { get; private set; }
         public double Price { get; private set; }
         
+      
+        
 
         public Car(string brand, string model, double price)
         {
             this.Brand = brand;
             this.Model = model;
             this.Price = price;
+     
         }
         public Car(string brand, string model, int year, double price) 
         {
@@ -37,5 +40,7 @@ namespace CarSales
         {
             return $" Car Brand: {this.Brand}\n Car Model: {this.Model}\n Car Year: {this.Year}\n Car Price: {this.Price} Euros";
         }
+
+    
     }
 }

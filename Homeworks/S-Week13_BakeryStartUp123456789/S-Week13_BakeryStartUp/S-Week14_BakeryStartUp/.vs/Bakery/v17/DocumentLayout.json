@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\",
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\breadshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\breadshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\breadshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\s-week13_bakerystartup123456789\\s-week13_bakerystartup\\s-week14_bakerystartup\\bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Ingredient.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Ingredient.cs",
               "RelativeDocumentMoniker": "Bakery\\Ingredient.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Ingredient.cs",
               "RelativeToolTip": "Bakery\\Ingredient.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:39:15.688Z",
               "IsPinned": true,
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Sandwich.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Sandwich.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Sandwich.cs",
               "RelativeDocumentMoniker": "Bakery\\Sandwich.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Sandwich.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\Sandwich.cs",
               "RelativeToolTip": "Bakery\\Sandwich.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwDUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:46:44.272Z",
               "IsPinned": true,
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "BreadShop.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\BreadShop.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\BreadShop.cs",
               "RelativeDocumentMoniker": "Bakery\\BreadShop.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\BreadShop.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\BreadShop.cs",
               "RelativeToolTip": "Bakery\\BreadShop.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T00:54:44.683Z",
               "IsPinned": true,
@@ -84,37 +84,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
               "RelativeToolTip": "Bakery\\MainForm.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowKUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowKUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:38:04.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AddForm.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
               "RelativeDocumentMoniker": "Bakery\\AddForm.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
               "RelativeToolTip": "Bakery\\AddForm.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwCwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T01:10:14.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs [Design]",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs [Design]",
               "RelativeToolTip": "Bakery\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:33:11.59Z",
@@ -122,11 +122,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AddForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
               "RelativeDocumentMoniker": "Bakery\\AddForm.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs [Design]",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\S-Week13_BakeryStartUp123456789\\S-Week13_BakeryStartUp\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs [Design]",
               "RelativeToolTip": "Bakery\\AddForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T23:33:18.531Z",

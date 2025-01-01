@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StreamingMusicApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b251a07cbddacf542f4786086f304d8e61af61bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38af132cd80814323ebd97552ff4eaec784f09dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("StreamingMusicApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StreamingMusicApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
