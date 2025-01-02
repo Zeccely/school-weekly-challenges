@@ -43,7 +43,6 @@
             carbrandlbl = new Label();
             custdata = new TabPage();
             custNumtbx = new TextBox();
-            addCustbtn = new Button();
             custzipcitytbx = new TextBox();
             custAddresstbx = new TextBox();
             custNametbx = new TextBox();
@@ -56,7 +55,8 @@
             cardetailstbx = new RichTextBox();
             foundcarlbl = new Label();
             foundCarscmbx = new ComboBox();
-            button1 = new Button();
+            adminbtn = new Button();
+            buyernamlbl = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             CarUser.SuspendLayout();
             searchcar.SuspendLayout();
@@ -72,6 +72,7 @@
             SaveData.TabIndex = 0;
             SaveData.Text = "Save Data";
             SaveData.UseVisualStyleBackColor = true;
+            SaveData.Click += SaveData_Click;
             // 
             // LoadData
             // 
@@ -192,7 +193,6 @@
             // custdata
             // 
             custdata.Controls.Add(custNumtbx);
-            custdata.Controls.Add(addCustbtn);
             custdata.Controls.Add(custzipcitytbx);
             custdata.Controls.Add(custAddresstbx);
             custdata.Controls.Add(custNametbx);
@@ -214,16 +214,6 @@
             custNumtbx.Name = "custNumtbx";
             custNumtbx.Size = new Size(256, 23);
             custNumtbx.TabIndex = 15;
-            // 
-            // addCustbtn
-            // 
-            addCustbtn.Location = new Point(124, 160);
-            addCustbtn.Name = "addCustbtn";
-            addCustbtn.Size = new Size(127, 37);
-            addCustbtn.TabIndex = 14;
-            addCustbtn.Text = "Add Customer";
-            addCustbtn.UseVisualStyleBackColor = true;
-            addCustbtn.Click += addCustbtn_Click;
             // 
             // custzipcitytbx
             // 
@@ -335,21 +325,32 @@
             foundCarscmbx.TabIndex = 9;
             foundCarscmbx.SelectedIndexChanged += foundCarscmbx_SelectedIndexChanged;
             // 
-            // button1
+            // adminbtn
             // 
-            button1.Location = new Point(310, 312);
-            button1.Name = "button1";
-            button1.Size = new Size(127, 37);
-            button1.TabIndex = 11;
-            button1.Text = "Admin";
-            button1.UseVisualStyleBackColor = true;
+            adminbtn.Location = new Point(310, 312);
+            adminbtn.Name = "adminbtn";
+            adminbtn.Size = new Size(127, 37);
+            adminbtn.TabIndex = 11;
+            adminbtn.Text = "Admin";
+            adminbtn.UseVisualStyleBackColor = true;
+            adminbtn.Click += adminbtn_Click;
+            // 
+            // buyernamlbl
+            // 
+            buyernamlbl.AutoSize = true;
+            buyernamlbl.Location = new Point(490, 323);
+            buyernamlbl.Name = "buyernamlbl";
+            buyernamlbl.Size = new Size(38, 15);
+            buyernamlbl.TabIndex = 12;
+            buyernamlbl.Text = "label2";
             // 
             // CarDealership
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(575, 374);
-            Controls.Add(button1);
+            Controls.Add(buyernamlbl);
+            Controls.Add(adminbtn);
             Controls.Add(Foundcargbx);
             Controls.Add(CarUser);
             Controls.Add(pictureBox1);
@@ -367,6 +368,7 @@
             Foundcargbx.ResumeLayout(false);
             Foundcargbx.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -390,15 +392,15 @@
         private Label label1;
         private TextBox carModeltbx;
         private TextBox carBrandtbx;
-        private Button addCustbtn;
         private Button sellCarbtn;
         private GroupBox Foundcargbx;
         private Label foundcarlbl;
         private ComboBox foundCarscmbx;
-        private Button button1;
+        private Button adminbtn;
         private Button carSearchbtn;
         private RichTextBox cardetailstbx;
         private TextBox carPricetbx;
         private TextBox custNumtbx;
+        private Label buyernamlbl;
     }
 }

@@ -5,24 +5,25 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace CarSales
 {
-    internal class Dealership
+    public class Dealership
     {
 
         private string name;
-        public DateTime DateOfPurchase { get; private set; }
+        CarSale soldcarinfo;
         private List<Car> cars = new List<Car>();
-        private List<Car> soldcars = new List<Car>();
-        List<Customer> customers = new List<Customer>();
+        private List<CarSale> soldcars = new List<CarSale>();
+        private List<Customer> customers = new List<Customer>();
 
         public Dealership(string name) 
         {
             this.name = name;
         }
         
-        public Car FindCar(string brand, string model, int year, double price)
+        public Car? FindCar(string brand, string model, int year, double price)
         {
             foreach (Car car in cars)
             {
@@ -35,12 +36,36 @@ namespace CarSales
             }
             return null;
         }
+        public void SaveCarsMD()
+        {
+            string markdownedcars;
+            markdownedcars = soldcarinfo.Markdowner();
+            string filepath;
 
-        public void GetCars()
+            SaveFileDialog saver = new SaveFileDialog();
+            saver.Filter = "Markdown (*.md)";
+            
+
+            if (saver.ShowDialog() == DialogResult.OK)
+            {
+                filepath = saver.FileName;
+                try
+                {
+                    File.WriteAllTextAsync(filepath, markdownedcars);
+                }
+                catch (Exception exc)
+                {
+                    Console.WriteLine(exc.ToString());
+                }
+            }
+        }
+
+        public void GetCarsCSV()
         {
 
             OpenFileDialog openSesame = new OpenFileDialog();
             List<Car> copyofcars = new List<Car>();
+            
             //create a condition for the dialog to limit the type to csv only
             if (openSesame.ShowDialog() == DialogResult.OK)
             {
@@ -70,7 +95,7 @@ namespace CarSales
                         {
                             car = FindCar(carBrand, carModel, carYear, carPrice);
                         }
-                        if (car == null && !soldcars.Contains(car))
+                        if (car == null)
                         {
                             car = new Car(carBrand, carModel, carYear, carPrice);
                         }
@@ -103,13 +128,14 @@ namespace CarSales
         }
 
 
-        public List<Car> SearchCars(string brand, string model, string price)
+        public List<Car> SearchCars(string brand, string model)/*, string price*/
         {
             List<Car> foundcars = new List<Car>();
             
             foundcars = FilterBrand(brand);
             foundcars = FilterModel(model, new List<Car>(foundcars));
-            foundcars = FilterPrice(price, new List<Car>(foundcars));    
+            //foundcars = FilterPrice(price, new List<Car>(foundcars));   
+            
             
             return foundcars;
           
@@ -146,7 +172,7 @@ namespace CarSales
             return foundcars;
         }
 
-        public List<Car> FilterPrice(string price, List<Car> filteredcars)
+        public List<Car> FilterPrice(string price, List<Car> filteredcars) //hehehe this is illegal
         {
             List<Car> foundcars = new List<Car>();
 
@@ -163,35 +189,63 @@ namespace CarSales
 
 
 
-        public List<Car> SellCar(Car car, Customer cust, DateTime dateofpurchase)
+        public List<CarSale> SellCar(Car car, Customer cust, DateTime dateofpurchase)
         {
-            if (cars.Contains(car)) 
+            if (cars.Contains(car) && cust != null) // add the correct condition pls
             {
-                soldcars.Add(car);
+                CarSale newsale = new CarSale(car, cust, dateofpurchase);
+                soldcars.Add(newsale);
                 cars.Remove(car);
+                  
             }
+            else
+            {
+                MessageBox.Show("Car not sold maybe customer is missing");
+            }
+          
         
             return soldcars;
 
         }
 
-        public bool AddCustomer(string name, string phoneno, string address, string zipcodecity)
+        public Customer AddCustomer(string name, string phoneno, string address, string zipcodecity)
         {
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(phoneno) || string.IsNullOrEmpty(address) || string.IsNullOrEmpty(zipcodecity))
             {
-                return false;
+                return null;
             }
     
             Customer customer = new Customer(name, phoneno, address, zipcodecity);
             customers.Add(customer);
-
-            return true; 
+            
+            return customer; 
           
         }
 
-        public string Markdowner(Car c, Customer cust)
+        public List<Customer> GetCustomers()
         {
-            return $" # {c.dateOfPurchase} | {c.Brand} {c.Model} ({c.Year})\n -*Price*: {c.Price}\n -*Customer*: {cust.name}\n -*Phone no.*: {cust.phoneNo}\n -*Address*: {cust.address}\n -*Zip code & city*: {cust.zipCodeCity}\n ---";
+            List<Customer> customerscopy = new List<Customer>();
+            foreach (Customer customer in customers)
+            {
+                customerscopy.Add(new Customer(customer.name, customer.phoneNo, customer.address, customer.zipCodeCity)); //this is le deep copies
+            }
+            return customerscopy;
         }
-    }//what is $@ never heard of her 
+        public List<CarSale> GetSoldCars()
+        {
+            List<CarSale> soldCarscopy = new List<CarSale>(soldcars); //this is a shallowcopy
+           
+            return soldCarscopy;
+        }
+        public List<Car> GetCars()
+        {
+            List<Car> carscopy = new List<Car>();
+            foreach (Car car in cars)
+            {
+                carscopy.Add(new Car(car.Brand, car.Model, car.Price));
+            }
+            return carscopy;
+        }
+
+    }
 }

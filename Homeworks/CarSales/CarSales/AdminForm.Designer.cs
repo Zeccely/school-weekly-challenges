@@ -32,8 +32,12 @@
             availableCarslbx = new ListBox();
             soldCarslbx = new ListBox();
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            showAvCarsbtn = new Button();
+            showSoldCarsbtn = new Button();
+            customerslbx = new ListBox();
+            Customerlbl = new Label();
+            customerswitchbtn = new Button();
+            customershowbtn = new Button();
             SuspendLayout();
             // 
             // soldcarslbl
@@ -74,32 +78,76 @@
             label1.TabIndex = 3;
             label1.Text = "Available Cars";
             // 
-            // button1
+            // showAvCarsbtn
             // 
-            button1.Location = new Point(41, 231);
-            button1.Name = "button1";
-            button1.Size = new Size(108, 23);
-            button1.TabIndex = 4;
-            button1.Text = "Show Available";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            showAvCarsbtn.Location = new Point(41, 231);
+            showAvCarsbtn.Name = "showAvCarsbtn";
+            showAvCarsbtn.Size = new Size(108, 23);
+            showAvCarsbtn.TabIndex = 4;
+            showAvCarsbtn.Text = "Show Available";
+            showAvCarsbtn.UseVisualStyleBackColor = true;
+            showAvCarsbtn.Click += showAvCarsbtn_Click;
             // 
-            // button2
+            // showSoldCarsbtn
             // 
-            button2.Location = new Point(225, 231);
-            button2.Name = "button2";
-            button2.Size = new Size(108, 23);
-            button2.TabIndex = 5;
-            button2.Text = "Show Sold";
-            button2.UseVisualStyleBackColor = true;
+            showSoldCarsbtn.Location = new Point(225, 233);
+            showSoldCarsbtn.Name = "showSoldCarsbtn";
+            showSoldCarsbtn.Size = new Size(108, 23);
+            showSoldCarsbtn.TabIndex = 5;
+            showSoldCarsbtn.Text = "Show Sold";
+            showSoldCarsbtn.UseVisualStyleBackColor = true;
+            showSoldCarsbtn.Click += showSoldCarsbtn_Click;
+            // 
+            // customerslbx
+            // 
+            customerslbx.FormattingEnabled = true;
+            customerslbx.ItemHeight = 15;
+            customerslbx.Location = new Point(373, 33);
+            customerslbx.Name = "customerslbx";
+            customerslbx.Size = new Size(179, 184);
+            customerslbx.TabIndex = 6;
+            // 
+            // Customerlbl
+            // 
+            Customerlbl.AutoSize = true;
+            Customerlbl.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Customerlbl.Location = new Point(410, 9);
+            Customerlbl.Name = "Customerlbl";
+            Customerlbl.Size = new Size(106, 21);
+            Customerlbl.TabIndex = 7;
+            Customerlbl.Text = "Customer List";
+            // 
+            // customerswitchbtn
+            // 
+            customerswitchbtn.Location = new Point(410, 252);
+            customerswitchbtn.Name = "customerswitchbtn";
+            customerswitchbtn.Size = new Size(105, 23);
+            customerswitchbtn.TabIndex = 8;
+            customerswitchbtn.Text = "Switch Customer";
+            customerswitchbtn.UseVisualStyleBackColor = true;
+            customerswitchbtn.Click += customerswitchbtn_Click;
+            // 
+            // customershowbtn
+            // 
+            customershowbtn.Location = new Point(410, 223);
+            customershowbtn.Name = "customershowbtn";
+            customershowbtn.Size = new Size(105, 23);
+            customershowbtn.TabIndex = 9;
+            customershowbtn.Text = "Show Customers";
+            customershowbtn.UseVisualStyleBackColor = true;
+            customershowbtn.Click += customershowbtn_Click;
             // 
             // AdminForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(382, 266);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(570, 286);
+            Controls.Add(customershowbtn);
+            Controls.Add(customerswitchbtn);
+            Controls.Add(Customerlbl);
+            Controls.Add(customerslbx);
+            Controls.Add(showSoldCarsbtn);
+            Controls.Add(showAvCarsbtn);
             Controls.Add(label1);
             Controls.Add(soldCarslbx);
             Controls.Add(availableCarslbx);
@@ -116,7 +164,11 @@
         private ListBox availableCarslbx;
         private ListBox soldCarslbx;
         private Label label1;
-        private Button button1;
-        private Button button2;
+        private Button showAvCarsbtn;
+        private Button showSoldCarsbtn;
+        private ListBox customerslbx;
+        private Label Customerlbl;
+        private Button customerswitchbtn;
+        private Button customershowbtn;
     }
 }

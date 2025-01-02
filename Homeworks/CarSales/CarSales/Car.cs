@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace CarSales
 {
-    internal class Car
+    public class Car
     {
         public string Brand {  get; private set; }
         public string Model { get; private set; }
         public int Year { get; private set; }
         public double Price { get; private set; }
-        
-      
-        
+  
 
         public Car(string brand, string model, double price)
         {
@@ -40,6 +38,7 @@ namespace CarSales
         {
             return $" Car Brand: {this.Brand}\n Car Model: {this.Model}\n Car Year: {this.Year}\n Car Price: {this.Price} Euros";
         }
+
 
     
     }

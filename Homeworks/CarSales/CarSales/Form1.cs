@@ -5,18 +5,21 @@ namespace CarSales
     public partial class CarDealership : Form
     {
         Dealership dealership = new Dealership("Toyoda");
-        Customer buyer; 
+        Customer customer;
+        
 
         public CarDealership()
         {
 
             InitializeComponent();
+            
+            buyernamlbl.Text = string.Empty;
         }
 
         private void LoadData_Click(object sender, EventArgs e)
         {
 
-            dealership.GetCars();
+            dealership.GetCarsCSV();
 
         }
 
@@ -31,7 +34,7 @@ namespace CarSales
             List<Car> carrzy = new List<Car>();
             cardetailstbx.Text = string.Empty;
             foundCarscmbx.Items.Clear();
-            carrzy = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text, carPricetbx.Text);
+            carrzy = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text);/*carPricetbx.Text*/
             foreach (Car vroom in carrzy)
             {
 
@@ -61,32 +64,69 @@ namespace CarSales
 
         private void sellCarbtn_Click(object sender, EventArgs e) //can only sell a car if customer data is filled in
         {
-            DateTime Daymonthyear = new DateTime();
-            DateTime purchasedaymonthyear = Daymonthyear.Date;
-            
-            dealership.SellCar((Car)foundCarscmbx.SelectedItem, buyer, ); //need to add datetime
-
-        }
-
-        private void addCustbtn_Click(object sender, EventArgs e)
-        {
             string custname = custNametbx.Text.Trim();
             string phoneno = custNumtbx.Text.Trim();
             string address = custAddresstbx.Text.Trim();
             string zipcodecity = custzipcitytbx.Text.Trim();
 
-            var result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
+            
+            Customer result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
 
-            if (result == true)
+            if (result == null)
             {
-                MessageBox.Show("Customer Added");
+                MessageBox.Show("Please fill in all requirements");
             }
             else
             {
-                MessageBox.Show("Please fill in all the required data");
-            }
-          
+                MessageBox.Show("Customer added successfully!");
 
+            }
+
+            DateTime Daymonthyear = DateTime.Today;
+            Car selectedcar = (Car)foundCarscmbx.SelectedItem;
+            dealership.SellCar(selectedcar, result, Daymonthyear);
+            this.customer = result;
+
+        }
+
+        //private void addCustbtn_Click(object sender, EventArgs e)
+        //{
+        //    string custname = custNametbx.Text.Trim();
+        //    string phoneno = custNumtbx.Text.Trim();
+        //    string address = custAddresstbx.Text.Trim();
+        //    string zipcodecity = custzipcitytbx.Text.Trim();
+
+        //    Customer result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
+
+        //    if (result == null)
+        //    {
+        //        MessageBox.Show("Please fill in all requirements");
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Customer added successfully!");
+
+        //    }
+            
+
+
+        //}
+
+        private void adminbtn_Click(object sender, EventArgs e)
+        {
+            AdminForm adminForm = new AdminForm(this.dealership);
+            adminForm.Show();
+        }
+
+        public void SetCustomer(Customer cust)
+        {
+            this.customer = cust;
+            Debug.WriteLine(customer.ToString());
+        }
+
+        private void SaveData_Click(object sender, EventArgs e)
+        {
+            dealership.SaveCarsMD();
         }
     }
 }
