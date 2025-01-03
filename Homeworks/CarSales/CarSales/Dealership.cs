@@ -3,19 +3,24 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace CarSales
 {
+    [DataContract]
     public class Dealership
     {
-
         private string name;
-        CarSale soldcarinfo;
+        CarSale Carsale;
+        [DataMember]
         private List<Car> cars = new List<Car>();
+        [DataMember]
         private List<CarSale> soldcars = new List<CarSale>();
+        [DataMember]
         private List<Customer> customers = new List<Customer>();
 
         public Dealership(string name) 
@@ -36,19 +41,30 @@ namespace CarSales
             }
             return null;
         }
-        public void SaveCarsMD()
+        public string MarkdownLooper()
         {
-            string markdownedcars;
-            markdownedcars = soldcarinfo.Markdowner();
+            string markdownedcars = string.Empty; //INITIALIZE YOUR VARIABLES.
+            foreach (CarSale soldcar in soldcars)
+            {
+                markdownedcars += $"{soldcar.Markdowner()}"; 
+   
+            }
+            return markdownedcars;
+           
+        }
+        public void SaveSoldCarsMD()
+        {
+            string markdownedcars = MarkdownLooper();
+            
             string filepath;
 
             SaveFileDialog saver = new SaveFileDialog();
-            saver.Filter = "Markdown (*.md)";
+            
             
 
             if (saver.ShowDialog() == DialogResult.OK)
             {
-                filepath = saver.FileName;
+                filepath = saver.FileName + ".md";
                 try
                 {
                     File.WriteAllTextAsync(filepath, markdownedcars);
@@ -125,6 +141,7 @@ namespace CarSales
         {
             cars.Clear();
             customers.Clear();
+            soldcars.Clear();
         }
 
 
@@ -214,6 +231,13 @@ namespace CarSales
             {
                 return null;
             }
+            foreach (Customer c in customers)
+            {
+                if (c.name == name && c.phoneNo == phoneno && c.address == address && c.zipCodeCity == zipcodecity)
+                {
+                    return null;
+                }
+            } 
     
             Customer customer = new Customer(name, phoneno, address, zipcodecity);
             customers.Add(customer);
@@ -246,6 +270,47 @@ namespace CarSales
             }
             return carscopy;
         }
+        public void SaveAllDataXML() //well then this isn't working 100% I think
+        {
+            string filename;
+            FileStream fs = null;
+            SaveFileDialog saverAll = new SaveFileDialog();
+
+            if (saverAll.ShowDialog() == DialogResult.OK)
+            {
+                filename = saverAll.FileName;
+                try
+                {
+                    fs = new FileStream(filename, FileMode.OpenOrCreate, FileAccess.Write);
+                    Type Cardealership = typeof(Dealership);
+                    DataContractSerializer dcs = new DataContractSerializer(typeof(Dealership));
+                    dcs.WriteObject(fs, this);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}");
+                }
+                finally
+                {
+                    if (fs != null)
+                    {
+                        fs.Close();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Canceled");
+            }
+
+        }
+        public void LoadAllDataXML()
+        {
+
+            
+
+        }
+
 
     }
 }

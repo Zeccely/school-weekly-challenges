@@ -11,18 +11,19 @@ using System.Windows.Forms;
 using Microsoft.VisualBasic.ApplicationServices;
 
 namespace CarSales
-{ //pass the salt don't forget. Instantiate your things so you can have a properly updated AdminForm
+{ 
+
     public partial class AdminForm : Form
     {
         Dealership dealershipsalt;
         CarDealership gotoform1pls;
-        CarSale saleinformation;
+        
 
-        public AdminForm(Dealership dealership)
+        public AdminForm(Dealership dealership, CarDealership gototheform)
         {
             InitializeComponent();
             this.dealershipsalt = dealership;
-            this.gotoform1pls = new CarDealership();
+            this.gotoform1pls = gototheform;
             
         }
 
@@ -46,7 +47,7 @@ namespace CarSales
 
         }
 
-        private void customerswitchbtn_Click(object sender, EventArgs e) //fuck this
+        private void customerswitchbtn_Click(object sender, EventArgs e) 
         {
             Customer selectedcustomer = (Customer)customerslbx.SelectedItem;
             Debug.WriteLine("Empty");
@@ -68,5 +69,6 @@ namespace CarSales
             }
 
         }
+
     }
 }

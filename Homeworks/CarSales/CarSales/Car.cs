@@ -1,16 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CarSales
 {
+    [DataContract]
     public class Car
     {
+        [DataMember]
         public string Brand {  get; private set; }
+        [DataMember]
         public string Model { get; private set; }
+        [DataMember]
         public int Year { get; private set; }
+        [DataMember]
         public double Price { get; private set; }
   
 

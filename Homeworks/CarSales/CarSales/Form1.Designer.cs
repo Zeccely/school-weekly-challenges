@@ -42,6 +42,7 @@
             carBrandtbx = new TextBox();
             carbrandlbl = new Label();
             custdata = new TabPage();
+            addcustbtn = new Button();
             custNumtbx = new TextBox();
             custzipcitytbx = new TextBox();
             custAddresstbx = new TextBox();
@@ -52,11 +53,13 @@
             custnamelbl = new Label();
             sellCarbtn = new Button();
             Foundcargbx = new GroupBox();
+            buyernamlbl = new Label();
             cardetailstbx = new RichTextBox();
             foundcarlbl = new Label();
             foundCarscmbx = new ComboBox();
             adminbtn = new Button();
-            buyernamlbl = new Label();
+            loadxmlbtn = new Button();
+            savexmlbtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             CarUser.SuspendLayout();
             searchcar.SuspendLayout();
@@ -192,6 +195,7 @@
             // 
             // custdata
             // 
+            custdata.Controls.Add(addcustbtn);
             custdata.Controls.Add(custNumtbx);
             custdata.Controls.Add(custzipcitytbx);
             custdata.Controls.Add(custAddresstbx);
@@ -207,6 +211,16 @@
             custdata.TabIndex = 1;
             custdata.Text = "Customer Details";
             custdata.UseVisualStyleBackColor = true;
+            // 
+            // addcustbtn
+            // 
+            addcustbtn.Location = new Point(124, 153);
+            addcustbtn.Name = "addcustbtn";
+            addcustbtn.Size = new Size(127, 38);
+            addcustbtn.TabIndex = 16;
+            addcustbtn.Text = "Add Customer";
+            addcustbtn.UseVisualStyleBackColor = true;
+            addcustbtn.Click += addcustbtn_Click;
             // 
             // custNumtbx
             // 
@@ -288,6 +302,7 @@
             // 
             // Foundcargbx
             // 
+            Foundcargbx.Controls.Add(buyernamlbl);
             Foundcargbx.Controls.Add(cardetailstbx);
             Foundcargbx.Controls.Add(foundcarlbl);
             Foundcargbx.Controls.Add(foundCarscmbx);
@@ -298,6 +313,15 @@
             Foundcargbx.TabIndex = 7;
             Foundcargbx.TabStop = false;
             Foundcargbx.Text = "Found Car";
+            // 
+            // buyernamlbl
+            // 
+            buyernamlbl.AutoSize = true;
+            buyernamlbl.Location = new Point(60, 195);
+            buyernamlbl.Name = "buyernamlbl";
+            buyernamlbl.Size = new Size(38, 15);
+            buyernamlbl.TabIndex = 12;
+            buyernamlbl.Text = "label2";
             // 
             // cardetailstbx
             // 
@@ -335,21 +359,33 @@
             adminbtn.UseVisualStyleBackColor = true;
             adminbtn.Click += adminbtn_Click;
             // 
-            // buyernamlbl
+            // loadxmlbtn
             // 
-            buyernamlbl.AutoSize = true;
-            buyernamlbl.Location = new Point(490, 323);
-            buyernamlbl.Name = "buyernamlbl";
-            buyernamlbl.Size = new Size(38, 15);
-            buyernamlbl.TabIndex = 12;
-            buyernamlbl.Text = "label2";
+            loadxmlbtn.Location = new Point(498, 312);
+            loadxmlbtn.Name = "loadxmlbtn";
+            loadxmlbtn.Size = new Size(75, 23);
+            loadxmlbtn.TabIndex = 12;
+            loadxmlbtn.Text = "LoadXML";
+            loadxmlbtn.UseVisualStyleBackColor = true;
+            loadxmlbtn.Click += loadxmlbtn_Click;
+            // 
+            // savexmlbtn
+            // 
+            savexmlbtn.Location = new Point(498, 343);
+            savexmlbtn.Name = "savexmlbtn";
+            savexmlbtn.Size = new Size(75, 23);
+            savexmlbtn.TabIndex = 13;
+            savexmlbtn.Text = "SaveXML";
+            savexmlbtn.UseVisualStyleBackColor = true;
+            savexmlbtn.Click += savexmlbtn_Click;
             // 
             // CarDealership
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(575, 374);
-            Controls.Add(buyernamlbl);
+            Controls.Add(savexmlbtn);
+            Controls.Add(loadxmlbtn);
             Controls.Add(adminbtn);
             Controls.Add(Foundcargbx);
             Controls.Add(CarUser);
@@ -368,7 +404,6 @@
             Foundcargbx.ResumeLayout(false);
             Foundcargbx.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -402,5 +437,8 @@
         private TextBox carPricetbx;
         private TextBox custNumtbx;
         private Label buyernamlbl;
+        private Button addcustbtn;
+        private Button loadxmlbtn;
+        private Button savexmlbtn;
     }
 }

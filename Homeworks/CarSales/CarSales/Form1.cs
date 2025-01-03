@@ -1,4 +1,7 @@
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
+using System.Runtime.Serialization;
+using System.Xml;
 
 namespace CarSales
 {
@@ -6,13 +9,12 @@ namespace CarSales
     {
         Dealership dealership = new Dealership("Toyoda");
         Customer customer;
-        
 
         public CarDealership()
         {
 
             InitializeComponent();
-            
+
             buyernamlbl.Text = string.Empty;
         }
 
@@ -62,59 +64,21 @@ namespace CarSales
 
         }
 
-        private void sellCarbtn_Click(object sender, EventArgs e) //can only sell a car if customer data is filled in
+        private void sellCarbtn_Click(object sender, EventArgs e)
         {
-            string custname = custNametbx.Text.Trim();
-            string phoneno = custNumtbx.Text.Trim();
-            string address = custAddresstbx.Text.Trim();
-            string zipcodecity = custzipcitytbx.Text.Trim();
 
-            
-            Customer result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
-
-            if (result == null)
-            {
-                MessageBox.Show("Please fill in all requirements");
-            }
-            else
-            {
-                MessageBox.Show("Customer added successfully!");
-
-            }
 
             DateTime Daymonthyear = DateTime.Today;
             Car selectedcar = (Car)foundCarscmbx.SelectedItem;
-            dealership.SellCar(selectedcar, result, Daymonthyear);
-            this.customer = result;
+            dealership.SellCar(selectedcar, customer, Daymonthyear);
 
         }
 
-        //private void addCustbtn_Click(object sender, EventArgs e)
-        //{
-        //    string custname = custNametbx.Text.Trim();
-        //    string phoneno = custNumtbx.Text.Trim();
-        //    string address = custAddresstbx.Text.Trim();
-        //    string zipcodecity = custzipcitytbx.Text.Trim();
 
-        //    Customer result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
-
-        //    if (result == null)
-        //    {
-        //        MessageBox.Show("Please fill in all requirements");
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Customer added successfully!");
-
-        //    }
-            
-
-
-        //}
 
         private void adminbtn_Click(object sender, EventArgs e)
         {
-            AdminForm adminForm = new AdminForm(this.dealership);
+            AdminForm adminForm = new AdminForm(this.dealership, this);
             adminForm.Show();
         }
 
@@ -122,11 +86,90 @@ namespace CarSales
         {
             this.customer = cust;
             Debug.WriteLine(customer.ToString());
+            buyernamlbl.Text = cust.name;
         }
 
         private void SaveData_Click(object sender, EventArgs e)
         {
-            dealership.SaveCarsMD();
+            dealership.SaveSoldCarsMD();
+        }
+
+        private void addcustbtn_Click(object sender, EventArgs e)
+        {
+            string custname = custNametbx.Text.Trim();
+            string phoneno = custNumtbx.Text.Trim();
+            string address = custAddresstbx.Text.Trim();
+            string zipcodecity = custzipcitytbx.Text.Trim();
+
+            Customer result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
+
+            if (result == null)
+            {
+                MessageBox.Show("Please fill in all requirements or this person already exists");
+            }
+            else
+            {
+                MessageBox.Show("Customer added successfully!");
+                custNametbx.Text = string.Empty;
+                custNumtbx.Text = string.Empty;
+                custAddresstbx.Text = string.Empty;
+                custzipcitytbx.Text = string.Empty;
+
+            }
+
+        }
+        
+       
+        public void SaveAllDataJson()
+        {
+
+        }
+
+        public void LoadAllDataJson()
+        {
+
+        }
+
+        private void loadxmlbtn_Click(object sender, EventArgs e) //try to method this later
+        {
+            string filename;
+            FileStream fs = null;
+            OpenFileDialog saverAll = new OpenFileDialog();
+
+            if (saverAll.ShowDialog() == DialogResult.OK)
+            {
+                filename = saverAll.FileName;
+                try
+                {
+                    fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
+                    XmlDictionaryReader reader = XmlDictionaryReader.CreateTextReader(fs, new XmlDictionaryReaderQuotas());
+                    Type Cardealership = typeof(Dealership);
+                    List<Type> auxtype = new List<Type> { typeof(Car), typeof(CarSale), typeof(Customer) };
+                    DataContractSerializer dcs = new DataContractSerializer(Cardealership, auxtype);
+                    dealership = (Dealership)dcs.ReadObject(reader);
+                    
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}");
+                }
+                finally
+                {
+                    if (fs != null)
+                    {
+                        fs.Close();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("You canceled it");
+            }
+        }
+
+        private void savexmlbtn_Click(object sender, EventArgs e)
+        {
+            dealership.SaveAllDataXML();
         }
     }
 }
