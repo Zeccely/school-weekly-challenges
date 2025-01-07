@@ -13,24 +13,24 @@ using Microsoft.VisualBasic.ApplicationServices;
 namespace CarSales
 { 
 
-    public partial class AdminForm : Form
+    public partial class AdminForm : Form //rename these variable
     {
-        Dealership dealershipsalt;
-        CarDealership gotoform1pls;
+        Dealership dealership;
+        CarDealership cardealershipform;
         
 
         public AdminForm(Dealership dealership, CarDealership gototheform)
         {
             InitializeComponent();
-            this.dealershipsalt = dealership;
-            this.gotoform1pls = gototheform;
+            this.dealership = dealership;
+            this.cardealershipform = gototheform;
             
         }
 
         private void showAvCarsbtn_Click(object sender, EventArgs e)
         {
             availableCarslbx.Items.Clear();
-            foreach (Car car in dealershipsalt.GetCars())
+            foreach (Car car in dealership.GetCars())
             {
                 availableCarslbx.Items.Add(car);
             }
@@ -40,7 +40,7 @@ namespace CarSales
         private void showSoldCarsbtn_Click(object sender, EventArgs e)
         {
             soldCarslbx.Items.Clear();
-            foreach (CarSale car in dealershipsalt.GetSoldCars())
+            foreach (CarSale car in dealership.GetSoldCars())
             {
                 soldCarslbx.Items.Add(car);
             }
@@ -54,7 +54,7 @@ namespace CarSales
 
             if (selectedcustomer != null) 
             {
-                gotoform1pls.SetCustomer(selectedcustomer);
+                cardealershipform.SetCustomer(selectedcustomer);
             }
             
 
@@ -63,7 +63,7 @@ namespace CarSales
         private void customershowbtn_Click(object sender, EventArgs e)
         {
             customerslbx.Items.Clear();
-            foreach (Customer cust in dealershipsalt.GetCustomers())
+            foreach (Customer cust in dealership.GetCustomers())
             {
                 customerslbx.Items.Add(cust);
             }

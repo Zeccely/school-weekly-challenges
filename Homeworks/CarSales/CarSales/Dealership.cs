@@ -43,7 +43,7 @@ namespace CarSales
         }
         public string MarkdownLooper()
         {
-            string markdownedcars = string.Empty; //INITIALIZE YOUR VARIABLES.
+            string markdownedcars = string.Empty; 
             foreach (CarSale soldcar in soldcars)
             {
                 markdownedcars += $"{soldcar.Markdowner()}"; 
@@ -69,7 +69,7 @@ namespace CarSales
                 {
                     File.WriteAllTextAsync(filepath, markdownedcars);
                 }
-                catch (Exception exc)
+                catch (Exception exc)   //let the program break also this removes info 
                 {
                     Console.WriteLine(exc.ToString());
                 }
@@ -80,9 +80,11 @@ namespace CarSales
         {
 
             OpenFileDialog openSesame = new OpenFileDialog();
-            List<Car> copyofcars = new List<Car>();
             
-            //create a condition for the dialog to limit the type to csv only
+            List<Car> copyofcars = new List<Car>();
+
+            openSesame.Filter = "CSV Files |*.csv";
+            
             if (openSesame.ShowDialog() == DialogResult.OK)
             {
                 StreamReader streamReader = new StreamReader(File.OpenRead(openSesame.FileName));
@@ -208,7 +210,7 @@ namespace CarSales
 
         public List<CarSale> SellCar(Car car, Customer cust, DateTime dateofpurchase)
         {
-            if (cars.Contains(car) && cust != null) // add the correct condition pls
+            if (cars.Contains(car) && cust != null) 
             {
                 CarSale newsale = new CarSale(car, cust, dateofpurchase);
                 soldcars.Add(newsale);

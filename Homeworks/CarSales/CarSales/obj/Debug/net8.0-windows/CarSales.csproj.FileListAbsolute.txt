@@ -16,3 +16,21 @@ C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\CarSales\CarSal
 C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.genruntimeconfig.cache
 C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\ref\CarSales.dll
 C:\Users\jepis\Desktop\school\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.AdminForm.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.exe
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.deps.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.runtimeconfig.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.pdb
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.AdminForm.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.CarDealership.resources
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.csproj.GenerateResource.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.AssemblyInfo.cs
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.sourcelink.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\refint\CarSales.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.pdb
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.genruntimeconfig.cache
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\ref\CarSales.dll
