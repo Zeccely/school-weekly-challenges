@@ -2,6 +2,7 @@ using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Runtime.Serialization;
 using System.Xml;
+using Newtonsoft.Json;
 
 namespace CarSales
 {
@@ -9,12 +10,13 @@ namespace CarSales
     {
         Dealership dealership = new Dealership("Toyoda");
         Customer customer;
+        FilesStuff filesStuff;
 
         public CarDealership()
         {
 
             InitializeComponent();
-
+            filesStuff = new FilesStuff(this.dealership);
             buyernamlbl.Text = string.Empty;
         }
 
@@ -119,57 +121,15 @@ namespace CarSales
 
         }
         
-       
-        public void SaveAllDataJson()
-        {
-
-        }
-
-        public void LoadAllDataJson()
-        {
-
-        }
 
         private void loadxmlbtn_Click(object sender, EventArgs e) //try to method this later
         {
-            string filename;
-            FileStream fs = null;
-            OpenFileDialog saverAll = new OpenFileDialog();
-
-            if (saverAll.ShowDialog() == DialogResult.OK)
-            {
-                filename = saverAll.FileName;
-                try
-                {
-                    fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
-                    XmlDictionaryReader reader = XmlDictionaryReader.CreateTextReader(fs, new XmlDictionaryReaderQuotas());
-                    Type Cardealership = typeof(Dealership);
-                    List<Type> auxtype = new List<Type> { typeof(Car), typeof(CarSale), typeof(Customer) };
-                    DataContractSerializer dcs = new DataContractSerializer(Cardealership, auxtype);
-                    dealership = (Dealership)dcs.ReadObject(reader);
-                    
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error: {ex.Message}");
-                }
-                finally
-                {
-                    if (fs != null)
-                    {
-                        fs.Close();
-                    }
-                }
-            }
-            else
-            {
-                MessageBox.Show("You canceled it");
-            }
+            filesStuff.LoadAllDataXML();
         }
 
         private void savexmlbtn_Click(object sender, EventArgs e)
         {
-            dealership.SaveAllDataXML();
+            filesStuff.SaveAllDataXML();
         }
     }
 }

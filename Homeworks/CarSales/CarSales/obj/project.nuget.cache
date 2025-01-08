@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DkGQDhUxF34=",
+  "dgSpecHash": "TtJ6H7mc5+o=",
   "success": true,
   "projectFilePath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSales.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jepis\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -272,46 +272,8 @@ namespace CarSales
             }
             return carscopy;
         }
-        public void SaveAllDataXML() //well then this isn't working 100% I think
-        {
-            string filename;
-            FileStream fs = null;
-            SaveFileDialog saverAll = new SaveFileDialog();
-
-            if (saverAll.ShowDialog() == DialogResult.OK)
-            {
-                filename = saverAll.FileName;
-                try
-                {
-                    fs = new FileStream(filename, FileMode.OpenOrCreate, FileAccess.Write);
-                    Type Cardealership = typeof(Dealership);
-                    DataContractSerializer dcs = new DataContractSerializer(typeof(Dealership));
-                    dcs.WriteObject(fs, this);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error: {ex.Message}");
-                }
-                finally
-                {
-                    if (fs != null)
-                    {
-                        fs.Close();
-                    }
-                }
-            }
-            else
-            {
-                MessageBox.Show("Canceled");
-            }
-
-        }
-        public void LoadAllDataXML()
-        {
-
-            
-
-        }
+        
+        
 
 
     }
