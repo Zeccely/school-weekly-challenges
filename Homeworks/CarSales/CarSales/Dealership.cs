@@ -27,7 +27,23 @@ namespace CarSales
         {
             this.name = name;
         }
-        
+
+        public Customer Customer
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Car Car
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public Car? FindCar(string brand, string model, int year, double price)
         {
             foreach (Car car in cars)
@@ -65,14 +81,8 @@ namespace CarSales
             if (saver.ShowDialog() == DialogResult.OK)
             {
                 filepath = saver.FileName + ".md";
-                try
-                {
-                    File.WriteAllTextAsync(filepath, markdownedcars);
-                }
-                catch (Exception exc)   //let the program break also this removes info 
-                {
-                    Console.WriteLine(exc.ToString());
-                }
+                File.WriteAllTextAsync(filepath, markdownedcars);
+
             }
         }
 
@@ -191,14 +201,14 @@ namespace CarSales
             return foundcars;
         }
 
-        public List<Car> FilterPrice(string price, List<Car> filteredcars) //hehehe this is illegal
+        public List<Car> FilterPrice(string price, List<Car> filteredcars) //I do not really like how this works so I will not use it
         {
             List<Car> foundcars = new List<Car>();
 
             foreach (Car car in filteredcars)
             {
                 string carprice = car.Price.ToString();
-                if (carprice.Contains(price))
+                if (carprice.Equals(price))
                 {
                     foundcars.Add(car);
                 }
@@ -219,7 +229,7 @@ namespace CarSales
             }
             else
             {
-                MessageBox.Show("Car not sold maybe customer is missing");
+                MessageBox.Show("Car not sold: Customer is missing or car is already sold");
             }
           
         

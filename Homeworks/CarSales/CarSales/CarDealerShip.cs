@@ -3,7 +3,7 @@ using System.Diagnostics.Eventing.Reader;
 using System.Runtime.Serialization;
 using System.Xml;
 using Newtonsoft.Json;
-
+//I connected a database to it but I do not know how to use it in queries in my program yet
 namespace CarSales
 {
     public partial class CarDealership : Form
@@ -16,7 +16,7 @@ namespace CarSales
         {
 
             InitializeComponent();
-            filesStuff = new FilesStuff(this.dealership);
+            filesStuff = new FilesStuff(dealership);
             buyernamlbl.Text = string.Empty;
         }
 
@@ -35,14 +35,14 @@ namespace CarSales
 
         private void carSearchbtn_Click(object sender, EventArgs e)
         {
-            List<Car> carrzy = new List<Car>();
+            List<Car> carlist = new List<Car>();
             cardetailstbx.Text = string.Empty;
             foundCarscmbx.Items.Clear();
-            carrzy = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text);/*carPricetbx.Text*/
-            foreach (Car vroom in carrzy)
+            carlist = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text);/*carPricetbx.Text*/
+            foreach (Car cars in carlist)
             {
 
-                foundCarscmbx.Items.Add(vroom);
+                foundCarscmbx.Items.Add(cars);
 
             }
 
@@ -61,18 +61,28 @@ namespace CarSales
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("Error: Car already sold");
             }
 
         }
 
         private void sellCarbtn_Click(object sender, EventArgs e)
         {
-
-
             DateTime Daymonthyear = DateTime.Today;
             Car selectedcar = (Car)foundCarscmbx.SelectedItem;
             dealership.SellCar(selectedcar, customer, Daymonthyear);
+
+            List<Car> carlist = new List<Car>();
+            cardetailstbx.Text = string.Empty;
+            carlist = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text); //deleting the search will influence here too
+            foundCarscmbx.Items.Clear();
+            foundCarscmbx.Text = string.Empty;
+            foreach (Car cars in carlist)
+            {
+
+                foundCarscmbx.Items.Add(cars);
+
+            }
 
         }
 
@@ -120,16 +130,29 @@ namespace CarSales
             }
 
         }
-        
 
-        private void loadxmlbtn_Click(object sender, EventArgs e) //try to method this later
+
+        private void loadxmlbtn_Click(object sender, EventArgs e) 
         {
             filesStuff.LoadAllDataXML();
+            this.dealership = filesStuff.GetDealershipinfo();
         }
 
         private void savexmlbtn_Click(object sender, EventArgs e)
         {
             filesStuff.SaveAllDataXML();
+        }
+
+
+        private void SaveJSONbtn_Click(object sender, EventArgs e)
+        {
+            filesStuff.SaveAllDataJson();
+        }
+
+        private void LoadJSONbtn_Click(object sender, EventArgs e)
+        {
+            filesStuff.LoadAllDataJson();
+            this.dealership = filesStuff.GetDealershipinfo();
         }
     }
 }

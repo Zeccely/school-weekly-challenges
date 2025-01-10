@@ -13,7 +13,7 @@ using Microsoft.VisualBasic.ApplicationServices;
 namespace CarSales
 { 
 
-    public partial class AdminForm : Form //rename these variable
+    public partial class AdminForm : Form 
     {
         Dealership dealership;
         CarDealership cardealershipform;

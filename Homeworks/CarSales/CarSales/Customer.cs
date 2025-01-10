@@ -19,6 +19,14 @@ namespace CarSales
         [DataMember]
         public string zipCodeCity { get; private set; }
 
+        public CarSale CarSale
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public Customer( string name, string phoneno, string address, string zipcodecity) 
         {
             this.name = name;

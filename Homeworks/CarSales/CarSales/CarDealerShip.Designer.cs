@@ -60,6 +60,8 @@
             adminbtn = new Button();
             loadxmlbtn = new Button();
             savexmlbtn = new Button();
+            LoadJSONbtn = new Button();
+            SaveJSONbtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             CarUser.SuspendLayout();
             searchcar.SuspendLayout();
@@ -69,9 +71,10 @@
             // 
             // SaveData
             // 
-            SaveData.Location = new Point(310, 249);
+            SaveData.Location = new Point(443, 415);
+            SaveData.Margin = new Padding(4, 5, 4, 5);
             SaveData.Name = "SaveData";
-            SaveData.Size = new Size(127, 38);
+            SaveData.Size = new Size(181, 63);
             SaveData.TabIndex = 0;
             SaveData.Text = "Save Data";
             SaveData.UseVisualStyleBackColor = true;
@@ -79,9 +82,10 @@
             // 
             // LoadData
             // 
-            LoadData.Location = new Point(180, 249);
+            LoadData.Location = new Point(257, 415);
+            LoadData.Margin = new Padding(4, 5, 4, 5);
             LoadData.Name = "LoadData";
-            LoadData.Size = new Size(121, 37);
+            LoadData.Size = new Size(173, 62);
             LoadData.TabIndex = 1;
             LoadData.Text = "Load Data";
             LoadData.UseVisualStyleBackColor = true;
@@ -89,9 +93,10 @@
             // 
             // clearButton
             // 
-            clearButton.Location = new Point(448, 249);
+            clearButton.Location = new Point(640, 415);
+            clearButton.Margin = new Padding(4, 5, 4, 5);
             clearButton.Name = "clearButton";
-            clearButton.Size = new Size(121, 38);
+            clearButton.Size = new Size(173, 63);
             clearButton.TabIndex = 2;
             clearButton.Text = "Clear Data";
             clearButton.UseVisualStyleBackColor = true;
@@ -99,9 +104,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Location = new Point(17, 20);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(164, 138);
+            pictureBox1.Size = new Size(234, 230);
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
@@ -109,10 +115,11 @@
             // 
             CarUser.Controls.Add(searchcar);
             CarUser.Controls.Add(custdata);
-            CarUser.Location = new Point(182, 12);
+            CarUser.Location = new Point(260, 20);
+            CarUser.Margin = new Padding(4, 5, 4, 5);
             CarUser.Name = "CarUser";
             CarUser.SelectedIndex = 0;
-            CarUser.Size = new Size(391, 231);
+            CarUser.Size = new Size(559, 385);
             CarUser.TabIndex = 4;
             // 
             // searchcar
@@ -124,26 +131,29 @@
             searchcar.Controls.Add(carModeltbx);
             searchcar.Controls.Add(carBrandtbx);
             searchcar.Controls.Add(carbrandlbl);
-            searchcar.Location = new Point(4, 24);
+            searchcar.Location = new Point(4, 34);
+            searchcar.Margin = new Padding(4, 5, 4, 5);
             searchcar.Name = "searchcar";
-            searchcar.Padding = new Padding(3);
-            searchcar.Size = new Size(383, 203);
+            searchcar.Padding = new Padding(4, 5, 4, 5);
+            searchcar.Size = new Size(551, 347);
             searchcar.TabIndex = 0;
             searchcar.Text = "Search";
             searchcar.UseVisualStyleBackColor = true;
             // 
             // carPricetbx
             // 
-            carPricetbx.Location = new Point(87, 91);
+            carPricetbx.Location = new Point(124, 152);
+            carPricetbx.Margin = new Padding(4, 5, 4, 5);
             carPricetbx.Name = "carPricetbx";
-            carPricetbx.Size = new Size(289, 23);
+            carPricetbx.Size = new Size(411, 31);
             carPricetbx.TabIndex = 13;
             // 
             // carSearchbtn
             // 
-            carSearchbtn.Location = new Point(129, 154);
+            carSearchbtn.Location = new Point(184, 257);
+            carSearchbtn.Margin = new Padding(4, 5, 4, 5);
             carSearchbtn.Name = "carSearchbtn";
-            carSearchbtn.Size = new Size(118, 37);
+            carSearchbtn.Size = new Size(169, 62);
             carSearchbtn.TabIndex = 12;
             carSearchbtn.Text = "Search Car";
             carSearchbtn.UseVisualStyleBackColor = true;
@@ -153,9 +163,10 @@
             // 
             carPricelbl.AutoSize = true;
             carPricelbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            carPricelbl.Location = new Point(2, 95);
+            carPricelbl.Location = new Point(3, 158);
+            carPricelbl.Margin = new Padding(4, 0, 4, 0);
             carPricelbl.Name = "carPricelbl";
-            carPricelbl.Size = new Size(74, 20);
+            carPricelbl.Size = new Size(115, 31);
             carPricelbl.TabIndex = 4;
             carPricelbl.Text = "Car Price: ";
             // 
@@ -163,33 +174,37 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 56);
+            label1.Location = new Point(4, 93);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(81, 20);
+            label1.Size = new Size(125, 31);
             label1.TabIndex = 3;
             label1.Text = "Car Model:";
             // 
             // carModeltbx
             // 
-            carModeltbx.Location = new Point(87, 55);
+            carModeltbx.Location = new Point(124, 92);
+            carModeltbx.Margin = new Padding(4, 5, 4, 5);
             carModeltbx.Name = "carModeltbx";
-            carModeltbx.Size = new Size(290, 23);
+            carModeltbx.Size = new Size(413, 31);
             carModeltbx.TabIndex = 2;
             // 
             // carBrandtbx
             // 
-            carBrandtbx.Location = new Point(87, 17);
+            carBrandtbx.Location = new Point(124, 28);
+            carBrandtbx.Margin = new Padding(4, 5, 4, 5);
             carBrandtbx.Name = "carBrandtbx";
-            carBrandtbx.Size = new Size(289, 23);
+            carBrandtbx.Size = new Size(411, 31);
             carBrandtbx.TabIndex = 1;
             // 
             // carbrandlbl
             // 
             carbrandlbl.AutoSize = true;
             carbrandlbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            carbrandlbl.Location = new Point(3, 18);
+            carbrandlbl.Location = new Point(4, 30);
+            carbrandlbl.Margin = new Padding(4, 0, 4, 0);
             carbrandlbl.Name = "carbrandlbl";
-            carbrandlbl.Size = new Size(77, 20);
+            carbrandlbl.Size = new Size(119, 31);
             carbrandlbl.TabIndex = 0;
             carbrandlbl.Text = "Car Brand:";
             // 
@@ -204,19 +219,21 @@
             custdata.Controls.Add(custaddresslbl);
             custdata.Controls.Add(custphonelbl);
             custdata.Controls.Add(custnamelbl);
-            custdata.Location = new Point(4, 24);
+            custdata.Location = new Point(4, 34);
+            custdata.Margin = new Padding(4, 5, 4, 5);
             custdata.Name = "custdata";
-            custdata.Padding = new Padding(3);
-            custdata.Size = new Size(383, 203);
+            custdata.Padding = new Padding(4, 5, 4, 5);
+            custdata.Size = new Size(551, 347);
             custdata.TabIndex = 1;
             custdata.Text = "Customer Details";
             custdata.UseVisualStyleBackColor = true;
             // 
             // addcustbtn
             // 
-            addcustbtn.Location = new Point(124, 153);
+            addcustbtn.Location = new Point(177, 255);
+            addcustbtn.Margin = new Padding(4, 5, 4, 5);
             addcustbtn.Name = "addcustbtn";
-            addcustbtn.Size = new Size(127, 38);
+            addcustbtn.Size = new Size(181, 63);
             addcustbtn.TabIndex = 16;
             addcustbtn.Text = "Add Customer";
             addcustbtn.UseVisualStyleBackColor = true;
@@ -224,39 +241,44 @@
             // 
             // custNumtbx
             // 
-            custNumtbx.Location = new Point(120, 43);
+            custNumtbx.Location = new Point(171, 72);
+            custNumtbx.Margin = new Padding(4, 5, 4, 5);
             custNumtbx.Name = "custNumtbx";
-            custNumtbx.Size = new Size(256, 23);
+            custNumtbx.Size = new Size(364, 31);
             custNumtbx.TabIndex = 15;
             // 
             // custzipcitytbx
             // 
-            custzipcitytbx.Location = new Point(133, 104);
+            custzipcitytbx.Location = new Point(190, 173);
+            custzipcitytbx.Margin = new Padding(4, 5, 4, 5);
             custzipcitytbx.Name = "custzipcitytbx";
-            custzipcitytbx.Size = new Size(243, 23);
+            custzipcitytbx.Size = new Size(345, 31);
             custzipcitytbx.TabIndex = 11;
             // 
             // custAddresstbx
             // 
-            custAddresstbx.Location = new Point(77, 73);
+            custAddresstbx.Location = new Point(110, 122);
+            custAddresstbx.Margin = new Padding(4, 5, 4, 5);
             custAddresstbx.Name = "custAddresstbx";
-            custAddresstbx.Size = new Size(299, 23);
+            custAddresstbx.Size = new Size(425, 31);
             custAddresstbx.TabIndex = 10;
             // 
             // custNametbx
             // 
-            custNametbx.Location = new Point(61, 15);
+            custNametbx.Location = new Point(87, 25);
+            custNametbx.Margin = new Padding(4, 5, 4, 5);
             custNametbx.Name = "custNametbx";
-            custNametbx.Size = new Size(315, 23);
+            custNametbx.Size = new Size(448, 31);
             custNametbx.TabIndex = 9;
             // 
             // custzipcitylbl
             // 
             custzipcitylbl.AutoSize = true;
             custzipcitylbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            custzipcitylbl.Location = new Point(6, 105);
+            custzipcitylbl.Location = new Point(9, 175);
+            custzipcitylbl.Margin = new Padding(4, 0, 4, 0);
             custzipcitylbl.Name = "custzipcitylbl";
-            custzipcitylbl.Size = new Size(127, 20);
+            custzipcitylbl.Size = new Size(195, 31);
             custzipcitylbl.TabIndex = 8;
             custzipcitylbl.Text = "ZipCode and City:";
             // 
@@ -264,9 +286,10 @@
             // 
             custaddresslbl.AutoSize = true;
             custaddresslbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            custaddresslbl.Location = new Point(6, 74);
+            custaddresslbl.Location = new Point(9, 123);
+            custaddresslbl.Margin = new Padding(4, 0, 4, 0);
             custaddresslbl.Name = "custaddresslbl";
-            custaddresslbl.Size = new Size(65, 20);
+            custaddresslbl.Size = new Size(102, 31);
             custaddresslbl.TabIndex = 7;
             custaddresslbl.Text = "Address:";
             // 
@@ -274,9 +297,10 @@
             // 
             custphonelbl.AutoSize = true;
             custphonelbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            custphonelbl.Location = new Point(6, 44);
+            custphonelbl.Location = new Point(9, 73);
+            custphonelbl.Margin = new Padding(4, 0, 4, 0);
             custphonelbl.Name = "custphonelbl";
-            custphonelbl.Size = new Size(111, 20);
+            custphonelbl.Size = new Size(173, 31);
             custphonelbl.TabIndex = 6;
             custphonelbl.Text = "Phone Number:";
             // 
@@ -284,17 +308,19 @@
             // 
             custnamelbl.AutoSize = true;
             custnamelbl.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            custnamelbl.Location = new Point(6, 14);
+            custnamelbl.Location = new Point(9, 23);
+            custnamelbl.Margin = new Padding(4, 0, 4, 0);
             custnamelbl.Name = "custnamelbl";
-            custnamelbl.Size = new Size(52, 20);
+            custnamelbl.Size = new Size(80, 31);
             custnamelbl.TabIndex = 5;
             custnamelbl.Text = "Name:";
             // 
             // sellCarbtn
             // 
-            sellCarbtn.Location = new Point(16, 157);
+            sellCarbtn.Location = new Point(23, 262);
+            sellCarbtn.Margin = new Padding(4, 5, 4, 5);
             sellCarbtn.Name = "sellCarbtn";
-            sellCarbtn.Size = new Size(127, 35);
+            sellCarbtn.Size = new Size(181, 58);
             sellCarbtn.TabIndex = 6;
             sellCarbtn.Text = "Sell Car";
             sellCarbtn.UseVisualStyleBackColor = true;
@@ -307,9 +333,11 @@
             Foundcargbx.Controls.Add(foundcarlbl);
             Foundcargbx.Controls.Add(foundCarscmbx);
             Foundcargbx.Controls.Add(sellCarbtn);
-            Foundcargbx.Location = new Point(12, 156);
+            Foundcargbx.Location = new Point(17, 260);
+            Foundcargbx.Margin = new Padding(4, 5, 4, 5);
             Foundcargbx.Name = "Foundcargbx";
-            Foundcargbx.Size = new Size(164, 213);
+            Foundcargbx.Padding = new Padding(4, 5, 4, 5);
+            Foundcargbx.Size = new Size(234, 355);
             Foundcargbx.TabIndex = 7;
             Foundcargbx.TabStop = false;
             Foundcargbx.Text = "Found Car";
@@ -317,43 +345,48 @@
             // buyernamlbl
             // 
             buyernamlbl.AutoSize = true;
-            buyernamlbl.Location = new Point(60, 195);
+            buyernamlbl.Location = new Point(86, 325);
+            buyernamlbl.Margin = new Padding(4, 0, 4, 0);
             buyernamlbl.Name = "buyernamlbl";
-            buyernamlbl.Size = new Size(38, 15);
+            buyernamlbl.Size = new Size(59, 25);
             buyernamlbl.TabIndex = 12;
             buyernamlbl.Text = "label2";
             // 
             // cardetailstbx
             // 
-            cardetailstbx.Location = new Point(7, 71);
+            cardetailstbx.Location = new Point(10, 118);
+            cardetailstbx.Margin = new Padding(4, 5, 4, 5);
             cardetailstbx.Name = "cardetailstbx";
-            cardetailstbx.Size = new Size(151, 80);
+            cardetailstbx.Size = new Size(214, 131);
             cardetailstbx.TabIndex = 12;
             cardetailstbx.Text = "";
             // 
             // foundcarlbl
             // 
             foundcarlbl.AutoSize = true;
-            foundcarlbl.Location = new Point(7, 24);
+            foundcarlbl.Location = new Point(10, 40);
+            foundcarlbl.Margin = new Padding(4, 0, 4, 0);
             foundcarlbl.Name = "foundcarlbl";
-            foundcarlbl.Size = new Size(39, 15);
+            foundcarlbl.Size = new Size(59, 25);
             foundcarlbl.TabIndex = 11;
             foundcarlbl.Text = "Name";
             // 
             // foundCarscmbx
             // 
             foundCarscmbx.FormattingEnabled = true;
-            foundCarscmbx.Location = new Point(6, 42);
+            foundCarscmbx.Location = new Point(9, 70);
+            foundCarscmbx.Margin = new Padding(4, 5, 4, 5);
             foundCarscmbx.Name = "foundCarscmbx";
-            foundCarscmbx.Size = new Size(152, 23);
+            foundCarscmbx.Size = new Size(215, 33);
             foundCarscmbx.TabIndex = 9;
             foundCarscmbx.SelectedIndexChanged += foundCarscmbx_SelectedIndexChanged;
             // 
             // adminbtn
             // 
-            adminbtn.Location = new Point(310, 312);
+            adminbtn.Location = new Point(443, 520);
+            adminbtn.Margin = new Padding(4, 5, 4, 5);
             adminbtn.Name = "adminbtn";
-            adminbtn.Size = new Size(127, 37);
+            adminbtn.Size = new Size(181, 62);
             adminbtn.TabIndex = 11;
             adminbtn.Text = "Admin";
             adminbtn.UseVisualStyleBackColor = true;
@@ -361,9 +394,10 @@
             // 
             // loadxmlbtn
             // 
-            loadxmlbtn.Location = new Point(498, 312);
+            loadxmlbtn.Location = new Point(711, 520);
+            loadxmlbtn.Margin = new Padding(4, 5, 4, 5);
             loadxmlbtn.Name = "loadxmlbtn";
-            loadxmlbtn.Size = new Size(75, 23);
+            loadxmlbtn.Size = new Size(107, 38);
             loadxmlbtn.TabIndex = 12;
             loadxmlbtn.Text = "LoadXML";
             loadxmlbtn.UseVisualStyleBackColor = true;
@@ -371,19 +405,42 @@
             // 
             // savexmlbtn
             // 
-            savexmlbtn.Location = new Point(498, 343);
+            savexmlbtn.Location = new Point(711, 572);
+            savexmlbtn.Margin = new Padding(4, 5, 4, 5);
             savexmlbtn.Name = "savexmlbtn";
-            savexmlbtn.Size = new Size(75, 23);
+            savexmlbtn.Size = new Size(107, 38);
             savexmlbtn.TabIndex = 13;
             savexmlbtn.Text = "SaveXML";
             savexmlbtn.UseVisualStyleBackColor = true;
             savexmlbtn.Click += savexmlbtn_Click;
             // 
+            // LoadJSONbtn
+            // 
+            LoadJSONbtn.Location = new Point(260, 524);
+            LoadJSONbtn.Name = "LoadJSONbtn";
+            LoadJSONbtn.Size = new Size(112, 34);
+            LoadJSONbtn.TabIndex = 14;
+            LoadJSONbtn.Text = "LoadJSON";
+            LoadJSONbtn.UseVisualStyleBackColor = true;
+            LoadJSONbtn.Click += LoadJSONbtn_Click;
+            // 
+            // SaveJSONbtn
+            // 
+            SaveJSONbtn.Location = new Point(260, 572);
+            SaveJSONbtn.Name = "SaveJSONbtn";
+            SaveJSONbtn.Size = new Size(112, 34);
+            SaveJSONbtn.TabIndex = 15;
+            SaveJSONbtn.Text = "SaveJSON";
+            SaveJSONbtn.UseVisualStyleBackColor = true;
+            SaveJSONbtn.Click += SaveJSONbtn_Click;
+            // 
             // CarDealership
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(575, 374);
+            ClientSize = new Size(821, 623);
+            Controls.Add(SaveJSONbtn);
+            Controls.Add(LoadJSONbtn);
             Controls.Add(savexmlbtn);
             Controls.Add(loadxmlbtn);
             Controls.Add(adminbtn);
@@ -393,6 +450,7 @@
             Controls.Add(clearButton);
             Controls.Add(LoadData);
             Controls.Add(SaveData);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "CarDealership";
             Text = "Find your dream car!";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -440,5 +498,7 @@
         private Button addcustbtn;
         private Button loadxmlbtn;
         private Button savexmlbtn;
+        private Button LoadJSONbtn;
+        private Button SaveJSONbtn;
     }
 }

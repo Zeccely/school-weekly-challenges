@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.EntityFrameworkCore.SqlServer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +6,8 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Text.Json;
+
 
 namespace CarSales
 {
@@ -16,6 +18,15 @@ namespace CarSales
         {
             dealershipinfo = dealership;
         }
+
+        public Dealership Dealership
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public void SaveAllDataXML()
         {
             string filename;
@@ -89,26 +100,43 @@ namespace CarSales
 
 
         }
-        public void SaveAllDataJson()
+        public void SaveAllDataJson() // this needs to closed and be debugged, it doesnt work. maybe a fs was necessary
         {
             string filepath;
+            string jsonstring = JsonSerializer.Serialize(dealershipinfo);
+            var options = new JsonSerializerOptions();
+            options.WriteIndented = true;
+
             SaveFileDialog saver = new SaveFileDialog();
             if (saver.ShowDialog() == DialogResult.OK)
             {
-                filepath = JsonConvert.SerializeObject(dealershipinfo.GetSoldCars());
-
+                filepath = saver.FileName;
+                File.WriteAllText(filepath, jsonstring);
+                
             }
-
+            
 
         }
 
         public void LoadAllDataJson()
         {
-           
-
-
-
-
+            string filepath;
+            
+            OpenFileDialog opener = new OpenFileDialog();
+            if(opener.ShowDialog() == DialogResult.OK)
+            {
+                filepath = opener.FileName;
+                var info = File.ReadAllText(filepath);
+                Dealership dealership = JsonSerializer.Deserialize<Dealership>(info);
+            }
+            //needs to close
         }
+
+        public Dealership GetDealershipinfo() 
+        { 
+            return dealershipinfo; 
+        }
+
+
     }
 }
