@@ -22,7 +22,6 @@ C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.dll
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\CarSales.pdb
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.AdminForm.resources
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.CarDealership.resources
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.csproj.GenerateResource.cache
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.AssemblyInfoInputs.cache
@@ -80,3 +79,4 @@ C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.csproj.AssemblyReference.cache
 C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.csproj.Up2Date
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Homeworks\CarSales\CarSales\obj\Debug\net8.0-windows\CarSales.DealershipForm.resources

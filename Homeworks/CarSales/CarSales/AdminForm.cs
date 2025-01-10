@@ -16,10 +16,10 @@ namespace CarSales
     public partial class AdminForm : Form 
     {
         Dealership dealership;
-        CarDealership cardealershipform;
+        DealershipForm cardealershipform;
         
 
-        public AdminForm(Dealership dealership, CarDealership gototheform)
+        public AdminForm(Dealership dealership, DealershipForm gototheform)
         {
             InitializeComponent();
             this.dealership = dealership;

@@ -2,21 +2,22 @@ using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Runtime.Serialization;
 using System.Xml;
+using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
 //I connected a database to it but I do not know how to use it in queries in my program yet
 namespace CarSales
 {
-    public partial class CarDealership : Form
+    public partial class DealershipForm: Form
     {
         Dealership dealership = new Dealership("Toyoda");
         Customer customer;
-        FilesStuff filesStuff;
+        FileHandler filesStuff;
 
-        public CarDealership()
+        public DealershipForm()
         {
 
             InitializeComponent();
-            filesStuff = new FilesStuff(dealership);
+            filesStuff = new FileHandler(dealership);
             buyernamlbl.Text = string.Empty;
         }
 

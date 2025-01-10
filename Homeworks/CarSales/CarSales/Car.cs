@@ -19,21 +19,6 @@ namespace CarSales
         [DataMember]
         public double Price { get; private set; }
 
-        public Customer Customer
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public CarSale CarSale
-        {
-            get => default;
-            set
-            {
-            }
-        }
 
         public Car(string brand, string model, double price)
         {

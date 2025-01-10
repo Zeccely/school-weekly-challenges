@@ -1,6 +1,6 @@
 ﻿namespace CarSales
 {
-    partial class CarDealership
+    partial class DealershipForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -434,7 +434,7 @@
             SaveJSONbtn.UseVisualStyleBackColor = true;
             SaveJSONbtn.Click += SaveJSONbtn_Click;
             // 
-            // CarDealership
+            // DealershipForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -451,7 +451,7 @@
             Controls.Add(LoadData);
             Controls.Add(SaveData);
             Margin = new Padding(4, 5, 4, 5);
-            Name = "CarDealership";
+            Name = "DealershipForm";
             Text = "Find your dream car!";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             CarUser.ResumeLayout(false);

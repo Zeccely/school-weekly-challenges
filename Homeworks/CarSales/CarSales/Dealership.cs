@@ -28,22 +28,6 @@ namespace CarSales
             this.name = name;
         }
 
-        public Customer Customer
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public Car Car
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
         public Car? FindCar(string brand, string model, int year, double price)
         {
             foreach (Car car in cars)

@@ -11,20 +11,12 @@ using System.Text.Json;
 
 namespace CarSales
 {
-    internal class FilesStuff
+    internal class FileHandler
     {
         Dealership dealershipinfo;
-        public FilesStuff(Dealership dealership) 
+        public FileHandler(Dealership dealership) 
         {
             dealershipinfo = dealership;
-        }
-
-        public Dealership Dealership
-        {
-            get => default;
-            set
-            {
-            }
         }
 
         public void SaveAllDataXML()
