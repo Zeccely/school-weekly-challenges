@@ -1,42 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\",
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\dealershipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\dealershipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\dealershipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\dealershipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\homeworks\\carsales\\carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DatabaseHandler.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DatabaseHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DatabaseHandler.cs",
               "RelativeDocumentMoniker": "CarSales\\DatabaseHandler.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DatabaseHandler.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DatabaseHandler.cs",
               "RelativeToolTip": "CarSales\\DatabaseHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T13:43:35.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DealershipForm.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DealershipForm.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DealershipForm.cs",
               "RelativeDocumentMoniker": "CarSales\\DealershipForm.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DealershipForm.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DealershipForm.cs",
               "RelativeToolTip": "CarSales\\DealershipForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwI8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T13:27:50.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Dealership.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Dealership.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Dealership.cs",
               "RelativeDocumentMoniker": "CarSales\\Dealership.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Dealership.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Dealership.cs",
               "RelativeToolTip": "CarSales\\Dealership.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowBEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAOkAAAAAAAAAAADwvxkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T17:28:45.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\AdminForm.cs",
+              "RelativeDocumentMoniker": "CarSales\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\AdminForm.cs",
+              "RelativeToolTip": "CarSales\\AdminForm.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T15:27:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Customer.cs",
               "RelativeDocumentMoniker": "CarSales\\Customer.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Customer.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Customer.cs",
               "RelativeToolTip": "CarSales\\Customer.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T16:29:45.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "FileHandler.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\FileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\FileHandler.cs",
               "RelativeDocumentMoniker": "CarSales\\FileHandler.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\FileHandler.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\FileHandler.cs",
               "RelativeToolTip": "CarSales\\FileHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T10:05:59.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Car.cs",
-              "RelativeDocumentMoniker": "CarSales\\Car.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Car.cs",
-              "RelativeToolTip": "CarSales\\Car.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T17:28:30.175Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\ClassDiagram1.cd",
-              "RelativeDocumentMoniker": "CarSales\\ClassDiagram1.cd",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\ClassDiagram1.cd",
-              "RelativeToolTip": "CarSales\\ClassDiagram1.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-01-09T15:47:25.43Z"
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Car.cs",
+              "RelativeDocumentMoniker": "CarSales\\Car.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Car.cs",
+              "RelativeToolTip": "CarSales\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:28:30.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CarSale.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSale.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSale.cs",
               "RelativeDocumentMoniker": "CarSales\\CarSale.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSale.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSale.cs",
               "RelativeToolTip": "CarSales\\CarSale.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T22:02:18.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\AdminForm.cs",
-              "RelativeDocumentMoniker": "CarSales\\AdminForm.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\AdminForm.cs",
-              "RelativeToolTip": "CarSales\\AdminForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T15:27:13Z",
+              "WhenOpened": "2025-01-01T22:02:18.119Z",
               "EditorCaption": ""
             }
           ]

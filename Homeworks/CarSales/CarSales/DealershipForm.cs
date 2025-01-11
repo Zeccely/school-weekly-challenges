@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 using System.Xml;
 using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
-//I connected a database to it but I do not know how to use it in queries in my program yet
+
 namespace CarSales
 {
     public partial class DealershipForm: Form
@@ -12,6 +12,7 @@ namespace CarSales
         Dealership dealership = new Dealership("Toyoda");
         Customer customer;
         FileHandler filesStuff;
+        DatabaseHandler databaseHandler;
 
         public DealershipForm()
         {
@@ -19,12 +20,14 @@ namespace CarSales
             InitializeComponent();
             filesStuff = new FileHandler(dealership);
             buyernamlbl.Text = string.Empty;
+            databaseHandler = new DatabaseHandler(dealership);
         }
 
         private void LoadData_Click(object sender, EventArgs e)
         {
+            
+            dealership.SetCars(databaseHandler.GetCarsData());
 
-            dealership.GetCarsCSV();
 
         }
 
@@ -129,6 +132,7 @@ namespace CarSales
                 custzipcitytbx.Text = string.Empty;
 
             }
+            databaseHandler.AddCustomerData(custname, phoneno, address, zipcodecity);
 
         }
 

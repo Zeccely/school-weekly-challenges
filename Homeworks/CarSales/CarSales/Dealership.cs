@@ -22,6 +22,7 @@ namespace CarSales
         private List<CarSale> soldcars = new List<CarSale>();
         [DataMember]
         private List<Customer> customers = new List<Customer>();
+       
 
         public Dealership(string name) 
         {
@@ -70,7 +71,7 @@ namespace CarSales
             }
         }
 
-        public void GetCarsCSV()
+        public void GetCarsCSV() //databasehandler
         {
 
             OpenFileDialog openSesame = new OpenFileDialog();
@@ -167,7 +168,7 @@ namespace CarSales
                 }
 
             }
-            Debug.WriteLine(foundcars);
+            
             return foundcars;
 
         }
@@ -265,6 +266,16 @@ namespace CarSales
                 carscopy.Add(new Car(car.Brand, car.Model, car.Price));
             }
             return carscopy;
+        }
+
+        public void SetCars(List<Car> c)
+        {
+            cars = c;
+        }
+
+        public void SetCustomer(Customer customer)
+        {
+            customers.Add(customer);
         }
         
         
