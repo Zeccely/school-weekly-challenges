@@ -29,12 +29,10 @@ namespace CarSales
             this.name = name;
         }
 
-        public Car? FindCar(string brand, string model, int year, double price)
+        public Car? FindCar( string brand, string model, int year, double price)
         {
             foreach (Car car in cars)
             {
-                Debug.WriteLine(car.Model);
-                Debug.WriteLine(model);
                 if (car.Model.Equals(model) && car.Brand.Equals(brand) && car.Year.Equals(year) && car.Price.Equals(price))
                 {
                     return car;

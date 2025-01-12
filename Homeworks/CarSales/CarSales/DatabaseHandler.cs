@@ -43,13 +43,14 @@ namespace CarSales
 
                 while (reader.Read())
                 {
-                    string Brand = reader.GetString(0);
-                    string Model = reader.GetString(1);
-                    int Year = reader.GetInt16(2);
-                    decimal Price = reader.GetDecimal(3);
+                    int Id = reader.GetInt32(0);
+                    string Brand = reader.GetString(1);
+                    string Model = reader.GetString(2);
+                    int Year = reader.GetInt16(3);
+                    decimal Price = reader.GetDecimal(4);
                     double pricedouble = Convert.ToDouble(Price);
 
-                    Car car = new Car(Brand, Model, pricedouble);
+                    Car car = new Car(Brand, Model, Year, pricedouble);
 
                     if (cars1.Count > 0)
                     {
@@ -108,6 +109,7 @@ namespace CarSales
                 List<Customer> cust1 = dealershipdata.GetCustomers();
                 while (reader.Read())
                 {
+                    
                     string name = reader.GetString(0);
                     string phoneno = reader.GetString(1);
                     string address = reader.GetString(2);
