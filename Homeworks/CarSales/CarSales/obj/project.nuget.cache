@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "51aiWy+PRX8=",
+  "dgSpecHash": "kf2iWTe+/fE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSales.csproj",
+  "projectFilePath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSales.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jepis\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\jepis\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
