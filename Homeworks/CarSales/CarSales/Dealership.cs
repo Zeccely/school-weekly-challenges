@@ -40,6 +40,40 @@ namespace CarSales
             }
             return null;
         }
+        public Car? FindAvailableCarID(int id)
+        {
+            foreach (Car car in cars)
+            {
+                if (car.ID.Equals(id))
+                {
+                    return car;
+                }
+            }
+            return null;
+        }
+        public Customer? FindCustomer(int id)
+        {
+            foreach (Customer c in customers)
+            {
+                if (c.ID.Equals(id))
+                {
+                    return c;
+                }
+            }
+            return null;
+        }
+        public Car GetSoldCar(int id)
+        {
+            foreach (CarSale c in soldcars)
+            {
+                if (c.Soldcar.ID.Equals(id))
+                {
+                    return c.Soldcar;
+                }
+            }
+            return null;
+        }
+
         public string MarkdownLooper()
         {
             string markdownedcars = string.Empty; 
@@ -228,7 +262,7 @@ namespace CarSales
             }
             foreach (Customer c in customers)
             {
-                if (c.name == name && c.phoneNo == phoneno && c.address == address && c.zipCodeCity == zipcodecity)
+                if (c.Name.Equals(name, StringComparison.OrdinalIgnoreCase) && c.PhoneNo.Equals(phoneno, StringComparison.OrdinalIgnoreCase) && c.Address.Equals(address, StringComparison.OrdinalIgnoreCase) && c.ZipCodeCity.Equals(zipcodecity, StringComparison.OrdinalIgnoreCase))
                 {
                     return null;
                 }
@@ -240,13 +274,16 @@ namespace CarSales
             return customer; 
           
         }
+    
+
+
 
         public List<Customer> GetCustomers()
         {
             List<Customer> customerscopy = new List<Customer>();
             foreach (Customer customer in customers)
             {
-                customerscopy.Add(new Customer(customer.name, customer.phoneNo, customer.address, customer.zipCodeCity)); //this is le deep copies
+                customerscopy.Add(new Customer(customer.ID, customer.Name, customer.PhoneNo, customer.Address, customer.ZipCodeCity)); //this is le deep copies
             }
             return customerscopy;
         }
@@ -261,7 +298,7 @@ namespace CarSales
             List<Car> carscopy = new List<Car>();
             foreach (Car car in cars)
             {
-                carscopy.Add(new Car(car.Brand, car.Model, car.Price));
+                carscopy.Add(new Car(car.Brand, car.Model, car.Year, car.Price));
             }
             return carscopy;
         }
@@ -271,10 +308,19 @@ namespace CarSales
             cars = c;
         }
 
-        public void SetCustomer(Customer customer)
+        public void SetSoldCars(List<CarSale> soldc)
         {
-            customers.Add(customer);
+            soldcars = soldc;
         }
+
+        public void SetCustomer(List<Customer> customers)
+        {
+            this.customers = customers;
+            
+        }
+        
+
+        
         
         
 

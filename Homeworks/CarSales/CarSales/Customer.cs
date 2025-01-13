@@ -10,30 +10,47 @@ namespace CarSales
     [DataContract]
     public class Customer
     {
+        
         [DataMember]
-        public string name { get; private set; }
+        public string Name { get; private set; }
         [DataMember]
-        public string phoneNo { get; private set; }
+        public string PhoneNo { get; private set; }
         [DataMember]
-        public string address { get; private set; }
+        public string Address { get; private set; }
         [DataMember]
-        public string zipCodeCity { get; private set; }
+        public string ZipCodeCity { get; private set; }
+        public int ID  { get; private set; }
 
         public Customer( string name, string phoneno, string address, string zipcodecity) 
         {
-            this.name = name;
-            this.phoneNo = phoneno;
-            this.address = address;
-            this.zipCodeCity = zipcodecity;
+            this.Name = name;
+            this.PhoneNo = phoneno;
+            this.Address = address;
+            this.ZipCodeCity = zipcodecity;
+ 
+        }
+        public Customer(int id, string name, string phoneno, string address, string zipcodecity)
+        {
+            this.Name = name;
+            this.PhoneNo = phoneno;
+            this.Address = address;
+            this.ZipCodeCity = zipcodecity;
+            this.ID = id;
+
         }
 
-     
+
+
 
         public override string ToString()
         {
-            return $"{this.name} {this.phoneNo} {this.address} {this.zipCodeCity}";
+            return $"{this.ID} {this.Name} ";
         }
 
+        public void SetID(int id)
+        {
+            this.ID = id ;
+        }
        
     }
 }

@@ -20,7 +20,7 @@ namespace CarSales
         }
         public string Markdowner()
         {
-            return $" # {DateOfPurchase: dd MMMM yyyy} | {Soldcar.Brand} {Soldcar.Model} ({Soldcar.Year})\n\n - *Price*: {Soldcar.Price}\n - *Customer*: {Customer.name}\n - *Phone no.*: {Customer.phoneNo}\n - *Address*: {Customer.address}\n - *Zip code & city*: {Customer.zipCodeCity}\n\n---\n\n";
+            return $" # {DateOfPurchase: dd MMMM yyyy} | {Soldcar.Brand} {Soldcar.Model} ({Soldcar.Year})\n\n - *Price*: {Soldcar.Price}\n - *Customer*: {Customer.Name}\n - *Phone no.*: {Customer.PhoneNo}\n - *Address*: {Customer.Address}\n - *Zip code & city*: {Customer.ZipCodeCity}\n\n---\n\n";
         }
 
         public override string ToString()

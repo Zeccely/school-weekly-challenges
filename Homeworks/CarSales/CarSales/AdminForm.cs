@@ -40,8 +40,10 @@ namespace CarSales
         private void showSoldCarsbtn_Click(object sender, EventArgs e)
         {
             soldCarslbx.Items.Clear();
+
             foreach (CarSale car in dealership.GetSoldCars())
             {
+                
                 soldCarslbx.Items.Add(car);
             }
 

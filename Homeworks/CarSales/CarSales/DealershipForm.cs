@@ -27,8 +27,8 @@ namespace CarSales
         {
             
             dealership.SetCars(databaseHandler.GetCarsData());
-
-
+            dealership.SetCustomer(databaseHandler.GetCustomerData());
+            dealership.SetSoldCars(databaseHandler.GetSoldCarsData()); 
         }
 
         private void clearButton_Click(object sender, EventArgs e)
@@ -75,6 +75,7 @@ namespace CarSales
             DateTime Daymonthyear = DateTime.Today;
             Car selectedcar = (Car)foundCarscmbx.SelectedItem;
             dealership.SellCar(selectedcar, customer, Daymonthyear);
+            databaseHandler.SellCar(customer, selectedcar, Daymonthyear);
 
             List<Car> carlist = new List<Car>();
             cardetailstbx.Text = string.Empty;
@@ -87,6 +88,7 @@ namespace CarSales
                 foundCarscmbx.Items.Add(cars);
 
             }
+
 
         }
 
@@ -102,7 +104,7 @@ namespace CarSales
         {
             this.customer = cust;
             Debug.WriteLine(customer.ToString());
-            buyernamlbl.Text = cust.name;
+            buyernamlbl.Text = cust.Name;
         }
 
         private void SaveData_Click(object sender, EventArgs e)
@@ -112,14 +114,18 @@ namespace CarSales
 
         private void addcustbtn_Click(object sender, EventArgs e)
         {
+           
             string custname = custNametbx.Text.Trim();
             string phoneno = custNumtbx.Text.Trim();
             string address = custAddresstbx.Text.Trim();
             string zipcodecity = custzipcitytbx.Text.Trim();
+            
+            databaseHandler.AddCustomerData(custname, phoneno, address, zipcodecity);
+            databaseHandler.GetCustomerData();
 
-            Customer result = dealership.AddCustomer(custname, phoneno, address, zipcodecity);
+            
 
-            if (result == null)
+            if (databaseHandler.GetCustomerData() == null)
             {
                 MessageBox.Show("Please fill in all requirements or this person already exists");
             }
@@ -132,7 +138,7 @@ namespace CarSales
                 custzipcitytbx.Text = string.Empty;
 
             }
-            databaseHandler.AddCustomerData(custname, phoneno, address, zipcodecity);
+            
 
         }
 

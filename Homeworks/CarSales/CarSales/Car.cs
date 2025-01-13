@@ -11,7 +11,7 @@ namespace CarSales
     [DataContract]
     public class Car
     {
-        public int Id { get; private set; } 
+        public int ID { get; private set; } 
         [DataMember]
         public string Brand {  get; private set; }
         [DataMember]
@@ -32,7 +32,7 @@ namespace CarSales
         }
         public Car(int Id, string brand, string model, int year, double price) 
         {
-            this.Id = Id;
+            this.ID = Id;
             this.Brand = brand;
             this.Model = model;
             this.Year = year;
@@ -47,6 +47,12 @@ namespace CarSales
         public string GetDetails()
         {
             return $" Car Brand: {this.Brand}\n Car Model: {this.Model}\n Car Year: {this.Year}\n Car Price: {this.Price} Euros";
+        }
+
+        public void SetID(int id)
+        {
+            this.ID = id;
+
         }
 
 
