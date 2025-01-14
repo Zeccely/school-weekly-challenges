@@ -36,23 +36,17 @@ namespace CarSales
             dealership.ClearData();
         }
 
-
         private void carSearchbtn_Click(object sender, EventArgs e)
         {
             List<Car> carlist = new List<Car>();
             cardetailstbx.Text = string.Empty;
             foundCarscmbx.Items.Clear();
             carlist = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text);/*carPricetbx.Text*/
-            foreach (Car cars in carlist)
+            foreach (Car cars in databaseHandler.GetCarsData())
             {
-
                 foundCarscmbx.Items.Add(cars);
-
             }
-
         }
-
-
 
         private void foundCarscmbx_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -60,7 +54,6 @@ namespace CarSales
             try
             {
                 Car selectedcar = (Car)foundCarscmbx.SelectedItem;
-
                 cardetailstbx.Text = selectedcar.GetDetails();
             }
             catch (Exception ex)
@@ -79,20 +72,15 @@ namespace CarSales
 
             List<Car> carlist = new List<Car>();
             cardetailstbx.Text = string.Empty;
-            carlist = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text); //deleting the search will influence here too
+            carlist = dealership.SearchCars(carBrandtbx.Text, carModeltbx.Text);
             foundCarscmbx.Items.Clear();
             foundCarscmbx.Text = string.Empty;
-            foreach (Car cars in carlist)
+            foreach (Car cars in databaseHandler.GetCarsData())
             {
-
                 foundCarscmbx.Items.Add(cars);
-
             }
-
-
+            
         }
-
-
 
         private void adminbtn_Click(object sender, EventArgs e)
         {
@@ -100,16 +88,11 @@ namespace CarSales
             adminForm.Show();
         }
 
-        public void SetCustomer(Customer cust)
+        public void SetCustomerInst(Customer cust)
         {
             this.customer = cust;
             Debug.WriteLine(customer.ToString());
             buyernamlbl.Text = cust.Name;
-        }
-
-        private void SaveData_Click(object sender, EventArgs e)
-        {
-            dealership.SaveSoldCarsMD();
         }
 
         private void addcustbtn_Click(object sender, EventArgs e)
@@ -118,12 +101,8 @@ namespace CarSales
             string custname = custNametbx.Text.Trim();
             string phoneno = custNumtbx.Text.Trim();
             string address = custAddresstbx.Text.Trim();
-            string zipcodecity = custzipcitytbx.Text.Trim();
-            
+            string zipcodecity = custzipcitytbx.Text.Trim();   
             databaseHandler.AddCustomerData(custname, phoneno, address, zipcodecity);
-            databaseHandler.GetCustomerData();
-
-            
 
             if (databaseHandler.GetCustomerData() == null)
             {
@@ -136,12 +115,13 @@ namespace CarSales
                 custNumtbx.Text = string.Empty;
                 custAddresstbx.Text = string.Empty;
                 custzipcitytbx.Text = string.Empty;
-
+                dealership.SetCustomer(databaseHandler.GetCustomerData());
             }
-            
-
         }
-
+        private void SaveData_Click(object sender, EventArgs e)
+        {
+            dealership.SaveSoldCarsMD();
+        }
 
         private void loadxmlbtn_Click(object sender, EventArgs e) 
         {
@@ -153,7 +133,6 @@ namespace CarSales
         {
             filesStuff.SaveAllDataXML();
         }
-
 
         private void SaveJSONbtn_Click(object sender, EventArgs e)
         {

@@ -32,7 +32,11 @@ namespace CarSales
             availableCarslbx.Items.Clear();
             foreach (Car car in dealership.GetCars())
             {
-                availableCarslbx.Items.Add(car);
+                if (dealership.GetCarID(car.ID) != null)
+                {
+                    availableCarslbx.Items.Add(car);
+                }
+                
             }
 
         }
@@ -40,12 +44,18 @@ namespace CarSales
         private void showSoldCarsbtn_Click(object sender, EventArgs e)
         {
             soldCarslbx.Items.Clear();
-
-            foreach (CarSale car in dealership.GetSoldCars())
+            if (dealership.GetSoldCars() != null) 
             {
-                
-                soldCarslbx.Items.Add(car);
+                foreach (CarSale car in dealership.GetSoldCars())
+                {
+                    if (dealership.GetSoldCarID(car.Soldcar.ID) != null)
+                    {
+                        soldCarslbx.Items.Add(car);
+                    }
+                }
             }
+
+            
 
         }
 
@@ -56,7 +66,7 @@ namespace CarSales
 
             if (selectedcustomer != null) 
             {
-                cardealershipform.SetCustomer(selectedcustomer);
+                cardealershipform.SetCustomerInst(selectedcustomer);
             }
             
 
