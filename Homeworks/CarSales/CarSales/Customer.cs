@@ -36,6 +36,7 @@ namespace CarSales
             this.Address = address;
             this.ZipCodeCity = zipcodecity;
             this.ID = id;
+            //DID YOU KNOW YOU CAN ADD IF STATEMENTS INSIDE CONSTRUCTORS????????????????
 
         }
 

@@ -198,7 +198,11 @@ namespace CarSales
 
         public void SetCustomer(List<Customer> customers)
         {
-            this.customers = customers;
+            if (customers != null)
+            {
+                this.customers = customers;
+            }
+            
         }
 
         public List<Car> FilterPrice(string price, List<Car> filteredcars) //I do not really like how this works so I will not use it
