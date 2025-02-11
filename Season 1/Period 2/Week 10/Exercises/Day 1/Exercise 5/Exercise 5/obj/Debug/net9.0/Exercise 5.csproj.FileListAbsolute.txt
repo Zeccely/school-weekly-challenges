@@ -1,0 +1,25 @@
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Exercise 5.exe
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Exercise 5.deps.json
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Exercise 5.runtimeconfig.json
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Exercise 5.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Exercise 5.pdb
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Microsoft.Azure.Amqp.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Microsoft.Azure.Devices.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Microsoft.Azure.Devices.Shared.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.csproj.AssemblyReference.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.AssemblyInfo.cs
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.sourcelink.json
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.csproj.Up2Date
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\refint\Exercise 5.dll
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.pdb
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\Exercise 5.genruntimeconfig.cache
+C:\Users\jepis\Desktop\school\school-weekly-challenges\Period 2\Exercises\Day 1\Exercise 5\Exercise 5\obj\Debug\net9.0\ref\Exercise 5.dll

@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
+  <diagram name="Page-1" id="4VpSqsSVz5vzT1sllCq_">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wG1uwWNoPSDxP-scjq6l-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wG1uwWNoPSDxP-scjq6l-1" target="wG1uwWNoPSDxP-scjq6l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wG1uwWNoPSDxP-scjq6l-1" value="Please Input Year" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wG1uwWNoPSDxP-scjq6l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wG1uwWNoPSDxP-scjq6l-2" target="wG1uwWNoPSDxP-scjq6l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wG1uwWNoPSDxP-scjq6l-2" value="Recieve Year" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="65" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wG1uwWNoPSDxP-scjq6l-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="357.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wG1uwWNoPSDxP-scjq6l-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="502.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wG1uwWNoPSDxP-scjq6l-4" value="Is year%4==0?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="310" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xvIYJ1qKfm0toLYvUKkb-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-9" value="Is Year%100==0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="500" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-10" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-13" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xvIYJ1qKfm0toLYvUKkb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="670" as="sourcePoint" />
+            <mxPoint x="125" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-16" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xvIYJ1qKfm0toLYvUKkb-17" target="xvIYJ1qKfm0toLYvUKkb-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xvIYJ1qKfm0toLYvUKkb-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-17" value="Is Year%400==0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="680" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-23" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-28" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-29" value="It is a leap year" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="520" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xvIYJ1qKfm0toLYvUKkb-31" value="It is not a leap year" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="245" y="327.5" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

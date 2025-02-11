@@ -1,7 +1,0 @@
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.Form1.resources
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.csproj.GenerateResource.cache
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.AssemblyInfoInputs.cache
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.AssemblyInfo.cs
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.csproj.CoreCompileInputs.cache
-C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Period 2\Forms Exercises\trucks\trucks\obj\Debug\net8.0-windows\trucks.sourcelink.json

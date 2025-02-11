@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\week 10\\exercises\\day 3 plus extra things\\finances\\finances\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|solutionrelative:finances\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\week 10\\exercises\\day 3 plus extra things\\finances\\finances\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|solutionrelative:finances\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\period 2\\week 10\\exercises\\day 3 plus extra things\\finances\\finances\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|solutionrelative:finances\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\finances\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A484DBF9-5148-4EF5-9C72-D48844776CB1}|FInances\\FInances.csproj|solutionrelative:finances\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\Class1.cs",
+              "RelativeDocumentMoniker": "FInances\\Class1.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\Class1.cs",
+              "RelativeToolTip": "FInances\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:25:01.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\Form1.cs",
+              "RelativeDocumentMoniker": "FInances\\Form1.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\Form1.cs",
+              "RelativeToolTip": "FInances\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:43:16.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "expensemanager.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\expensemanager.cs",
+              "RelativeDocumentMoniker": "FInances\\expensemanager.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\expensemanager.cs",
+              "RelativeToolTip": "FInances\\expensemanager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:13:12.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\Form1.cs",
+              "RelativeDocumentMoniker": "FInances\\Form1.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Period 2\\Week 10\\Exercises\\Day 3 plus extra things\\FInances\\FInances\\Form1.cs [Design]",
+              "RelativeToolTip": "FInances\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T16:28:40.288Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

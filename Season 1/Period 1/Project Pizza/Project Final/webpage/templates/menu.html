@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+    <style>
+        body {
+            background-image: url(static/pizza_background.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin:0%;
+        }
+
+        #menuHeader {
+            font-size: 80px;
+
+        }
+              
+        #pizzaMenu {
+            width: 40%;
+      
+        }
+        .hoverPizza:hover{
+            stroke:red;
+            cursor: pointer;
+            
+        }
+    </style> 
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-2 text-center">
+            <h1 id="menuHeader">
+                Menu
+            </h1>
+        </div>
+    </div>
+    <div class="row justify-content-center "> 
+        <div class="col-6 ">
+            <div id="pizzaMenu align-items-center" >
+                
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 470">
+                <g>
+                    <defs>
+                        <pattern id="pepperoniPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                            <image href="{{ url_for('static', filename='pepperoniPizza.png') }}" width="100%" height="100%" />
+                        </pattern>
+
+                          <pattern id="prociuttoPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                            <image href="static/prociuttoPizza.png" idth="100%" height="100%"  />
+                          </pattern>
+
+                          <pattern id="funghiPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                            <image href="static/funghiPizza.png" idth="100%" height="100%"  />
+                          </pattern>
+                        
+                          <pattern id="quattroFormaggiPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                            <image href="static/quattroFormaggiPizza.png" idth="100%" height="100%"  />
+                          </pattern>
+
+                          <pattern id="margheritaPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                            <image href="static/margheritaPizza.png"  idth="100%" height="100%"  />
+                          </pattern>
+
+                          <pattern id="capricciosaPattern" patternUnits="objectBoundingBox" width="1" height="1">
+                            <image href="static/capricciosaPizza.png" idth="100%" height="100%"  />
+                          </pattern>
+                    </defs>
+                    
+                    <path data-bs-itemid="1" d="M146.378,62.473c0.078,0.16,0.154,0.321,0.244,0.477c0.094,0.162,0.198,0.314,0.301,0.467l81.582,141.318 
+                    c1.34,2.321,3.816,3.75,6.495,3.75c2.68,0,5.156-1.429,6.496-3.75L338.23,37.206c2.071-3.587,0.842-8.174-2.745-10.246 
+                    C304.94,9.323,270.255,0,235.181,0c-35.28,0-70.088,9.309-100.66,26.919c-1.725,0.994-2.984,2.632-3.5,4.554 
+                    s-0.247,3.971,0.748,5.694L146.378,62.473z" stroke="black" stroke-width="2" fill="url(#pepperoniPattern)" class="hoverPizza"  data-bs-toggle="modal popover" data-bs-target="#pizzaChange"
+                    data-bs-trigger="hover" data-bs-toggle="popover" data-bs-title="Pepperoni Pizza" data-bs-price="10.99" data-bs-content="Ingredients: Pepperoni and Cheese, a proper classic" 
+                    data-bs-placement="Top "/>
+                   
+            
+                    <path data-bs-itemid="2" d="M339.555,72.935l-81.593,141.308c-1.34,2.321-1.34,5.18,0,7.5c1.339,2.321,3.815,3.75,6.495,3.75
+                        l193.454,0.009c1.989,0,3.897-0.79,5.304-2.196c1.406-1.407,2.197-3.314,2.197-5.303c0.001-35.9-9.58-71.135-27.709-101.897 
+                        c-17.595-29.856-42.747-54.81-72.738-72.164c-1.724-0.997-3.773-1.267-5.694-0.754c-1.923,0.514-3.563,1.771-4.558,3.495
+                        l-14.61,25.302z" 
+                        stroke="black" stroke-width="2" fill="url(#prociuttoPattern)" class="hoverPizza"  data-bs-toggle="modal popover" data-bs-target="#pizzaChange"
+                        data-bs-trigger="hover"  data-bs-title="Prociutto Pizza" data-bs-price="10.99" data-bs-content="Ingredients: Prociutto Ham, Cheese, Tomato and Rucola to go ham in town"
+                        data-bs-placement="right" />
+
+
+                    <path data-bs-itemid="3" d="M463.249,246.715c-1.407-1.408-3.315-2.199-5.306-2.199l-29.213-0.001c-0.18-0.013-0.359-0.028-0.542-0.028 
+                        c-0.193,0-0.376,0.015-0.559,0.028l-163.172-0.008c-2.68,0-5.156,1.429-6.496,3.75c-1.34,2.321-1.34,5.18,0,7.5l96.718,167.541 
+                        c0.995,1.723,2.633,2.98,4.554,3.495c0.639,0.171,1.291,0.256,1.941,0.256c1.305,0,2.6-0.341,3.75-1.004
+                        c31.091-17.949,56.815-43.864,74.391-74.945c17.059-30.166,26.093-64.425,26.127-99.075c0.003-1.992-0.786-3.901-2.193-5.31z" 
+                        stroke="black" stroke-width="2" fill="url(#funghiPattern)" class="hoverPizza" data-bs-toggle="modal popover" data-bs-target="#pizzaChange"
+                        data-bs-trigger="hover"  data-bs-title="Funghi Pizza" data-bs-price="10.99" data-bs-content="Ingredients: Mushrooms, Cheese, Tomato for your earthy desires"
+                        data-bs-placement="right" />
+
+                    
+                    <path data-bs-itemid="4" d="M323.622,407.527c-0.078-0.16-0.154-0.321-0.244-0.477c-0.094-0.163-0.198-0.315-0.302-0.468l-81.581-141.317 
+                        c-1.34-2.321-3.816-3.75-6.495-3.75c-2.68,0-5.156,1.429-6.496,3.75l-96.734,167.529c-2.071,3.587-0.842,8.174,2.745,10.246 
+                        c30.543,17.636,65.228,26.958,100.305,26.96c35.282,0,70.089-9.309,100.66-26.919c1.725-0.994,2.984-2.632,3.5-4.554 
+                        s0.247-3.971-0.748-5.694l-14.61-25.306z" 
+                        stroke="black" stroke-width="2" fill="url(#quattroFormaggiPattern)" class="hoverPizza" data-bs-toggle="modal popover" data-bs-target="#pizzaChange"
+                        data-bs-trigger="hover"  data-bs-title="Quattro formaggi Pizza" data-bs-price="10.99" data-bs-content="Ingredients: Gouda, Mozarella, Gorgonzola, Grana Padano, Tomato and Rucola Never too cheesy 4 you"
+                        data-bs-placement="bottom"/>
+
+                    
+                    <path data-bs-itemid="5" d="M130.445,397.065l81.593-141.308c1.34-2.321,1.34-5.18,0-7.5c-1.339-2.321-3.815-3.75-6.495-3.75l-193.453-0.009 
+                        c-1.989,0-3.897,0.79-5.304,2.196c-1.406,1.407-2.197,3.314-2.197,5.303c-0.001,35.9,9.58,71.135,27.709,101.897 
+                        c17.595,29.856,42.747,54.81,72.738,72.164c1.152,0.666,2.449,1.008,3.756,1.008c0.649,0,1.3-0.084,1.938-0.254
+                        c1.923-0.514,3.563-1.771,4.558-3.495l14.677-25.419z" 
+                        stroke="black" stroke-width="2" fill="url(#margheritaPattern)" class="hoverPizza" data-bs-toggle="modal popover" data-bs-target="#pizzaChange" 
+                        data-bs-trigger="hover"  data-bs-title="Margherita Pizza" data-bs-price="10.99" data-bs-content="Ingredients: Mozarella and Tomato with a basil kick, simpler it cannot be!"
+                        data-bs-placement="left"/>
+
+                    
+                    <path data-bs-itemid="6" d="M12.057,225.484l29.213,0.001c0.18,0.013,0.359,0.028,0.542,0.028c0.193,0,0.376-0.015,0.559-0.028 
+                        l163.172,0.008c2.68,0,5.156-1.429,6.496-3.75c1.34-2.321,1.34-5.18,0-7.5l-96.719-167.54c-0.995-1.723-2.633-2.98-4.554-3.495 
+                        c-1.92-0.515-3.968-0.246-5.691,0.749c-31.091,17.948-56.815,43.864-74.391,74.945c-17.059,30.166-26.093,64.425-26.127,99.075 
+                        c-0.002,1.99,0.787,3.9,2.194,5.308c1.407,1.407,3.315,2.199,5.306,2.199z" 
+                        stroke="black" stroke-width="2" fill="url(#capricciosaPattern)" class="hoverPizza" data-bs-toggle="modal popover" data-bs-target="#pizzaChange" 
+                        data-bs-trigger="hover"  data-bs-title="Capricciosa Pizza" data-bs-price="10.99" data-bs-content="Ingredients: Mozarella, Prociutto, Mushrooms and Olives for the most capricious out there! "
+                        data-bs-placement="left"/>
+                    </g>
+                </svg>  
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center p-3">
+        <div class="col-2 align-items-center text-center">
+            <button class="btn btn-outline-danger">
+                <a href="{{ url_for('cart') }}"> 
+                
+                    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%" role="img">
+                                        
+                        <path d="M510.873,343.904L438.221,141.68c-2.732-7.605-9.944-12.677-18.025-12.677h-57.86v-64.42
+                                c0-10.577-8.575-19.152-19.152-19.152s-19.152,8.575-19.152,19.152v64.42H187.969v-64.42
+                                c0-10.577-8.575-19.152-19.152-19.152s-19.152,8.575-19.152,19.152v64.42h-57.86
+                                c-8.081,0-15.291,5.073-18.025,12.677L1.127,343.904c-0.721,2.011-1.127,4.226-1.127,6.474v122.171
+                                c0,10.577,8.575,19.152,19.152,19.152h473.696c10.577,0,19.152-8.575,19.152-19.152V350.378
+                                C512,348.178,511.608,345.946,510.873,343.904z M105.275,167.307h44.39v39.674c0,10.577,8.575,19.152,19.152,19.152
+                                s19.152-8.575,19.152-19.152v-39.674H324.03v39.674c0,10.577,8.575,19.152,19.152,19.152
+                                s19.152-8.575,19.152-19.152v-39.674h44.39l58.892,163.919H47.638L105.275,167.307z M303.085,369.53
+                                c-19.568,38.564-74.606,38.556-94.171,0H303.085z M473.696,453.397H38.304V369.53h129.801
+                                c10.531,38.885,46.179,67.274,87.895,67.274s77.363-28.387,87.895-67.274h129.801V453.397z"/>
+                        <path d="M256,112.796c10.577,0,19.152-8.575,19.152-19.152V39.451c0-10.577-8.575-19.152-19.152-19.152
+                                s-19.152,8.575-19.152,19.152v54.192C236.848,104.221,245.423,112.796,256,112.796z"/>
+                    </svg>
+                </a>         
+            </button>
+        </div>
+    </div>
+</div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="pizzaChange" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="pizzaChangeLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="ingredientsDisplay fs-5" id="pizzaChangeLabel"> </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Mozarella
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Pepperoni
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Mushrooms
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Prociutto
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Extra Ham
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">    
+                    <form method="post">
+
+                        <input class="backends" type="hidden" name="item_id" value="">
+
+                        <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Add to Cart</button>
+                        
+                    </form>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  <script src="{{ url_for('static', filename='buttons.js') }}"></script>   
+</body>
+</html>
