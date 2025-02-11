@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\dealership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\dealershipform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,15 +15,23 @@
       "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/DealershipData/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\carsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\homeworks\\carsales\\carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68C7A30-3B83-4221-99E3-D6C0E5ABDE14}|CarSales\\CarSales.csproj|solutionrelative:carsales\\filehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/DealershipData/True/SqlTable/dbo.Customer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,20 +41,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "AdminForm.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\AdminForm.cs",
               "RelativeDocumentMoniker": "CarSales\\AdminForm.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\AdminForm.cs",
               "RelativeToolTip": "CarSales\\AdminForm.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwDAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T15:27:13Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -62,45 +63,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DealershipForm.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DealershipForm.cs",
               "RelativeDocumentMoniker": "CarSales\\DealershipForm.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DealershipForm.cs",
               "RelativeToolTip": "CarSales\\DealershipForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T13:27:50.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "DatabaseHandler.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DatabaseHandler.cs",
               "RelativeDocumentMoniker": "CarSales\\DatabaseHandler.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\DatabaseHandler.cs",
               "RelativeToolTip": "CarSales\\DatabaseHandler.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAADgv7cAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwLcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T13:43:35.201Z"
+              "WhenOpened": "2025-01-16T10:09:35.783Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Dealership.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Dealership.cs",
               "RelativeDocumentMoniker": "CarSales\\Dealership.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Dealership.cs",
               "RelativeToolTip": "CarSales\\Dealership.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwHMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T17:28:45.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\Customer.cs",
               "RelativeDocumentMoniker": "CarSales\\Customer.cs",
@@ -108,11 +110,12 @@
               "RelativeToolTip": "CarSales\\Customer.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T16:29:45.474Z"
+              "WhenOpened": "2025-01-01T16:29:45.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CarSale.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\CarSale.cs",
               "RelativeDocumentMoniker": "CarSales\\CarSale.cs",
@@ -125,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "FileHandler.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Homeworks\\CarSales\\CarSales\\FileHandler.cs",
               "RelativeDocumentMoniker": "CarSales\\FileHandler.cs",
@@ -138,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "dbo.Customer.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/DealershipData/True/SqlTable/dbo.Customer.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/DealershipData/True/SqlTable/dbo.Customer.sql",

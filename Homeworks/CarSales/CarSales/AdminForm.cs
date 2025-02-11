@@ -62,7 +62,6 @@ namespace CarSales
         private void customerswitchbtn_Click(object sender, EventArgs e) 
         {
             Customer selectedcustomer = (Customer)customerslbx.SelectedItem;
-            Debug.WriteLine("Empty");
 
             if (selectedcustomer != null) 
             {
