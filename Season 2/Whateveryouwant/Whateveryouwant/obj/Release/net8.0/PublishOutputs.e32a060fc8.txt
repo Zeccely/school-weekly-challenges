@@ -1,0 +1,7 @@
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\Whateveryouwant.exe
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\Whateveryouwant.dll
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\Whateveryouwant.deps.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\Whateveryouwant.runtimeconfig.json
+C:\Users\jepis\Desktop\School stuff\school-weekly-challenges\Season 2\Whateveryouwant\Whateveryouwant\obj\Release\net8.0\PubTmp\Out\Whateveryouwant.pdb
