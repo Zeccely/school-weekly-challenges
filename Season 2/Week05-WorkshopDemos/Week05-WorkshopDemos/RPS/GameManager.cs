@@ -1,16 +1,13 @@
 namespace RPS;
 
-public class GameManager: IPlayer
+public class GameManager
 {
-    private Random rnd = new Random();
-
-    public Choice MakeChoice()
-    {
-        choiceP1 = 
-    }
+    List<IPlayer> _players = [new PlayerHuman(), new PlayerComputer()];
 
     public RoundResult PlayRound() //get choices from IPlayer
     {
+        Choice choiceP1 = _players[0].MakeChoice();
+        Choice choiceP2 = _players[1].MakeChoice();
         if (choiceP1 == choiceP2)
         {
             return RoundResult.Draw;

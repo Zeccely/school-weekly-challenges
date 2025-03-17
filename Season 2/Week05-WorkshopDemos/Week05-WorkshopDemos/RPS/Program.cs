@@ -1,5 +1,10 @@
 ﻿using RPS;
 
+
+
+
+
+
 GameManager gameManager = new GameManager();
 
 do

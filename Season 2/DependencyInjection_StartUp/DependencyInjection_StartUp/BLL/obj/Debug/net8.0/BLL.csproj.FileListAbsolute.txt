@@ -1,0 +1,11 @@
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\bin\Debug\net8.0\BLL.dll
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\BLL.dll
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Users\avvet\OneDrive - Office 365 Fontys\PLOU\Re-development\Workshops\DI\DependencyInjection\BLL\obj\Debug\net8.0\ref\BLL.dll

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{B966DBA9-9929-460D-A283-B67542551594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{CC1EF661-116F-4124-8475-D000949DEBB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4652D6CC-DFF8-4639-9902-CC3BB5D68F42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B966DBA9-9929-460D-A283-B67542551594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B966DBA9-9929-460D-A283-B67542551594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B966DBA9-9929-460D-A283-B67542551594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B966DBA9-9929-460D-A283-B67542551594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1EF661-116F-4124-8475-D000949DEBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1EF661-116F-4124-8475-D000949DEBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1EF661-116F-4124-8475-D000949DEBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1EF661-116F-4124-8475-D000949DEBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4652D6CC-DFF8-4639-9902-CC3BB5D68F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4652D6CC-DFF8-4639-9902-CC3BB5D68F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4652D6CC-DFF8-4639-9902-CC3BB5D68F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4652D6CC-DFF8-4639-9902-CC3BB5D68F42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {583FE7FE-E97C-48CE-8C50-E0C1226C4DAB}
+	EndGlobalSection
+EndGlobal
