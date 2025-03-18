@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\",
+  "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\playercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\playercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:playercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\playerhuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\playerhuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:playerhuman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\iplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:iplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\iplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:iplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\week05-workshopdemos\\week05-workshopdemos\\rps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E14397C7-98FE-4452-85D0-BCBCAF27807A}|RPS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\IPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\IPlayer.cs",
               "RelativeDocumentMoniker": "IPlayer.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\IPlayer.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\IPlayer.cs",
               "RelativeToolTip": "IPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T10:02:16.77Z",
               "IsPinned": true,
@@ -50,9 +50,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerHuman.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerHuman.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerHuman.cs",
               "RelativeDocumentMoniker": "PlayerHuman.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerHuman.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerHuman.cs",
               "RelativeToolTip": "PlayerHuman.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,9 +64,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PlayerComputer.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerComputer.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerComputer.cs",
               "RelativeDocumentMoniker": "PlayerComputer.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerComputer.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\PlayerComputer.cs",
               "RelativeToolTip": "PlayerComputer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -78,23 +78,27 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\GameManager.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\GameManager.cs",
               "RelativeToolTip": "GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T10:05:40.882Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\school\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\Program.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Week05-WorkshopDemos\\Week05-WorkshopDemos\\RPS\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

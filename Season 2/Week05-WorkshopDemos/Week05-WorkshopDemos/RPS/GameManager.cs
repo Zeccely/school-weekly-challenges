@@ -2,12 +2,22 @@ namespace RPS;
 
 public class GameManager
 {
-    List<IPlayer> _players = [new PlayerHuman(), new PlayerComputer()];
+    private IPlayer _player1;
+    private IPlayer _player2;
+   // List<IPlayer> _players = [new PlayerHuman(), new PlayerComputer()]; //the class depends on this so this is violating the principle
+   public GameManager(IPlayer player1, IPlayer player2)
+    {
+        _player1 = player1;
+        _player2 = player2;
+    }
 
     public RoundResult PlayRound() //get choices from IPlayer
     {
-        Choice choiceP1 = _players[0].MakeChoice();
-        Choice choiceP2 = _players[1].MakeChoice();
+        Choice _player1.MakeChoice();
+        Choice _player2.MakeChoice();
+
+       // Choice choiceP1 = _players[0].MakeChoice(); violating
+       // Choice choiceP2 = _players[1].MakeChoice(); violating
         if (choiceP1 == choiceP2)
         {
             return RoundResult.Draw;
