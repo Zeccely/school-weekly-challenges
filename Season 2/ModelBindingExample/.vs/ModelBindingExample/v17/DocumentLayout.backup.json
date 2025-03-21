@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\ModelBindingExample\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13C62910-F386-4909-917E-141D5B9C650A}|ModelBindingExample\\ModelBindingExample.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\modelbindingexample\\modelbindingexample\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13C62910-F386-4909-917E-141D5B9C650A}|ModelBindingExample\\ModelBindingExample.csproj|solutionrelative:modelbindingexample\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C62910-F386-4909-917E-141D5B9C650A}|ModelBindingExample\\ModelBindingExample.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\modelbindingexample\\modelbindingexample\\pages\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C62910-F386-4909-917E-141D5B9C650A}|ModelBindingExample\\ModelBindingExample.csproj|solutionrelative:modelbindingexample\\pages\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\ModelBindingExample\\ModelBindingExample\\Pages\\Class.cs",
+              "RelativeDocumentMoniker": "ModelBindingExample\\Pages\\Class.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\ModelBindingExample\\ModelBindingExample\\Pages\\Class.cs",
+              "RelativeToolTip": "ModelBindingExample\\Pages\\Class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:01:41.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\ModelBindingExample\\ModelBindingExample\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModelBindingExample\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\ModelBindingExample\\ModelBindingExample\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ModelBindingExample\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T08:41:56.48Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"

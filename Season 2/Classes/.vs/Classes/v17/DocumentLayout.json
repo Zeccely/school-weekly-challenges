@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Classes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|solutionrelative:classes\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|solutionrelative:classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\lineofcreditaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|solutionrelative:classes\\lineofcreditaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|solutionrelative:classes\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|solutionrelative:classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|solutionrelative:classes\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CF5802B-7857-4203-B8B9-E659642A4737}|Classes\\Classes.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\classes\\classes\\giftcardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "Classes\\GiftCardAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:50:13.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T13:50:13.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LineOfCreditAccount.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Classes\\Classes\\LineOfCreditAccount.cs",
               "RelativeDocumentMoniker": "Classes\\LineOfCreditAccount.cs",
@@ -68,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InterestEarningAccount.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Classes\\Classes\\InterestEarningAccount.cs",
               "RelativeDocumentMoniker": "Classes\\InterestEarningAccount.cs",
@@ -81,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Classes\\Classes\\Transaction.cs",
               "RelativeDocumentMoniker": "Classes\\Transaction.cs",
@@ -94,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BankAccount.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Classes\\Classes\\BankAccount.cs",
               "RelativeDocumentMoniker": "Classes\\BankAccount.cs",
@@ -102,12 +101,11 @@
               "RelativeToolTip": "Classes\\BankAccount.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAwwDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:06:20.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T13:06:20.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Classes\\Classes\\Program.cs",
               "RelativeDocumentMoniker": "Classes\\Program.cs",

@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\exercise\\exercise\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|solutionrelative:exercise\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\exercise\\exercise\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|solutionrelative:exercise\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\exercise\\exercise\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|c:\\users\\jepis\\desktop\\school stuff\\school-weekly-challenges\\season 2\\exercise\\exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|solutionrelative:exercise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\exercise\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E8F331D8-CA15-4DA2-8456-FFED37708F80}|Exercise\\Exercise.csproj|solutionrelative:exercise\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Class1.cs",
-              "RelativeDocumentMoniker": "Exercise\\Class1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Class1.cs",
-              "RelativeToolTip": "Exercise\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise\\Program.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Program.cs",
+              "RelativeToolTip": "Exercise\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:38:17.749Z",
+              "WhenOpened": "2025-02-18T12:58:13.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Exercise\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\BankAccount.cs",
+              "RelativeToolTip": "Exercise\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:55:16.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Form1.cs",
               "RelativeDocumentMoniker": "Exercise\\Form1.cs",
-              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Form1.cs [Design]*",
-              "RelativeToolTip": "Exercise\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Season 2\\Exercise\\Exercise\\Form1.cs [Design]",
+              "RelativeToolTip": "Exercise\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:29:17.883Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-18T12:29:17.883Z"
             }
           ]
         }
