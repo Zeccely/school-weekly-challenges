@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirque du Goodbye", "Cirque du Goodbye\Cirque du Goodbye.csproj", "{4E67D5A1-C3CE-45AE-89CB-AE537CE79AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirqueTest", "CirqueTest\CirqueTest.csproj", "{F8E496DE-EEA3-47DC-96BC-9454CD3552CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E67D5A1-C3CE-45AE-89CB-AE537CE79AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E67D5A1-C3CE-45AE-89CB-AE537CE79AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E67D5A1-C3CE-45AE-89CB-AE537CE79AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E67D5A1-C3CE-45AE-89CB-AE537CE79AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E496DE-EEA3-47DC-96BC-9454CD3552CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E496DE-EEA3-47DC-96BC-9454CD3552CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E496DE-EEA3-47DC-96BC-9454CD3552CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E496DE-EEA3-47DC-96BC-9454CD3552CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

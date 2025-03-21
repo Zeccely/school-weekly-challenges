@@ -1,0 +1,14 @@
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\bin\Debug\net9.0\Cirque du Goodbye.exe
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\bin\Debug\net9.0\Cirque du Goodbye.deps.json
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\bin\Debug\net9.0\Cirque du Goodbye.runtimeconfig.json
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\bin\Debug\net9.0\Cirque du Goodbye.dll
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\bin\Debug\net9.0\Cirque du Goodbye.pdb
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.AssemblyInfoInputs.cache
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.AssemblyInfo.cs
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.csproj.CoreCompileInputs.cache
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.dll
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\refint\Cirque du Goodbye.dll
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.pdb
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\Cirque du Goodbye.genruntimeconfig.cache
+C:\Users\jepis\Desktop\Cirque du Goodbye\Cirque du Goodbye\obj\Debug\net9.0\ref\Cirque du Goodbye.dll
