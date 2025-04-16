@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CirqueTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d929e17119642d5be33642b9da7aa890f3d73f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CirqueTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CirqueTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

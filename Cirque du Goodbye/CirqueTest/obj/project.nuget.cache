@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dtr0hekrrsk=",
+  "dgSpecHash": "bVqnM+hkiEQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jepis\\Desktop\\Cirque du Goodbye\\CirqueTest\\CirqueTest.csproj",
+  "projectFilePath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\CirqueTest\\CirqueTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jepis\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\jepis\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",

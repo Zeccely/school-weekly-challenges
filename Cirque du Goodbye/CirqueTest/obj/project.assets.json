@@ -1765,11 +1765,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jepis\\Desktop\\Cirque du Goodbye\\CirqueTest\\CirqueTest.csproj",
+      "projectUniqueName": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\CirqueTest\\CirqueTest.csproj",
       "projectName": "CirqueTest",
-      "projectPath": "C:\\Users\\jepis\\Desktop\\Cirque du Goodbye\\CirqueTest\\CirqueTest.csproj",
+      "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\CirqueTest\\CirqueTest.csproj",
       "packagesPath": "C:\\Users\\jepis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jepis\\Desktop\\Cirque du Goodbye\\CirqueTest\\obj\\",
+      "outputPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\CirqueTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1790,8 +1790,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\jepis\\Desktop\\Cirque du Goodbye\\Cirque du Goodbye\\Cirque du Goodbye.csproj": {
-              "projectPath": "C:\\Users\\jepis\\Desktop\\Cirque du Goodbye\\Cirque du Goodbye\\Cirque du Goodbye.csproj"
+            "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\Cirque du Goodbye\\Cirque du Goodbye.csproj": {
+              "projectPath": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\Cirque du Goodbye\\Cirque du Goodbye.csproj"
             }
           }
         }
@@ -1837,7 +1837,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
