@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -40,7 +36,7 @@
               "RelativeDocumentMoniker": "CirqueTest\\Animal_test.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\CirqueTest\\Animal_test.cs",
               "RelativeToolTip": "CirqueTest\\Animal_test.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T21:32:16.056Z",
               "EditorCaption": ""
@@ -53,7 +49,7 @@
               "RelativeDocumentMoniker": "Cirque du Goodbye\\Wagon.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\Cirque du Goodbye\\Wagon.cs",
               "RelativeToolTip": "Cirque du Goodbye\\Wagon.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T20:07:35.636Z",
               "EditorCaption": ""
@@ -66,7 +62,7 @@
               "RelativeDocumentMoniker": "Cirque du Goodbye\\Animal.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\Cirque du Goodbye\\Animal.cs",
               "RelativeToolTip": "Cirque du Goodbye\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T20:07:21.643Z",
               "EditorCaption": ""
@@ -79,7 +75,7 @@
               "RelativeDocumentMoniker": "Cirque du Goodbye\\Program.cs",
               "ToolTip": "C:\\Users\\jepis\\Desktop\\School stuff\\school-weekly-challenges\\Cirque du Goodbye\\Cirque du Goodbye\\Program.cs",
               "RelativeToolTip": "Cirque du Goodbye\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwCIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T20:06:17.74Z",
               "EditorCaption": ""

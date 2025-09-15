@@ -19,13 +19,8 @@ public class Animal
 
     public int Points()
     {
-        switch (Size)
-        {
-            case Size.Small: return 1;
-            case Size.Medium: return 3;
-            case Size.Large: return 5;
-        }
-        return 0;
+
+        return (int)Size;
     }
 
     public bool CanEat(Animal otheranimal)
@@ -47,5 +42,5 @@ public class Animal
 }
 
 
-public enum Size { Small, Medium, Large }
+public enum Size { Small=1, Medium=3, Large=5,XL=7 }
 public enum Diet { Carnivore, Herbivore }
